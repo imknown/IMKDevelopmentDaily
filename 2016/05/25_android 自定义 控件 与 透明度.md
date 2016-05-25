@@ -23,6 +23,7 @@ ps 中, `opacity = 0%` 完全不透明, `opacity = 100%` 完全透明.
 完全透明: `full transparent`  
 半透明 (通常 `alpha = 80`): `translucence`  
 完全不透明: `full opaque`  
+##### 结论: `不透明度 10%` 等效于 `alpha = 90(Dec) = E5(Hex) `  
 
 值域 表示法:  
 - 百分比: `0%` ~ `100%`  
