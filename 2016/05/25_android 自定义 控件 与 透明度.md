@@ -1,4 +1,4 @@
-#### 关于 自定义控件
+#### 关于 自定义控件  
 - 单个 View:  
 通过 `Canvas` 和 `Paint` 进行绘制. 这个教程比较多, 传统的做法.  
 
@@ -14,15 +14,15 @@ http://javatechig.com/android/creating-custom-views-in-android-tutorial
 http://blog.csdn.net/lmj623565791/article/details/38352503  
 
 
-#### 关于 透明度
+#### 关于 透明度  
 此外, 注意 `alpha channel` 与 `opacity`/`opaque` 区别.  
 色码 `ffffff` 全白, `000000` 全黑.  
 xml 中, `alpha = 00` 完全透明, `alpha = FF` 完全不透明.  
 ps 中, `opacity = 0%` 完全不透明, `opacity = 100%` 完全透明.  
 
-完全透明: `full transparent  
-半透明(通常 `alpha = 80`): translucence  
-完全不透明: `full opaque  
+完全透明: `full transparent`  
+半透明 (通常 `alpha = 80`): `translucence`  
+完全不透明: `full opaque`  
 
 值域 表示发:  
 - 百分比: `0%` ~ `100%`  
