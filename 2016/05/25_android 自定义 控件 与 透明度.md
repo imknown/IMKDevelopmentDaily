@@ -14,16 +14,19 @@ http://javatechig.com/android/creating-custom-views-in-android-tutorial
 http://blog.csdn.net/lmj623565791/article/details/38352503  
 
 
-#### 关于 透明度  
-此外, 注意 `alpha channel` 与 `opacity`/`opaque` 区别.  
+#### 关于 不透明度  
+此外, 注意 `alpha channel` 与 `opacity`/`opaque` 区别与联系.  
 色码 `ffffff` 全白, `000000` 全黑.  
 xml 中, `alpha = 00` 完全透明, `alpha = FF` 完全不透明.  
-ps 中, `opacity = 0%` 完全不透明, `opacity = 100%` 完全透明.  
+ps 中, `opacity = 0%` 完全透明, `opacity = 100%` 完全不透明.  
 
 完全透明: `full transparent`  
 半透明 (通常 `alpha = 80`): `translucence`  
 完全不透明: `full opaque`  
-##### 结论: `不透明度 10%` 等效于 `alpha = 90(Dec) = E5(Hex) `  
+
+##### 结论  
+`opaque 90%` 等效于 `alpha = 0.9` 等效于 `ARGB(230, r10, g10, b10)` 等效于 `0xE5r16g16b16`  
+`alpha 通道` 可以理解为 `不透明度`
 
 值域 表示法:  
 - 百分比: `0%` ~ `100%`  
