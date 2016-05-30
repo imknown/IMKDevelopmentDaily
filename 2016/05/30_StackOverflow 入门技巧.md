@@ -1,0 +1,20 @@
+StackOverflow (简称: SO) 搜索技巧:  
+
+1. 核心关键字: `get`, `detect`, `programmatically`  
+2. 如何优雅地使用 Stack Overflow？: https://www.zhihu.com/question/20824615  
+3. 官方帮助:  
+   * http://stackoverflow.com/tou
+   * http://stackoverflow.com/help
+
+> SlidingMenu  
+> SlidingPaneLayout  
+> SlidingDrawer  
+> MenuDrawer  
+> DrawerLayout  
+> ResideMenu  
+> NavigatorView  
+> ViewDragerHelper  
+> HorizontalScrollView  
+> DragLayout  
+>   
+> 傻傻分不清楚 =_ =  
