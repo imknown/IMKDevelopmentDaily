@@ -21,7 +21,7 @@ xml 中, `alpha = 00` 完全透明, `alpha = FF` 完全不透明.
 ps 中, `opacity = 0%` 完全透明, `opacity = 100%` 完全不透明.  
 
 完全透明: `full transparent`  
-半透明 (通常 `alpha = 80`): `translucence`  
+半透明 (通常 `alpha = 0.5`): `translucence`  
 完全不透明: `full opaque`  
 
 ##### 结论  
