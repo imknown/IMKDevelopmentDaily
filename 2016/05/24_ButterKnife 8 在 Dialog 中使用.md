@@ -29,3 +29,22 @@ class ViewHolder {
 [ButterKnife]: https://github.com/JakeWharton/butterknife
 [AlertDialog]: https://developer.android.com/reference/android/app/AlertDialog.html
 [supportV7AlertDialog]: https://developer.android.com/reference/android/support/v7/app/AlertDialog.html
+
+##### 2016-05-31 注:  
+看了 同事的代码, 发现 自己的实现 好 hacking...  
+直接上代码:  
+``` java
+public class MyDialog extends Dialog {
+  @BindView(R.id.some_id)
+  View view;
+  
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    
+    ButterKnife.bind(this);
+    
+    setContentView(layoutResId);
+  }
+}
+```
