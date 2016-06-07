@@ -9,5 +9,5 @@
 原理已经 在上面说过, 并不难读懂源码, 在此不再赘述了.  
 
 ##### 参考文档
-https://gist.github.com/cmelchior/1a97377df0c49cd4fca9
-https://realm.io/docs/java/latest/
+* https://gist.github.com/cmelchior/1a97377df0c49cd4fca9
+* https://realm.io/docs/java/latest/
