@@ -4,7 +4,7 @@
 现在 在 https://realm.io 可以 看到解决方案.  
 具体参看 `Primitive lists` 章节.  
 看其本质 大概是 把 已有 json 对象中的 数组原始数据类型,  
-硬改成 自己编写的` `RealmString` 或者 `RealmInt` 之类的.  
+硬改成 自己编写的 `RealmString` 或者 `RealmInt` 之类的.  
 源码很简单, 简单的包装, 重头戏 是 `Gson` 的 `TypeAdapter`.  
 原理已经 在上面说过, 并不难读懂源码, 在此不再赘述了.  
 
