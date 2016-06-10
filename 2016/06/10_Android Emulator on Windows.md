@@ -2,6 +2,7 @@
 首先说明, 目前 本人系统是 `Windows 10 build 10586 最新版`.  
 模拟器 最好 不要 同时安装 多个, 以前 VirtualBox 阵营的 老是 相互冲突.  
 不过 现在 好多了, 因为大家都自己 集成 自己修改过的 VirtualBox.  
+注意 如果 CPU 支持 VT-x(虚拟化)技术, 请务必开启, 性能翻倍.
 
 模拟器 主要的 几大核心: 
   1. Microsoft
@@ -11,15 +12,19 @@
 
 
 # Xamarin 阵营
-#### Visual Studio Android Emulator (https://www.visualstudio.com/en-us/explore/msft-android-emulator-vs.aspx)
-前身是 Xamarin Android Player, 不过已经被废弃了,  
-自从 Xamarin 被微软收购 并开源, 参看 [官方说明][1].
-
+#### Visual Studio Android Emulator ([官网][VS Android Emulator])
+[VS Android Emulator]: https://www.visualstudio.com/en-us/explore/msft-android-emulator-vs.aspx
 [1]: https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debug-on-emulator/#Emulator_Choices)
+前身是 Xamarin Android Player, 不过已经被废弃了,  
+自从 Xamarin 被微软收购 并开源, 参看 [官方说明][1].  
+没用过, 因为 要求 开启 Hyper-V 机制.  
+这个 目前 这个功能 跟 VitualBox 是冲突的.
 
 
 # KVM/QUME 阵营
-#### Google AVD/Intel HAXM
+#### Google AVD/Intel HAXM ([AVD 官网][Google AVD], [HAXM 官网][Intel HAXM])
+[Google AVD]: https://developer.android.com/studio/run/managing-avds.html
+[Intel HAXM]: https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager
 AVD 1.0 最初是 SDK 自带的 模拟器, 一开始 非常的卡.  
 于是乎 Intel 自己弄了一个 x86 架构的 HAXM,  
 旨在通过 Hyper-V 提升宿主(Windows) x86 指令集上的 速度.  
@@ -94,7 +99,7 @@ Android 有时候 也会有 bug, 比如说 状态栏 不能拉下来.
 哎, 垃圾软件, 毁我流量, 卸载卸载!!
 
 
-#### Genymotion
+#### Genymotion (https://www.genymotion.com/)
 虽然 这个模拟器 是为开发者 准备的, 但是 毕竟也是 收费的.  
 他钻了 AVD 1.0 不强大的空子, 大肆宣传.  
 类似于 CyanogenMod 钻了 Google 的 Nexus 空子...  
