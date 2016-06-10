@@ -11,14 +11,15 @@
   4. 其他(我可能 没有弄清楚的, 暂时都 归到 这里面)
 
 
-# Xamarin 阵营
+# Microsoft 阵营
 #### Visual Studio Android Emulator ([官网][VS Android Emulator])
 [VS Android Emulator]: https://www.visualstudio.com/en-us/explore/msft-android-emulator-vs.aspx
 [1]: https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debug-on-emulator/#Emulator_Choices)
 前身是 `Xamarin Android Player`, 不过已经被废弃了,  
 自从 `Xamarin` 被微软收购 并开源, 参看 [官方说明][1].  
 没用过, 因为 要求 开启 `Hyper-V` 机制.  
-这个 目前 这个功能 跟 `VitualBox` 是冲突的.
+这个 目前 这个功能 跟 `VitualBox` 是冲突的.  
+不知道 微软 具体 怎么实现的, 暂且 把他 自己归到一类 (毕竟国际良心大厂)...
 
 
 # KVM/QUME 阵营
