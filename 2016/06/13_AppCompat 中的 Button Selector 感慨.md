@@ -53,6 +53,6 @@
 #### 参考
 - https://developer.android.com/guide/topics/resources/drawable-resource.html
 - https://developer.android.com/guide/topics/resources/color-list-resource.html
-- https://developer.android.com/reference/android/graphics/drawable/package-summary.html
 - https://developer.android.com/guide/topics/resources/more-resources.html#Color
 - https://developer.android.com/reference/android/content/res/ColorStateList.html
+- https://developer.android.com/reference/android/graphics/drawable/package-summary.html
