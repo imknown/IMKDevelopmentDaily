@@ -1,0 +1,4 @@
+- http://www.jianshu.com/p/6d6839b24805
+- http://flyingsir-zw.iteye.com/blog/1456523
+- http://blog.csdn.net/pzhtpf/article/details/7251579 
+- http://www.pudn.com/downloads566/sourcecode/comm/android/detail2330019.html
