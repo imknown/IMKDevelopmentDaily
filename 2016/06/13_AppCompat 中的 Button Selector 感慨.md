@@ -6,7 +6,7 @@
 此时 一定要 注意, 要预留一个 `默认状态`.  
 即 一定要有 把 所有状态都包括在内.  
 
-文件路径 `res/drawable/selector_button_background_common`, 用来 改变 按钮背景:  
+文件路径 `res/drawable/selector_button_background_common.xml`, 用来 改变 按钮背景:  
 注意 里面的注释. 这种 `drawable` 的 `selector` 里面的 `<item>` 是可以 再内嵌 `<shape>` 等标签.  
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -36,7 +36,7 @@
 </selector>
 ```
 
-对于 用来改变 文字颜色的 `res/color/selector_text_color_common`, 原理也差不多.  
+对于 用来改变 文字颜色的 `res/color/selector_text_color_common.xml`, 原理也差不多.  
 但是要注意, 不能写 `android:drawable` 而是 `android:color`.  
 因为放在了 `color` 文件夹, 而不是上面的 `drawable` 文件夹.  
 `android:color` 直接 引用 `res/values/colors.xml` 里面 定义的静态常量 即可.  
