@@ -41,3 +41,7 @@ Bitmap 只要 不手动 recycle(), LruCache 也是拿它没有办法的
 
 - 哈哈 以上都是 我个人的 猜测, 没有 进行实践, 不保证 一定没有问题
 - 有问题 大家一定要 告诉我啊, 我好 及时纠正 啊!! 谢谢~  
+
+### 参考
+- https://developer.android.com/training/displaying-bitmaps/manage-memory.html  
+- https://developer.android.com/training/displaying-bitmaps/cache-bitmap.html  
