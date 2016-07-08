@@ -15,4 +15,8 @@
 原来 还有一个 方法叫做 `setCheckedImmediately(bool)`,  
 恍然大悟, 试了一下, 立竿见影, 问题 迎刃而解.  
 
+最后有一点 还需要搞定,  
+就是为什么 系统的 `SwitchCompat` 没有这个问题.  
+难道他判断 自己 是否处于 `RecyclerView`? 有待看源码...  
+
 [SwitchButton]: https://github.com/kyleduo/SwitchButton
