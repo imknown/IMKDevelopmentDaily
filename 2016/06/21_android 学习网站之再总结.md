@@ -1,8 +1,11 @@
-# 谷歌官方
+# 谷歌官方 SDK
  1. https://developer.android.com/training/index.html
  2. https://developer.android.com/guide/index.html
  3. https://www.youtube.com/user/androiddevelopers
  4. https://android-developers.blogspot.hk/
+
+# 谷歌官方 NDK
+ 1. https://developer.android.com/ndk/index.html
 
 # 官方合作
  1. https://cn.udacity.com/  
