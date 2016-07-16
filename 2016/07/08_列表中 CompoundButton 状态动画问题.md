@@ -19,4 +19,8 @@
 就是为什么 系统的 `SwitchCompat` 没有这个问题.  
 难道他判断 自己 是否处于 `RecyclerView`? 有待看源码...  
 
+### 2016-07-16 补充:  
+源码已经咬着牙看了, 貌似 真的是 判断了,  
+还是 系统控件 考虑的周到啊~  
+
 [SwitchButton]: https://github.com/kyleduo/SwitchButton
