@@ -1,3 +1,5 @@
+##### 本篇文章 是 Eclipse 的 遗产, 仅作备案.  
+
 # 说明
 * `http` 失败的话 可以尝试 `https://`
 * `dl.google.com` 失败的话 可以尝试 `dl-ssl.google.com`
