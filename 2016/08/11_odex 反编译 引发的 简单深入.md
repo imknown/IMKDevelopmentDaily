@@ -6,6 +6,6 @@
 是 smali 项目的 一个分支.  
 
 然后就碰到问题了:  
-> https://github.com/testwhat/SmaliEx/issues/21  
+> https://github.com/testwhat/SmaliEx/issues/36  
 
 坑, `android 7.0`, 有待继续深入研究 `art` `oat` `elf`.
