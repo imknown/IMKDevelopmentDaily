@@ -1,0 +1,2 @@
+- https://github.com/testwhat/SmaliEx/issues/36
+- https://github.com/testwhat/SmaliEx/issues/37
