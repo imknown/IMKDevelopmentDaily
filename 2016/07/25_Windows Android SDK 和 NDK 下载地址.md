@@ -18,8 +18,6 @@ http://developer.android.com/sdk/installing/installing-adt.html
 
  http://dl.google.com/android/ADT-23.0.4.zip  
  http://dl.google.com/android/ADT-24.0.1.zip  
- http://dl.google.com/android/ADT-23.0.4.zip  
- http://dl.google.com/android/ADT-24.0.1.zip  
  http://dl.google.com/android/ADT-24.0.2.zip  
  http://dl.google.com/android/ADT-23.0.7.zip  
 
