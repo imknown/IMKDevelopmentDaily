@@ -4,6 +4,9 @@ https://bintray.com/
 - The Central Repository Search Engine  
 http://search.maven.org/
 
+- repo.maven.apache.org  
+http://repo.maven.apache.org/
+
 - The Central Repository  
 http://central.sonatype.org/
 
