@@ -151,3 +151,8 @@ AVD 1.0 最初是 SDK 自带的 模拟器, 一开始 非常的卡.
   3. 天天模拟器
   4. 逍遥模拟器
   5. 夜神模拟器
+
+# 2016-08-26 补充
+`AVD`/`Genymotion` 的 `x86` 不能兼容 纯 `arm` 应用.  
+但是 国内的 模拟器 就是可以强行运行的.
+https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/25_%E6%A8%A1%E6%8B%9F%E5%99%A8%E3%80%81%E4%BB%BF%E7%9C%9F%E5%99%A8%E3%80%81%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%92%8C%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%8C%BA%E5%88%AB.md
