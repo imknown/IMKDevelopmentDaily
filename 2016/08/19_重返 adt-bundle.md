@@ -5,7 +5,7 @@ http://www.eclipse.org/downloads/packages/eclipse-android-developers-includes-in
 
 插件:  
 - https://github.com/fabioz/startexplorer
-- https://github.com/imknown/IMKDevelopmentDaily/edit/master/2016/08/31_Eclipse%20SVN%20插件%20使用文档.md
+- https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/31_Eclipse%20SVN%20插件%20使用文档.md
 
 ### 2016-09-26 补充:  
 - Ubuntu 下 Eclipse logcat 显示有误的问题:  
