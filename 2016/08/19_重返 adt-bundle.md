@@ -5,4 +5,8 @@ http://www.eclipse.org/downloads/packages/eclipse-android-developers-includes-in
 
 插件:  
 - https://github.com/fabioz/startexplorer
-- http://subclipse.tigris.org/servlets/ProjectProcess?pageID=p4wYuA
+- https://github.com/imknown/IMKDevelopmentDaily/edit/master/2016/08/31_Eclipse SVN 插件 使用文档.md
+
+### 2016-09-26 补充:  
+- Ubuntu 下 Eclipse logcat 显示有误的问题:  
+http://stackoverflow.com/questions/25010393/eclipse-logcat-shows-only-the-first-letter-from-each-message
