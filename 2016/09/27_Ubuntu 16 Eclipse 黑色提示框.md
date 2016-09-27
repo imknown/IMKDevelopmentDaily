@@ -1,0 +1,4 @@
+- http://www.linuxdiyf.com/linux/24196.html
+- http://luveelin.blog.163.com/blog/static/119492341201261645432803/
+- http://www.isvee.com/archives/589
+- http://blog.csdn.net/ljphhj/article/details/15487637
