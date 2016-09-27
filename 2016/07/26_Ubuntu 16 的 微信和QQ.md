@@ -1,13 +1,21 @@
 今天装回了 `ubuntu 16.04.1`, 唉，  
 比 `麒麟 16` 和 `ubuntu 14.04` 强好多啊。  
 
+# 安装与卸载
 - 原生 微信  
 https://github.com/geeeeeeeeek/electronic-wechat/releases  
 
-- Wine QQ 国际版 2012  
-http://jingyan.baidu.com/article/e6c8503c6f5fa5e54f1a18de.html  
+- Longene Wine QQ 7.8 (推荐)  
+http://www.longene.org/forum/viewtopic.php?f=6&t=30516  
 
-如果 `QQ` 不能输入中文, 用 sudo 打开  
+- Wine QQ 国际版 2012 (不推荐)  
+http://www.ubuntukylin.com/application/show.php?lang=cn&id=279  
+
+- 卸载 Wine QQ  
+http://www.cnblogs.com/exmyth/p/4066090.html  
+
+# 国际版的毛病
+如果 `Wine QQ 国际版 2012` 不能输入中文, 用 sudo 打开  
 > /usr/share/deepinwine/qqintl/wine-qqintl  
 
 或  
