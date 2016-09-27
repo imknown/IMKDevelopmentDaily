@@ -14,15 +14,17 @@ http://www.ubuntukylin.com/application/show.php?lang=cn&id=279
 - 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
 
-# 国际版的毛病
-如果 `Wine QQ 国际版 2012` 不能输入中文, 用 sudo 打开  
+# 不能输入中文的问题
+用 sudo 打开:  
+- 国际版
 > /usr/share/deepinwine/qqintl/wine-qqintl  
+> 或  
+> /usr/bin/wine-qqintl
 
-或  
+- Longene 版
+> /opt/longene/qq/qq.sh
 
-> /usr/bin/wine-qqintl  
-
-在 第二行 `export LANG=zh_CN.utf8` 下面加上:
+在 `export LANG=zh_CN.utf8` 下面加上:
 ``` properties
 export XMODIFIERS="@im=fcitx"
 export GTK_IM_MODULE="fcitx"
