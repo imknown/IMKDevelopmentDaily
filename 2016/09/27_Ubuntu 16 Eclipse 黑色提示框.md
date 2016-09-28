@@ -1,5 +1,7 @@
 用 sudo 打开, 如:  
 > /usr/share/themes/Radiance/gtk-3.0/gtk-main.css  
+> 和  
+> /usr/share/themes/Radiance/gtk-2.0/gtkrc  
 
 把
 ``` css
