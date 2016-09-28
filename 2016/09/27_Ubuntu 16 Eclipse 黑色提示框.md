@@ -13,7 +13,13 @@
 @define-color tooltip_fg_color #000000;
 ```
 
-同时修改 `settings.ini`.
+同时修改 `settings.ini`, 如:  
+``` ini
+[Settings]
+gtk-color-scheme = "base_color:#ffffff\nbg_color:#f2f1f0\ntooltip_bg_color:#f2edbc\nselected_bg_color:#f07746\ntext_color:#3C3C3C\nfg_color:#4c4c4c\ntooltip_fg_color:#000000\nselected_fg_color:#ffffff\nlink_color:#DD4814\nbg_color_dark:#3c3b37\nfg_color_dark:#dfdbd2"
+gtk-auto-mnemonics = 1
+gtk-alternative-sort-arrows = true
+```
 
 保存 并 重启电脑 即可.
 
