@@ -1,5 +1,5 @@
-用 sudo 打开:  
-> /usr/share/themes/<主题名, 如 Ambiance>/gtk-3.0/gtk-main.css  
+用 sudo 打开, 如:  
+> /usr/share/themes/Radiance/gtk-3.0/gtk-main.css  
 
 把
 ``` css
@@ -12,6 +12,8 @@
 @define-color tooltip_bg_color #f2edbc;
 @define-color tooltip_fg_color #000000;
 ```
+
+同时修改 `settings.ini`.
 
 保存 并 重启电脑 即可.
 
