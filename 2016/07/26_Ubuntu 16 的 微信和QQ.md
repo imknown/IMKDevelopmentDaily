@@ -5,7 +5,7 @@
 - 原生 微信  
 https://github.com/geeeeeeeeek/electronic-wechat/releases  
 
-- Longene Wine QQ 7.8 (推荐)  
+- Longene Wine QQ 7.8 (推荐, 可自动升级到最新版)  
 http://www.longene.org/forum/viewtopic.php?f=6&t=30516  
 
 - Wine QQ 国际版 2012 (不推荐)  
