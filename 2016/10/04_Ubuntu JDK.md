@@ -1,10 +1,12 @@
 - 官网下载(适合自己折腾)  
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-- OpenJDK
+- OpenJDK  
 略 =_ =
 
-- SunJDK/OracleJDK
+- SunJDK/OracleJDK  
 = _= 略
 
-参考: http://wiki.ubuntu.org.cn/Java
+
+参考:  
+http://wiki.ubuntu.org.cn/Java
