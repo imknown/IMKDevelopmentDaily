@@ -32,8 +32,8 @@ git config user.email <公司邮箱>
 # Linux 远程登录
 - SecureCRT
 - PuTTY
-- RDesktop (远程桌面, 姑且算上吧)
-- TeamViewer (远程桌面, 姑且算上吧)
+- RDesktop (跨平台远程桌面, 姑且算上吧)
+- TeamViewer (跨平台远程桌面, 姑且算上吧)
 
 # 关键字
 - 非对称加密算法: 
