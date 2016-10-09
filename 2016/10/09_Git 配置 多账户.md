@@ -1,6 +1,6 @@
 因为 之前 电脑 先使用了 `github`,  
 导致 `git global config` 信息 都是 `github + gravatar` 相关的.  
-公司邮箱 注册了 公司搭建的 `gitlab`, 发现 `push` 的时候,  
+公司邮箱 注册了 公司搭建的 `gitlab`, 发现 `push` 的时候,  
 并不是 `公司邮箱` (虽然用 `公司邮箱账户` 登录的).
 
 暂时 找了一个 简单解决方案,  
