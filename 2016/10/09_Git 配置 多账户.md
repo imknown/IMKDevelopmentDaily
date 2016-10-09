@@ -9,7 +9,7 @@
 先 `cd` 到 指定的 `git repo` 目录下:  
 ``` bash
 git config user.name <公司用户名, 应该只支持数字英文下划线>
-git config user.email 公司邮箱>
+git config user.email <公司邮箱>
 ```
 
 当然, 如果有必要的话, 可以考虑使用 `SSH` 登录.
