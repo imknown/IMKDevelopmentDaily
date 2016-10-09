@@ -16,6 +16,7 @@ git config user.email <公司邮箱>
 
 # 参考
 - http://www.imooc.com/article/7419
+- http://www.liaohuqiu.net/cn/posts/git-setup-and-setting/
 - https://gist.github.com/suziewong/4378434
 
 ---
@@ -23,7 +24,7 @@ git config user.email <公司邮箱>
 
 ---
 
-# SSH 登录相关
+# Git SSH 登录相关
 - http://blog.csdn.net/accountwcx/article/details/46822257
 - https://segmentfault.com/a/1190000002645623
 - http://www.oschina.net/question/230623_248173?fromerr=QzmFotvK#answer_1003865
@@ -31,7 +32,7 @@ git config user.email <公司邮箱>
 # Linux 远程登录
 - SecureCRT
 - PuTTY
-- RDesktop
+- RDesktop (微软远程桌面, 姑且算上吧)
 
 # 关键字
 - 非对称加密算法: 
