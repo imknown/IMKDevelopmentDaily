@@ -12,6 +12,7 @@ http://askubuntu.com/questions/574481/how-can-i-install-xfce-and-completely-remo
 https://wiki.lxde.org/en/Installation#Instructions_for_Ubuntu.2FDebian_.28APT.29
 ``` bash
 sudo apt-get install lxde
+# sudo apt-get install lubuntu-core lubuntu-icon-theme lubuntu-restricted-extras # 可选, 推荐
 ```
 
 - cinnamon  
