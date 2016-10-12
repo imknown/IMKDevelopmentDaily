@@ -1,7 +1,7 @@
 - Xfce  
 http://www.xfce.org/
 ``` bash
-# sudo apt-get install xubuntu-desktop # 可选
+# sudo apt-get install xubuntu-desktop # 可选, 推荐, 可以使用 更多面板
 sudo apt-get update
 sudo apt-get install xfce4
 ```
