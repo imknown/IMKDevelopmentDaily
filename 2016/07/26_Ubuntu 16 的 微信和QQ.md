@@ -19,6 +19,16 @@ http://www.ubuntukylin.com/application/show.php?lang=cn&id=279
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
 
+# 64位 Ubuntu 无法启动 QQ
+尝试 安装 32位 库:
+``` bash
+dpkg --add-architecture i386
+apt-get install libgtk3.0-0:i386
+或者
+apt-get install libgtk2.0-0:i386
+```
+参考: http://blog.csdn.net/cwll2009/article/details/24449893  
+
 # QQ 不能输入中文的问题
 用 sudo 打开:  
 - 国际版
