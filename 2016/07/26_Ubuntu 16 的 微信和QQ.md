@@ -24,7 +24,7 @@ http://www.cnblogs.com/exmyth/p/4066090.html
 ``` bash
 dpkg --add-architecture i386
 apt-get install libgtk3.0-0:i386
-或者
+# 或者
 apt-get install libgtk2.0-0:i386
 ```
 参考: http://blog.csdn.net/cwll2009/article/details/24449893  
