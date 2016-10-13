@@ -19,12 +19,12 @@ sudo apt-get install lubuntu-core lubuntu-icon-theme lubuntu-restricted-extras #
 - Cinnamon  
 http://developer.linuxmint.com/projects.html
 ``` bash
-# sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable # 这句话 是否要写, 有待测试
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
 sudo apt-get update
 sudo apt install cinnamon
 ```
 
-- MATE
+- MATE  
 http://wiki.mate-desktop.org/download#ubuntu
 ``` bash
 sudo add-apt-repository "deb http://packages.mate-desktop.org/repo/ubuntu precise main"
@@ -43,7 +43,7 @@ sudo apt-get install mate-desktop-environment
 - KDE/Kubuntu Plasma (不太推荐, 太重)  
 https://www.kde.org/download/
 ``` bash
-# sudo add-apt-repository ppa:kubuntu-ppa/backports # 这句话 是否要写, 有待测试
+sudo add-apt-repository ppa:kubuntu-ppa/backports
 sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt-get install kubuntu-desktop
