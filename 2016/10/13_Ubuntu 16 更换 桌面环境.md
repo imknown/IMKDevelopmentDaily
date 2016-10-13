@@ -11,6 +11,7 @@ http://askubuntu.com/questions/574481/how-can-i-install-xfce-and-completely-remo
 - lxde  
 https://wiki.lxde.org/en/Installation#Instructions_for_Ubuntu.2FDebian_.28APT.29
 ``` bash
+sudo apt-get update
 sudo apt-get install lxde
 sudo apt-get install lubuntu-core lubuntu-icon-theme lubuntu-restricted-extras # 可选, 推荐
 ```
@@ -27,7 +28,8 @@ sudo apt install cinnamon
 https://www.kde.org/download/
 ``` bash
 # sudo add-apt-repository ppa:kubuntu-ppa/backports # 这句话 是否要写, 有待测试
-sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt-get update
+sudo apt-get dist-upgrade
 sudo apt-get install kubuntu-desktop
 ```
 
