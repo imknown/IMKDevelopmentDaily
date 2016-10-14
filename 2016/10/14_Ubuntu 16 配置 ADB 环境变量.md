@@ -22,7 +22,7 @@ source /etc/environment
 
 # 然后执行:
 echo $ANDROID_HOME
-echo $JAVA_HOME
+echo $PATH
 adb -version
 ```
 
