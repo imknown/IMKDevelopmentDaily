@@ -5,8 +5,9 @@ sudo apt-get update
 sudo apt-get install xfce4
 sudo apt-get install xubuntu-desktop # 可选, 推荐, 可以使用 更多面板
 ```
-参考:  
+参考(安装 与 卸载):  
 http://askubuntu.com/questions/574481/how-can-i-install-xfce-and-completely-remove-unity
+http://askubuntu.com/questions/530757/removing-xubuntu-from-ubuntu-14-04
 
 - LXDE  
 https://wiki.lxde.org/en/Installation#Instructions_for_Ubuntu.2FDebian_.28APT.29
