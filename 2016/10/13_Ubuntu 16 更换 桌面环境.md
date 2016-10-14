@@ -22,7 +22,7 @@ http://developer.linuxmint.com/projects.html
 ``` bash
 sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
 sudo apt-get update
-sudo apt install cinnamon
+sudo apt-get install cinnamon
 ```
 
 - MATE  
