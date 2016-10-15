@@ -16,7 +16,7 @@ sudo apt install git
 GUI 工具 Git 官网推荐了几个:  
 > https://git-scm.com/download/gui/linux
 
-我比较喜欢 `GitKraken` 和 `git-cola` 和 `GitEye`.
+我比较喜欢 `GitKraken` 和 `git-cola`.
 
 # 此外, 小兔子 可以考虑一下...
 http://wiki.rabbitvcs.org/wiki/install/ubuntu  
