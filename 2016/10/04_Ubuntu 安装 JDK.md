@@ -9,4 +9,5 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 
 
 参考:  
-http://wiki.ubuntu.org.cn/Java
+- http://wiki.ubuntu.org.cn/Java  
+- http://blog.sina.com.cn/s/blog_53a99cf30102v6o4.html  
