@@ -22,16 +22,9 @@ PATH=${JAVA_HOME}/bin:$PATH
 如果 配置不生效,  
 先用 `sudo update-alternatives --config java` 查看安装情况.  
 再用 `sudo update-alternatives --display java` 查看版本优先级, 找一个 更高的数字,  
-例如 现在是 `665`, 那就写 `666` 就可以了
+例如 现在是 `665`, 那就写 `666` 就可以了.  
 最后用 `sudo update-alternatives --install /usr/bin/java java your_unzip_location/bin/java 666` 替换.  
 失败的话, 尝试 `注销` 或者 `重启` 后重试.
-
-## OpenJDK (版本号可以换)
-``` bash
-sudo add-apt-repository ppa:openjdk-r/ppa
-sudo apt-get update
-sudo apt-get install openjdk-8-jdk
-```
 
 ## SunJDK/OracleJDK (版本号可以换)
 ``` bash
@@ -48,6 +41,17 @@ echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | su
   `sudo apt-get install oracle-java8-set-default`
   - 切换成 其他版本 (前提是得安装吧)  
   `sudo update-java-alternatives -s java-7-oracle`
+
+## OpenJDK (版本号可以换)
+``` bash
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+```
+- 配置环境变量
+参考: 
+- http://askubuntu.com/questions/464755/how-to-install-openjdk-8-on-14-04-lts
+- #SunJDK/OracleJDK (版本号可以换)
   
 ## 验证是否配置成功
 ``` bash
