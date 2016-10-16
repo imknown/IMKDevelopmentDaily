@@ -32,8 +32,8 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt update
 sudo apt install oracle-java8-installer
 
-# 这句话 可以 自动同意 安装协议, 可选
-echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
+# 这句话 貌似可以 自动同意 安装协议, 可选
+# echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 ```
 
 - 配置环境变量 (可选)
