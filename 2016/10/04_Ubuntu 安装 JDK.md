@@ -51,7 +51,7 @@ sudo apt-get install openjdk-8-jdk
 - 配置环境变量
 参考: 
 - http://askubuntu.com/questions/464755/how-to-install-openjdk-8-on-14-04-lts
-- #SunJDK/OracleJDK (版本号可以换)
+- [SunJDK/OracleJDK (版本号可以换)](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/04_Ubuntu%20%E5%AE%89%E8%A3%85%20JDK.md#sunjdkoraclejdk-版本号可以换)
   
 ## 验证是否配置成功
 ``` bash
