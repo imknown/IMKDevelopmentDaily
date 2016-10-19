@@ -4,7 +4,7 @@ git config core.ignorecase false
 ```
 
 或者 项目根目录 `.git` 文件夹 中的 `config`
-```  config
+``` properties
 [core]
   ...
   ignorecase = false
