@@ -1,4 +1,4 @@
-`cd` 到 项目根目录, 执行:
+`cd` 到 `git 项目` 的 `根目录`, 执行 (`cmd`, `git cmd`, `git bash` 都行):
 ``` bash
 git config core.ignorecase false
 ```
