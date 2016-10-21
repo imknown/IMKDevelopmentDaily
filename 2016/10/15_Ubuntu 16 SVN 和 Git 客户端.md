@@ -1,3 +1,6 @@
+承接上文:  
+https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/09/28_Ubuntu%2016%20%E5%AE%89%E8%A3%85%20RabbitVCS.md
+
 # SVN
 **svn 核心 Ubuntu 自带, 所以不用刻意下载**  
 
