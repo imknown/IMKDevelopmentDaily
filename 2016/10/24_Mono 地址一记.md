@@ -1,0 +1,3 @@
+- http://software.opensuse.org/download/package?project=home:tpokorra:mono&package=monodevelop-opt
+- http://packages.ubuntu.com/search?keywords=monodevelop
+- http://www.monodevelop.com/download/linux/
