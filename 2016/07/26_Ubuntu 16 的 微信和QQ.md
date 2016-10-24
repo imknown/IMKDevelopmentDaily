@@ -10,11 +10,16 @@ https://github.com/geeeeeeeeek/electronic-wechat/releases
 [03_Ubuntu Wine 安装总结.md][03_Ubuntu Wine 安装总结.md]
 [03_Ubuntu Wine 安装总结.md]: https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md
 
+
 - Longene Wine QQ 7.8 (推荐, 可自动升级到最新版)  
 http://www.longene.org/forum/viewtopic.php?f=6&t=30516  
 
 - Wine QQ 国际版 2012 (不推荐)  
 http://www.ubuntukylin.com/application/show.php?lang=cn&id=279  
+
+- 2016-10-24: ubuntu 16.04 完美运行新版QQ方案  
+https://www.so-cools.com/?p=739
+
 
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
