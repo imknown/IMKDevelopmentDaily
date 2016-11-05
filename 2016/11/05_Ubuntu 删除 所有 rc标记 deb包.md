@@ -12,3 +12,10 @@ dpkg -l | grep '^rc' | awk '{print $2}' | xargs dpkg --purge
 
 参考:  
 http://askubuntu.com/questions/181948/can-i-automatically-purge-every-package-ive-ever-uninstalled
+
+# GUI 清理工具
+- 优客助手  
+http://www.ubuntukylin.com/application/show.php?lang=cn&id=268
+
+- BleachBit  
+https://apps.ubuntu.com/cat/applications/precise/bleachbit/
