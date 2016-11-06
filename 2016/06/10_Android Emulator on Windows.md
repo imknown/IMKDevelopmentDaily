@@ -134,25 +134,55 @@ AVD 1.0 最初是 SDK 自带的 模拟器, 一开始 非常的卡.
 也是醉了, 卸载 极客版!
 
 
-#### 还有很多山寨 夹缝中求生存 的, 毕竟 竞争很激烈, 不列举:
-- 猩猩助手 (http://www.xxzs.tv/xxmnq)
-- 给力助手 (http://www.shouzhi.net.cn/z/geilizhushou.html)
-- 蓝光手游大师 (http://www.lgshouyou.com/)
-- ...
+#### 还有很多山寨 夹缝中求生存 的, 毕竟 竞争很激烈:
+(**2016-11-06 补充**) 新模拟器  
+http://dl.pconline.com.cn/sort/1872.html
 
+#### 一般般
+- 多玩模拟器 http://www.dwmoniqi.com/index.html
+- iTools 模拟器 http://pro.itools.cn/simulate/
+- iTools 模拟器 http://pro.itools.cn/syzs/
 
-# 总结
-再也不用 小众模拟器!!
+#### =_ =, 玩游戏 确实可以...
+- 腾讯手游助手 http://guanjia.qq.com/product/gameassitant/
 
+#### 功能太弱, 比如说定位失败
+- 网易MuMu http://mumu.163.com/
+- 51模拟器 http://www.51mnq.com/
 
-# 推荐使用 (排名越靠前, 越被推荐)
-  1. AVD/HAXM
-  2. Genymotion
-  3. 天天模拟器
-  4. 逍遥模拟器
-  5. 夜神模拟器
+#### 压根没有定位功能
+- 侠客模拟器 http://www.xiakeshouyou.com/
+- 手游岛 http://www.shouyoudao.com/
+- PKBox http://www.pkbox.cn/
+- 叶子猪 http://tools.yzz.cn/
+- 携玩助手 http://www.xiewan.org/
+- 新浪手游助手 http://www.987you.com/
+- 小皮助手 http://pc.xiaopi.com/
+
+#### 反复安装失败, 不支持 armeabi?
+- 猩猩安卓模拟器 http://www.xxzs.tv/xxmnq
+
+#### 用了 海马玩 镜像 (剽窃?)
+- 星光助手 http://www.17xgzs.com/
+
+#### 靠谱助手/蓝栈 换个壳...
+- 超神助手 http://www.kpzs.com/topic/cszsbaidu/
+- 东东助手 http://www.idongdong.com/zs/
+- 蓝光手游大师 http://blue.17huang.com/
+- 安卓模拟器大师 http://www.azmaster.cn/
+- 说玩模拟器 http://pc.shuowan.com/
 
 # 2016-08-26 补充
 `AVD`/`Genymotion` 的 `x86` 不能兼容 纯 `arm` 应用.  
 但是 国内的 模拟器 就是可以强行运行的.
 https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/25_%E6%A8%A1%E6%8B%9F%E5%99%A8%E3%80%81%E4%BB%BF%E7%9C%9F%E5%99%A8%E3%80%81%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%92%8C%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%8C%BA%E5%88%AB.md
+
+# 推荐使用 (排名越靠前, 越被推荐)
+  1. AVD/HAXM
+  2. Genymotion
+  3. 夜神模拟器
+  4. 天天模拟器
+  5. 逍遥模拟器
+
+# 总结
+再也不用 小众模拟器!!
