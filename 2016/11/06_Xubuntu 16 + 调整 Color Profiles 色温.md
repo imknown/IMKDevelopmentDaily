@@ -10,6 +10,14 @@ http://askubuntu.com/questions/482373/how-do-i-install-redshift-in-ubuntu
 ``` bash
 sudo apt-get install redshift redshift-gtk
 ```
+
+然后 启用, 通知区域的图标 右键, 勾选 autostart 即可
+``` bash
+redshift-gtk
+或者
+gtk-redshift
+```
+
 具体用法 参考 官网.  
 
 #### 参考
