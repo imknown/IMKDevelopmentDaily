@@ -7,7 +7,7 @@ dpkg -l | awk '/^rc/ {print $2}' | xargs sudo dpkg --purge
 ```
 或者
 ``` bash
-dpkg -l | grep '^rc' | awk '{print $2}' | xargs dpkg --purge
+dpkg -l | grep '^rc' | awk '{print $2}' | sudo xargs dpkg --purge
 ```
 
 参考:  
