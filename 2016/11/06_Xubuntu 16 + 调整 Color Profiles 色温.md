@@ -1,4 +1,4 @@
-`XFCE 桌面环境` 本身并不支持 像 Ubuntu 自由调整色温:  
+`XFCE 桌面环境` 本身并不支持 像 `Ubuntu gnome` 自由调整色温:  
 > https://wiki.archlinux.org/index.php/Xfce#Colour_management
 
 所以尝试一下 `RedShift`:
