@@ -51,3 +51,7 @@ export GTK_IM_MODULE="fcitx"
 export QT_IM_MODULE="fcitx"
 ```
 保存, 然后重启 `QQ` 即可.
+
+# 替换字体
+替换同名文件即可 :D
+> ~/.longene/qq/drive_c/windows/Fonts/
