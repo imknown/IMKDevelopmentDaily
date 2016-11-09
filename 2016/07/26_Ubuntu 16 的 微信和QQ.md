@@ -52,7 +52,7 @@ export QT_IM_MODULE="fcitx"
 ```
 保存, 然后重启 `QQ` 即可.
 
-# 替换字体
+# 替换字体 (有待复测)
 替换同名文件即可, 我用的 `Win10 微软雅黑`,  
 个别地方 显示成 方块儿, 但是可以忍 :D
 > ~/.longene/qq/drive_c/windows/Fonts/simsun.ttf  
