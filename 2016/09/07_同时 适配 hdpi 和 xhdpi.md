@@ -29,3 +29,6 @@ res
 参考:  
 - https://developer.android.com/guide/practices/screens_support.html
 - https://developer.android.com/training/basics/supporting-devices/screens.html
+
+# 2016-11-12 补充
+- http://blog.csdn.net/a220315410/article/details/11896189
