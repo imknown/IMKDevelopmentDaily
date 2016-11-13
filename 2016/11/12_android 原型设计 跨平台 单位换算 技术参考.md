@@ -1,4 +1,4 @@
-# 序言
+# 序
 感谢 **iOS-火烈鸟(QQ 707791151)** 对本文的勘误.  
 **本文 若干处 是 imknown 个人见解, 如有错误, 欢迎指正~**
 
@@ -232,7 +232,8 @@ adb reboot
 参考:
 - http://www.codeceo.com/article/android-multi-window.html
 
-# 原型工具
+# 跋
+### 原型工具
 - Mobile app prototyping with Justinmind wireframing tool  
 https://www.justinmind.com/mobile-prototyping
 
