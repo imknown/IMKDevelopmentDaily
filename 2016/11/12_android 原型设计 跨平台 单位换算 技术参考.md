@@ -1,3 +1,5 @@
+# 序言
+感谢 **iOS-火烈鸟(QQ 707791151)** 对本文的勘误.
 
 # 术语
 **<硬件规格>** 表示 `不能够` 轻易改变.
@@ -179,6 +181,53 @@
 | Pixel 9       | 8.86″  | 288.94 | xhdpi  | 2       | 1536x2048 | 768    | 7.68      | 1024   | 10.24     |
 | Pixel 7(2012) | 7.0″   | 323.45 | xhdpi  | 2       | 1200x1920 | 600    | 6         | 960    | 9.6       |
 | Pixel 7       | 7.02″  | 215.02 | tvhdpi | 1.333   | 800x1280  | 600    | 6         | 640    | 6.4       |
+
+# 常用命令
+### 获取 显示的一些参数
+``` bash
+adb shell dumpsys display | grep mBaseDisplayInfo
+```
+
+### 修改 sr
+设置到 1024x768:
+``` bash
+am display-size 1024x768
+```
+
+恢复:
+```
+am display-size reset
+```
+
+参考:
+- http://stackoverflow.com/a/28618961/2782426
+
+### 修改 DPI
+``` bash
+adb shell wm density 420
+adb reboot
+```
+
+或者 修改 `build.prop` 然后 至少重启 `SystemUI`:
+``` properties
+ro.sf.lcd_density=420
+```
+
+### Android 7.x 启用 Freeform
+启用:
+``` bash
+adb shell settings put global enable_freeform_support 1
+adb reboot
+```
+
+禁用:
+``` bash
+adb shell settings put global enable_freeform_support 0
+adb reboot
+```
+
+参考:
+- http://www.codeceo.com/article/android-multi-window.html
 
 # 原型工具
 - Mobile app prototyping with Justinmind wireframing tool  
