@@ -122,9 +122,10 @@
 - BIR = 1/72
 - 令 S = prW^2 + prH^2
 - PPI = diagonal px / DPS = (√‾S) / DPS
-- sr == pr 的时候(其他任何参数均相同), 显示效果最佳, 否则模糊
 - DPI ≊ PPI (约等于 或者 等于)
 - density = DPI / mdpi
+- pr = prW * prH = prWdp * prHdp
+- sr == pr 的时候(其他任何参数均相同), 显示效果最佳, 否则模糊
 ```
 
 ```
