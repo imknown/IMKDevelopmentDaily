@@ -2,7 +2,7 @@
 # 术语
 **<硬件规格>** 表示 `不能够` 轻易改变.
 
-### 基本单位术语
+#### 基本单位术语
 - pt(point): 磅 **<硬件规格>**
 - px(pixel): 像素
 - in(inch/″): 英寸 **<硬件规格>**
@@ -10,7 +10,7 @@
 - sp(scale-independent pixel): 比例独立像素
 - density: 密度
 
-### 分辨率术语
+#### 分辨率术语
 - pr(physical resolution): (特指硬件层面的)物理分辨率 **<硬件规格>**
 - prW(physical resolution width): 物理分辨率的 宽(特指单位 px) **<硬件规格>**
 - prH(physical resolution height): 物理分辨率的 高(特指单位 px) **<硬件规格>**
@@ -25,7 +25,7 @@
 - srWdp(physical resolution width in dp): 物理分辨率的 宽(单位 dp, 可变)
 - srHdp(physical resolution height in dp): 物理分辨率的 高(单位 dp, 可变)
 
-### 缩写
+#### 缩写
 - PPI(pixels per inch): 每英寸像素数 **<硬件规格>**
 - DPI(dots per inch): 每英寸点数
 - BIR(base inch ratio): 基本英寸比例 **<硬件规格>**
@@ -60,7 +60,7 @@
 - http://www.reinmedical.com/en/knowledge-technology/monitor-resolutions-overview.html
 - http://superuser.com/questions/977654/what-is-the-difference-between-4k-uhd-and-qhd-do-we-agree-on-one-official-reso
 
-### 常用
+#### 常用
 | 缩写  | pr                                        | ratio |
 | ----- | :---------------------------------------: | :---: |
 | 240P  | 320x240(QVGA)                             | 4:3   |
@@ -72,7 +72,7 @@
 | 1080P | 1920x1080(FHD)                            | 16:9  |
 | 2K    | 2560x1440(QHD / Quad HD / WQHD, **主流**)  | 16:9 |
 
-### 不常用
+#### 不常用
 | 缩写 | pr                     | ratio  |
 | --- | :---------------------: | :---: |
 | 2K  | 2048×1536(QXGA)         | 4:3   |
@@ -88,7 +88,7 @@
 | 7K  | 7680x4800(WHUXGA)       | 16:10 |
 
 # DPI 与 sr 关系 (注意不是 pr)
-### 常规手机 (通常 DPS < 6.0″)
+#### 常规手机 (通常 DPS < 6.0″)
 | DPI     | sr    |
 | ------: | :---: |
 | mdpi    | 320P  |
@@ -97,7 +97,7 @@
 | xxhdpi  | 1080P |
 | xxxhdpi | 2K    |
 
-### 常规平板 (通常 DPS ≥ 6.0″)
+#### 常规平板 (通常 DPS ≥ 6.0″)
 | DPI    | sr    |
 | -----: | :---: |
 | ldpi   | 480P  |
@@ -105,19 +105,19 @@
 | tvdpi  | 720P  |
 | hdpi   | 1080P |
 
-### 常规电视 (通常 DPS 很大, 比如说 55″)
+#### 常规电视 (通常 DPS 很大, 比如说 55″)
 | DPI    | sr      |
 | -----: | :-----: |
 | tvdpi  | 720P    |
 | xhdpi  | 1080P   |
 
-### 常规可穿戴设备 (通常 DPS 很小, 比如说 2″)
+#### 常规可穿戴设备 (通常 DPS 很小, 比如说 2″)
 | DPI    | sr       |
 | -----: | :------: |
 | tvdpi  | 280x280  |
 | hdpi   | 360x360  |
 
-# 换算
+# 运算定义
 ```
 - BIR = 1/72
 - 令 S = prW^2 + prH^2
@@ -128,6 +128,7 @@
 - sr == pr 的时候(其他任何参数均相同), 显示效果最佳, 否则模糊
 ```
 
+# 单位换算
 ```
 - 1 pt = BIR in
 - 1 px = 1 pt * DPI * BIR
@@ -135,7 +136,7 @@
 - 1 sp = 1 dp * TSS
 ```
 
-### 小例子: 手机 显示 100dp
+# 小例子: 手机 显示 100dp
 设 `C = 100dp`  
 
 | pr        | S       | √‾S        |
@@ -160,7 +161,7 @@
 | Nexus S       | 4.0″  | 223.24 | hdpi   | 2       | 480x800   | 240    | 2.4       | 400    | 4         |
 | Nexus One     | 3.7″  | 252.15 | hdpi   | 2       | 480x800   | 240    | 2.4       | 400    | 4         |
 
-### 小例子: 平板 显示 100dp
+# 小例子: 平板 显示 100dp
 设 `C = 100dp`  
 
 | pr        | S       | √‾S        |
