@@ -61,7 +61,7 @@
 - http://superuser.com/questions/977654/what-is-the-difference-between-4k-uhd-and-qhd-do-we-agree-on-one-official-reso
 
 ### 常用
-| 缩写  | 分辨率                                     | 比例  |
+| 缩写  | pr                                        | ratio |
 | ----- | :---------------------------------------: | :---: |
 | 240P  | 320x240(QVGA)                             | 4:3   |
 | 320P  | 480x320(HVGA)                             | 3:2   |
@@ -73,7 +73,7 @@
 | 2K    | 2560x1440(QHD / Quad HD / WQHD, **主流**)  | 16:9 |
 
 ### 不常用
-| 缩写 | pr                     | 比例  |
+| 缩写 | pr                     | ratio  |
 | --- | :---------------------: | :---: |
 | 2K  | 2048×1536(QXGA)         | 4:3   |
 | 2K  | 2560×1600(WQXGA)        | 16:10 |
