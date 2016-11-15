@@ -1,4 +1,4 @@
-# intellij-community 社区版/源码/SDK 下载
+# intellij-community 二进制/源码/SDK 下载
 - http://www.jetbrains.org/display/IJOS/Download
 - https://github.com/JetBrains/intellij-community
 - http://confluence.jetbrains.com/display/IDEADEV/IDEA+14.1+EAP
