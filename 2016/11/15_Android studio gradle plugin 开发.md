@@ -9,6 +9,7 @@
 # 教程
 - https://www.jetbrains.com/help/idea/2016.2/plugin-development-guidelines.html
 - https://docs.gradle.org/current/userguide/custom_plugins.html
+- https://docs.gradle.org/current/userguide/plugins.html
 
 # kotlin vs groovy?
 - https://github.com/gradle/gradle-script-kotlin
