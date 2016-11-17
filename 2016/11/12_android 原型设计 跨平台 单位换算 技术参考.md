@@ -58,6 +58,8 @@
 | 560dpi  | 560  | 3½       |
 | xxxhdpi | ~640 | ~4       |
 
+P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
+
 # 分辨率
 参考
 - https://zh.wikipedia.org/wiki/%E6%98%BE%E7%A4%BA%E5%88%86%E8%BE%A8%E7%8E%87%E5%88%97%E8%A1%A8
