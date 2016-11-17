@@ -24,25 +24,25 @@
 
 ------
 
-- sr(system resolution): (特指软件层面的)系统分辨率(由 驱动和用户 共同决定, 可变)
-- srW(system resolution width): 系统分辨率的 宽(特指单位 px, 可变)
-- srH(system resolution height): 系统分辨率的 高(特指单位 px, 可变)
-- srWdp(physical resolution width in dp): 物理分辨率的 宽(单位 dp, 可变)
-- srHdp(physical resolution height in dp): 物理分辨率的 高(单位 dp, 可变)
+- sr(system resolution): (特指软件层面的)系统分辨率 (由 ROM和用户 共同决定, 可变)
+- srW(system resolution width): 系统分辨率的 宽 (特指单位 px, 可变)
+- srH(system resolution height): 系统分辨率的 高 (特指单位 px, 可变)
+- srWdp(physical resolution width in dp): 物理分辨率的 宽 (单位 dp, 可变)
+- srHdp(physical resolution height in dp): 物理分辨率的 高 (单位 dp, 可变)
 
 #### 缩写
 - PPI(pixels per inch): 每英寸像素数 **<硬件规格>**
-- DPI(dots per inch): 每英寸点数
+- DPI(dots per inch): 每英寸点数 (由 ROM/用户 决定, 可变)
 - BIR(base inch ratio): 基本英寸比例 **<硬件规格>**
 - DPS(device physical size (unit in inch)): 设备物理尺寸(单位: 英寸) **<硬件规格>**
-- TSS(text size scale): 文本字号比例(由用户决定)
+- TSS(text size scale): 文本字号比例 (由用户决定)
 
 # 各平台 默认 1:1 DPI
-| 平台             | 值                  |
-| ---------------- | :----------------: |
-| MacOS / iOS      | 72                 |
-| Windows / Ubuntu | 96                 |
-| Android          | 由设备/ROM/用户决定 |
+| 平台             | 值   |
+| ---------------- | :--: |
+| MacOS / iOS      | 72   |
+| Windows / Ubuntu | 96   |
+| Android          | 160  |
 参考: http://askubuntu.com/questions/197828/how-to-find-and-change-the-screen-dpi
 
 # Android 常用 DPI 常量
