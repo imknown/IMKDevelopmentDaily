@@ -1,8 +1,11 @@
 # Windows 10 和 Ubuntu 16.04 双系统 时间不对  
 ``` bash
-sudo apt-get install ntpdate
-sudo ntpdate time.windows.com
-sudo hwclock --localtime --systohc
+#####################
+# 不要使用此方法, 看补充
+#####################
+#sudo apt-get install ntpdate
+#sudo ntpdate time.windows.com
+#sudo hwclock --localtime --systohc
 ```
 参考自：  
 http://www.cnblogs.com/qf19910623/p/5559514.html  
