@@ -13,6 +13,8 @@ http://www.cnblogs.com/qf19910623/p/5559514.html
 使用如下命令, 实测 Ubuntu 16 可行:  
 ``` bash
 sudo hwclock -w --localtime
+#或者
+sudo timedatectl set-local-rtc 1
 ```
 
 
@@ -32,3 +34,4 @@ http://zhidao.baidu.com/question/74041450.html?loc_ans=253942660
   - http://www.cnbeta.com/articles/494747.htm
   - http://blog.csdn.net/skykingf/article/details/45267517
   - http://blog.csdn.net/keith_bb/article/details/51530585
+  - http://staynoob.cn/post/linux/安装ubuntu16-04后要做的9件事/
