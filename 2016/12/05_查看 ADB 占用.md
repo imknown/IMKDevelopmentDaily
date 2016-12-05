@@ -11,7 +11,7 @@ tasklist | findstr PID_A
 ```
 
 # Linux (待验证)
-- Approach 1
+- Approach 1:
 ``` bash
 lsof -i:5037
 ```
