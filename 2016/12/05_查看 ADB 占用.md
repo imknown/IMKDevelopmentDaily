@@ -6,7 +6,7 @@ netstat -ano | findstr "5037"
 查询出 某些 `PID_A`:
 ``` bat
 tasklist /FI "PID eq PID_A"
-# 或者
+REM 或者
 tasklist | findstr PID_A
 ```
 
