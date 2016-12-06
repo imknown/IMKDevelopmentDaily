@@ -10,7 +10,7 @@ Rem 或者
 tasklist | findstr PID_A
 ```
 
-# Linux (待验证)
+# Linux
 - Approach 1:
 ``` bash
 lsof -i:5037
@@ -23,5 +23,5 @@ ps -ef|grep PID_A
 
 - Approach 2:
 ``` bash
-netstat -tlnp|grep 5037
+sudo netstat -tlnp|grep 5037
 ```
