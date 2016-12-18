@@ -4,7 +4,7 @@
 有待继续考察~
 
 #参考
-1. https://github.com/imknown/MVPPractice
+1. https://github.com/heavenxue/MVPPractice
 2. https://medium.com/google-developer-experts/weakreference-in-android-dd1e66b9be9d#.xdgb1w9sq
 3. https://medium.com/@trionkidnapper/android-mvp-an-end-to-if-view-null-42bb6262a5d1#.2ibr20dq2
 4. http://blog.csdn.net/sdkfjksf/article/details/51192852
