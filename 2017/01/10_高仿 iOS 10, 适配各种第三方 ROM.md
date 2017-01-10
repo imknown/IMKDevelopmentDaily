@@ -1,4 +1,6 @@
-累死了, 终于看文章 把逻辑写好了.
+累死了, 终于看文章 把逻辑写好了,  
+完美兼容 `android 4.4.0` ~ `android 7.1.1`, `MiUI v6 +` 和 `Flyme 4.x +`.  
+改日有时间开源.
 
 ----
 - http://www.jianshu.com/p/445e21eb29ab
