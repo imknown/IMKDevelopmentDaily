@@ -127,8 +127,7 @@ P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
 # 运算定义
 ```
 - BIR = 1/72
-- 令 S = prW^2 + prH^2
-- PPI = diagonal px / DPS = (√‾S) / DPS
+- PPI = diagonal px / DPS = (√‾S) / DPS, 其中 S = prW^2 + prH^2
 - DPI ≊ PPI (约等于 或者 等于)
 - density = DPI / mdpi
 - pr = prW * prH = prWdp * prHdp
