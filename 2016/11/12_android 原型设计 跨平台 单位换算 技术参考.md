@@ -138,7 +138,7 @@ P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
 # 单位换算
 ```
 - 1 pt = BIR in
-- 1 px = 1 pt * DPI * BIR
+- 1 px = 1 pt * DPI
 - 1 dp = 1 px * density
 - 1 sp = 1 dp * TSS
 ```
