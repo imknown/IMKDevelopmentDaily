@@ -4,7 +4,7 @@
 2. `clone` `LineageOS` `cm-12.1` 的 `git` 代码
 
 
-3. `clone` `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`
+3. `clone` `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`  
 https://github.com/ontherunvaro/android_device_tcl_q39/issues/4
 
 4. 使用 `ccache` 复用 `二进制`
