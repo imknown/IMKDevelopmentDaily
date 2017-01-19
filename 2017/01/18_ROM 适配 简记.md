@@ -3,7 +3,7 @@
 
 - PatchRom  
 `MiUI` 和 `FlyMe` 等一般都是 基于 自己的 `PatchRom` 技术,  
-配合 `base_cm` 来 `插桩` 的.
+配合 `base_cm` 来 `插桩` `反编译` 的 `smali`.
 
 - cm-like  
 `LineageOS` 或者 `CyanogenMod` 等 `cm-like` 的话,  
