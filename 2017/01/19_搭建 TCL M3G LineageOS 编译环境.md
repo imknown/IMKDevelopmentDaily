@@ -15,3 +15,9 @@ https://github.com/ontherunvaro/android_device_tcl_q39/issues/4
 
 ### 参看
 https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/18_ROM%20%E9%80%82%E9%85%8D%20%E7%AE%80%E8%AE%B0.md
+
+
+- https://github.com/imknown/android_device_tcl_q39
+- https://github.com/imknown/proprietary_vendor_tcl
+- https://github.com/imknown/android_hardware_qcom_media
+- https://github.com/imknown/CHANGES
