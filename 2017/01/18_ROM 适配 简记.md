@@ -11,3 +11,7 @@
 
 - AOSP/AOPK  
 `谷歌官方` 的方式即可.
+
+参考
+- http://bbs.zhiyoo.com/thread-12529397-1-1.html
+- http://www.oneplusbbs.com/thread-572886-1-1.html
