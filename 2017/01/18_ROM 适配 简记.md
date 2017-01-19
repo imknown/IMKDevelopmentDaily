@@ -7,7 +7,7 @@
 
 - cm-like  
 `LineageOS` 或者 `CyanogenMod` 等 `cm-like` 的话,  
-需要 引入 非官方的 `DeviceTree` 和 `VenderTree`, 直接 `make` 就行.
+需要 引入 `官方`/`非官方` 的 `DeviceTree` 和 `VenderTree`, 直接 `make` 就行.
 
 - AOSP/AOPK  
 `谷歌官方` 的方式即可.
