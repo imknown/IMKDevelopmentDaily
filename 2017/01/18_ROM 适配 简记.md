@@ -14,6 +14,7 @@
 
 
 ### 参考
+- http://source.android.com/source/initializing.html
 - https://github.com/SudaMod/android
 - http://wiki.mokeedev.com/Setting_Up_A_Compile_Environment
 - http://bbs.zhiyoo.com/thread-12529397-1-1.html
