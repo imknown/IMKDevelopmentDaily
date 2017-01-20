@@ -3,7 +3,7 @@
 推荐挂载:  
  - Ubuntu Root: 40GB ~ 100GB
  - Ubuntu Boot: 500MB
- - Ubuntu Home: 100GB ~ 500GB
+ - Ubuntu Home: 150GB ~ 500GB
  - EFI: 默认
  - Swap: 随意, 不弄也行, 建议 跟 `物理内存` 差不对就行
  
