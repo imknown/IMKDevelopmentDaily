@@ -19,8 +19,8 @@ https://source.android.com/source/initializing.html#installing-required-packages
 `JDK 7` 安装教程 网上很多
 
 
-# `clone` `LineageOS` `cm-12.1` 的 `git` 代码  
-准备 Repo:
+# 代码
+- 准备 Repo
 ```
 mkdir ~/bin
 PATH=~/bin:$PATH
@@ -28,32 +28,33 @@ curl https://storage-googleapis.lug.ustc.edu.cn/git-repo-downloads/repo > ~/bin/
 chmod a+x ~/bin/repo
 ```
 
-建立 目录
+- 建立 目录
 ```
 mkdir ~/LineageOS
 ```
-然后 `cd` 到 `LineageOS`,
+
+- `clone` `LineageOS` `cm-12.1` 的 `git` 代码  
+`cd` 到 `LineageOS`,
 ```
 repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 ```
 
-
-# `clone` `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`  
+- 同步 TCL 么么哒 3s 需要的 库
+`clone` `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`  
 https://github.com/ontherunvaro/android_device_tcl_q39/issues/4
 
-
-# 使用 `ccache` 复用 `二进制`  
-```
-export USE_CCACHE=1
-~/LineageOS/prebuilts/misc/linux-x86/ccache/ccache -M 50G
-```
-
-
-# 下载 编译需要的 `依赖库`  
+- 同步代码
 ```
 repo sync -c -f -j8 --force-sync --no-clone-bundle
 ```
 具体语法 参看 `repo sync --help`
+
+
+# 开启 ccache 复用缓存, 加快二次编译
+```
+export USE_CCACHE=1
+~/LineageOS/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+```
 
 
 # 编译  
