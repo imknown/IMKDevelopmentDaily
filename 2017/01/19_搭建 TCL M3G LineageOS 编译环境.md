@@ -37,7 +37,7 @@ mkdir ~/LineageOS
 repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 ```
 
-- 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`  
+- 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`  
 https://github.com/ontherunvaro/android_device_tcl_q39/issues/4
 
 - 同步代码
