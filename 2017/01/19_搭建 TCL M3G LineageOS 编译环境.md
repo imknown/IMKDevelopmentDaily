@@ -28,19 +28,16 @@ curl https://storage-googleapis.lug.ustc.edu.cn/git-repo-downloads/repo > ~/bin/
 chmod a+x ~/bin/repo
 ```
 
-- 建立 目录
 ```
 mkdir ~/LineageOS
 ```
 
-- `clone` `LineageOS` `cm-12.1` 的 `git` 代码  
-`cd` 到 `LineageOS`,
+`cd` 到 `LineageOS`
 ```
 repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 ```
 
-- 同步 TCL 么么哒 3s 需要的 库
-`clone` `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`  
+- 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`  
 https://github.com/ontherunvaro/android_device_tcl_q39/issues/4
 
 - 同步代码
