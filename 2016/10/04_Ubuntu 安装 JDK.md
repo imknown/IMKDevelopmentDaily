@@ -48,6 +48,10 @@ sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
 sudo apt-get install openjdk-8-jdk
 ```
+
+- Ubuntu 16.xx 安装 OpenJDK 7  
+http://askubuntu.com/a/803616/626522
+
 - 配置环境变量
 参考: 
 - http://askubuntu.com/questions/464755/how-to-install-openjdk-8-on-14-04-lts
