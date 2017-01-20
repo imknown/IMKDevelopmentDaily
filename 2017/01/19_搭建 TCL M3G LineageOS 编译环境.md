@@ -7,13 +7,15 @@
  - EFI: 默认
  - Swap: 随意, 不弄也行, 建议 跟 `物理内存` 差不对就行
  
+ 
 - 安装 linux  
 我用的 `Ubuntu 16.10 x64`,  
 **推荐** `Ubuntu 14.04 x64`~`Ubuntu 16.04 x64`.  
 用 `16.10` 折腾 `OpenJDK 7` 比较恶心.  
 
-- 安装 必要软件
 
+- 安装 必要软件
+https://source.android.com/source/initializing.html#installing-required-packages-ubuntu-1404
 
 
 - `clone` `LineageOS` `cm-12.1` 的 `git` 代码  
