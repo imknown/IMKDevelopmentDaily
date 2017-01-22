@@ -17,6 +17,7 @@
 # 安装 必要软件  
 https://source.android.com/source/initializing.html#installing-required-packages-ubuntu-1404  
 `JDK 7` 安装教程 网上很多
+> https://github.com/imknown/IMKDevelopmentDaily/blob/a895905906d13d9c1e57b6259481b662336d1d6f/2016/10/04_Ubuntu%20%E5%AE%89%E8%A3%85%20JDK.md
 
 
 # 代码
