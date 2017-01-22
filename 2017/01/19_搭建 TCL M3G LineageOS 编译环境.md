@@ -1,9 +1,9 @@
 # 分区
 建议 分出来 `200GB` ~ `500GB` 空白空间.
 推荐挂载:  
- - Ubuntu Root: 40GB ~ 100GB
+ - Ubuntu Root: 40GB ~ 80GB
  - Ubuntu Boot: 500MB
- - Ubuntu Home: 150GB ~ 500GB
+ - Ubuntu Home: 200GB ~ 500GB
  - EFI: 默认
  - Swap: 随意, 不弄也行, 建议 跟 `物理内存` 差不对就行
  
