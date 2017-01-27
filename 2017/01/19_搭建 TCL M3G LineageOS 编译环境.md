@@ -25,7 +25,7 @@ https://source.android.com/source/initializing.html#installing-required-packages
 ```
 mkdir ~/bin
 PATH=~/bin:$PATH
-curl https://storage-googleapis.lug.ustc.edu.cn/git-repo-downloads/repo > ~/bin/repo
+curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
