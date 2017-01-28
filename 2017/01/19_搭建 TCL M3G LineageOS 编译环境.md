@@ -39,7 +39,51 @@ mkdir ~/LineageOS
 repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 ```
 
-- 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`  
+- 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`
+> mkdir ~/LineageOS/.repo/local_manifests/
+
+
+1. cm 12.1
+**tcl_q39.xml**
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/tcl/q39" name="imknown/android_device_tcl_q39" remote="github"  revision="cm-12.1"/>
+  <project path="vendor/tcl" name="imknown/proprietary_vendor_tcl" remote="github" revision="cm-12.1" />
+</manifest>
+```
+
+**qcom.xml**
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-12.1"/>
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="cm-12.1"/>
+  <project path="external/mm-dash" name="LineageOS/android_external_mm-dash" remote="github" revision="cm-12.1"/>
+</manifest>
+```
+
+2. cm 13.0
+**tcl_q39.xml**
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/tcl/q39" name="imknown/android_device_tcl_q39" remote="github"  revision="cm-13.0"/>
+  <project path="vendor/tcl" name="imknown/proprietary_vendor_tcl" remote="github" revision="cm-13.0" />
+</manifest>
+```
+
+**qcom.xml**
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-13.0"/>
+  <project path="device/cyanogen/msm8916-common/" name="LineageOS/android_device_cyanogen_msm8916-common" remote="github" revision="cm-13.0"/>
+  <project path="external/mm-dash" name="LineageOS/android_external_mm-dash" remote="github" revision="cm-13.0"/>
+</manifest>
+```
+
+参考  
 https://github.com/ontherunvaro/android_device_tcl_q39/issues/4
 
 - 同步代码
