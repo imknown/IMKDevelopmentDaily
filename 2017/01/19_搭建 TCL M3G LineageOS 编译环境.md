@@ -17,8 +17,8 @@
 # 安装 必要软件  
 1. https://source.android.com/source/initializing.html#installing-required-packages-ubuntu-1404  
 2. schedtool
-3. `JDK 7` 安装教程 网上很多  
-https://github.com/imknown/IMKDevelopmentDaily/blob/a895905906d13d9c1e57b6259481b662336d1d6f/2016/10/04_Ubuntu%20%E5%AE%89%E8%A3%85%20JDK.md
+3. `cm-12.1` 需要 `OpenJDK 7`, `cm-13.0` 需要 `JDK 8` (貌似 `Oracle` 和 `OpenJDK` 都可以)  
+   安装教程 网上很多: https://github.com/imknown/IMKDevelopmentDaily/blob/a895905906d13d9c1e57b6259481b662336d1d6f/2016/10/04_Ubuntu%20%E5%AE%89%E8%A3%85%20JDK.md
 
 
 # 代码
