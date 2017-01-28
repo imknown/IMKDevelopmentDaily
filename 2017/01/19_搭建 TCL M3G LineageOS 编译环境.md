@@ -42,8 +42,8 @@ repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 - 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`
 > mkdir ~/LineageOS/.repo/local_manifests/
 
+ 1. cm-12.1
 
-1. cm 12.1
 **tcl_q39.xml**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -63,7 +63,8 @@ repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 </manifest>
 ```
 
-2. cm 13.0
+ 2. cm-13.0
+
 **tcl_q39.xml**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
