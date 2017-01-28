@@ -22,7 +22,7 @@ https://github.com/imknown/IMKDevelopmentDaily/blob/a895905906d13d9c1e57b6259481
 
 
 # 代码
-- 准备 Repo
+## 准备 Repo
 ```
 mkdir ~/bin
 PATH=~/bin:$PATH
@@ -39,11 +39,12 @@ mkdir ~/LineageOS
 repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 ```
 
-- 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`
-> mkdir ~/LineageOS/.repo/local_manifests/
+## 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`
+```
+mkdir ~/LineageOS/.repo/local_manifests/
+```
 
- 1. cm-12.1
-
+### cm-12.1
 **tcl_q39.xml**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -63,8 +64,7 @@ repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 </manifest>
 ```
 
- 2. cm-13.0
-
+### cm-13.0
 **tcl_q39.xml**
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -87,7 +87,7 @@ repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 参考  
 https://github.com/ontherunvaro/android_device_tcl_q39/issues/4
 
-- 同步代码
+## 同步代码
 ```
 repo sync -c -f -j8 --force-sync --no-clone-bundle
 ```
