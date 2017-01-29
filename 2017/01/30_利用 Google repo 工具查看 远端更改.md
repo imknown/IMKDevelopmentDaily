@@ -5,7 +5,7 @@ repo sync -n
 ```
 
 ``` bash
-repo forall -v -c git log --oneline --after={2017-01-03}
+repo forall -v -c git log --after={2017-01-03} --stat
 ```
 
 ### 参考
