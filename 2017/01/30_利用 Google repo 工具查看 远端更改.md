@@ -5,10 +5,6 @@ repo sync -n
 ```
 
 ``` bash
-repo forall -v -c git remote update
-```
-
-``` bash
 repo forall -v -c git log --oneline --after={2017-01-03}
 ```
 
