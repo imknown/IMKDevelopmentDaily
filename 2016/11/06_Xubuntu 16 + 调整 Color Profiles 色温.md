@@ -20,7 +20,7 @@ redshift-gtk
 gtk-redshift
 ```
 
-然后 可以手动配置一下 `/home/imknown/.config/redshift.conf`, 如:
+然后 可以手动配置一下 `~/.config/redshift.conf`, 如:
 ``` ini
 [redshift]
 temp-day=5700
