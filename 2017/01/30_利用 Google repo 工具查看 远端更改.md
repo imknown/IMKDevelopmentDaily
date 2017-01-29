@@ -1,8 +1,11 @@
 初稿, 实际效过 待实践..
 
+``` bash
+repo sync -n
+```
 
 ``` bash
-repo forall -v -c git remote update && git status
+repo forall -v -c git remote update
 ```
 
 ``` bash
