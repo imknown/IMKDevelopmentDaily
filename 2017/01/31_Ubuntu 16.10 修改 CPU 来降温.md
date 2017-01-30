@@ -26,3 +26,20 @@ sensors
 ### 参考
 - http://askubuntu.com/a/759154/626522
 - http://askubuntu.com/a/15833/626522
+
+
+# 组合命令
+``` bash
+echo $'\n======================' \
+&& echo "== 温度" \
+&& echo $'======================' \
+&& sensors \
+\
+&& echo ====================== \
+&& echo "== CPU 主频" \
+&& echo ====================== \
+&& lscpu | grep MHz \
+\
+&& echo $'\n======================' \
+&& grep MHz /proc/cpuinfo
+```
