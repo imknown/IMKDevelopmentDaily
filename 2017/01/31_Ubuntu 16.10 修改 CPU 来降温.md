@@ -2,7 +2,9 @@
 ``` bash
 sudo gedit /sys/devices/system/cpu/intel_pstate/no_turbo
 ```
-把值修改为 `1` 然后保存, **可能会报错, 请无视**
+把值 `0` 修改为 `1`, 然后保存,  
+**可能会报错, 请无视**  
+再运行一次, 是 `1` 就行.
 
 ### 参考
 - http://askubuntu.com/questions/764204/cant-disable-turbo-boost-since-ubuntu-16-04
