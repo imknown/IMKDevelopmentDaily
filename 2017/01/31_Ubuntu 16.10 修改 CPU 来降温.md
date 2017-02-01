@@ -1,4 +1,4 @@
-# 禁用 Turbo Boost(睿频)
+# 禁用 Turbo Boost(睿频), 貌似重启后失效
 ``` bash
 sudo gedit /sys/devices/system/cpu/intel_pstate/no_turbo
 ```
