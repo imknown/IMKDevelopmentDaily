@@ -114,3 +114,4 @@ brunch cm_q39-userdebug
 # 参看
 - https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/18_ROM%20%E9%80%82%E9%85%8D%20%E7%AE%80%E8%AE%B0.md
 - https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/29_%E5%88%87%E6%8D%A2%20lineage%20repo%20%E5%88%86%E6%94%AF.md
+- https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/30_%E5%88%A9%E7%94%A8%20Google%20repo%20%E5%B7%A5%E5%85%B7%E6%9F%A5%E7%9C%8B%20%E8%BF%9C%E7%AB%AF%E6%9B%B4%E6%94%B9.md
