@@ -96,7 +96,7 @@ sudo udevadm control --reload-rules
 ```
 
 
-# 刷入 bootloader 分区
+# 刷入 boot 分区
 ``` bash
 adb reboot bootloader
 fastboot devices
