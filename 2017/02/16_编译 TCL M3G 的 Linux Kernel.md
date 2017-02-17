@@ -4,7 +4,7 @@
 
 # 下载 kernel 源码
 ``` bash
-git clone https://github.com/lrinQVQ/android_kernel_tcl_q39.get
+git clone https://github.com/lrinQVQ/android_kernel_tcl_q39.git
 ```
 
 
