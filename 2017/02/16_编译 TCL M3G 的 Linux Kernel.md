@@ -13,7 +13,7 @@ git clone https://github.com/lrinQVQ/android_kernel_tcl_q39.git
 首先准备好 CyanogenMod/LineageOS 相关资源, 假定 `LineageOS` 在 `~/Android/LineageOS/`
 
 ``` bash
-export PATH=&PATH:~/Android/LineageOS/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/
+export PATH=$PATH:~/Android/LineageOS/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/
 export ARCH=arm64
 export CROSS_COMPILE=aarch64-linux-android-
 ```
