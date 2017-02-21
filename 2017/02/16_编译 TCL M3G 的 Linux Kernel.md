@@ -58,12 +58,13 @@ git clone https://github.com/xiaolu/mkbootimg_tools
 # 配置 Linux 的 Android fastboot
 > 参考 https://developer.android.com/studio/run/device.html
 
-先拔掉手机, lsusb 查看 当前 USB 设备  
-再插上手机, lsusb 查看 和上一次的差异 (实在找不到 加 -v 看看, 可以看 iProduct)  
+先拔掉手机, `lsusb` 查看 当前 USB 设备  
+再插上手机, `lsusb` 查看 和上一次的差异 (实在找不到 加 -v 看看, 可以看 iProduct)  
 
 差异如:
 ``` bash
 # 其中格式为 ID idVendor:idProduct
+# T & A Mobile Phones 就是 TCL 和 Alcatel
 Bus 003 Device 005: ID 18d1:4ee2 Google Inc. Nexus 4 (debug)
 Bus 003 Device 041: ID 1bbb:9039 T & A Mobile Phones
 Bus 003 Device 034: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
@@ -80,7 +81,7 @@ sudo gedit /etc/udev/rules.d/51-android.rules
 
 # idVendor 和 idProduct 别写错了
 # 其实网上也有很多现成的, 我只是 用我自己手机 做示范
-SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee2", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1bbb", ATTR{idProduct}=="9039", MODE="0666"
 ```
 
 加权限
