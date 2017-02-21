@@ -81,7 +81,7 @@ sudo gedit /etc/udev/rules.d/51-android.rules
 ```
 
 加入
-```
+``` bash
 # idVendor 和 idProduct 别写错了
 # 其实网上也有很多现成的, 我只是 用我自己手机 做示范
 SUBSYSTEM=="usb", ATTR{idVendor}=="1bbb", ATTR{idProduct}=="9039", MODE="0666"
