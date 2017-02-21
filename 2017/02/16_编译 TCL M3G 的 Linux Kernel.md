@@ -89,7 +89,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="1bbb", ATTR{idProduct}=="9039", MODE="0666"
 
 加权限
 ``` bash
-chmod a+r /etc/udev/rules.d/51-android.rules
+sudo chmod a+r /etc/udev/rules.d/51-android.rules
 ```
 
 重载入 使之生效
