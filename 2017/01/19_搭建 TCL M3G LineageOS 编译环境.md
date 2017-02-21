@@ -97,7 +97,7 @@ repo sync -c -f -j8 --force-sync --no-clone-bundle
 # 开启 ccache 复用缓存, 加快二次编译
 ```
 export USE_CCACHE=1
-~/Android/Android/LineageOS/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+~/Android/LineageOS/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 ```
 
 
