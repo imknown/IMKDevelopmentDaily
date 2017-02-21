@@ -31,7 +31,7 @@ chmod a+x ~/bin/repo
 ```
 
 ```
-mkdir ~/LineageOS
+mkdir ~/Android/LineageOS
 ```
 
 `cd` 到 `LineageOS`
@@ -41,7 +41,7 @@ repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 
 ## 建立 `TCL-M3G` 的 `DeviceTree` 和 `VenderTree`
 ```
-mkdir ~/LineageOS/.repo/local_manifests/
+mkdir ~/Android/LineageOS/.repo/local_manifests/
 ```
 
 ### cm-12.1
@@ -97,7 +97,7 @@ repo sync -c -f -j8 --force-sync --no-clone-bundle
 # 开启 ccache 复用缓存, 加快二次编译
 ```
 export USE_CCACHE=1
-~/LineageOS/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+~/Android/LineageOS/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 ```
 
 
