@@ -109,7 +109,7 @@ brunch cm_q39-userdebug
 ```
 
 耐心等待 1~4 小时, 最终 包 生成在
-> ~/LineageOS/out/target/product/q39
+> ~/Android/LineageOS/out/target/product/q39
 
 # 参看
 - https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/18_ROM%20%E9%80%82%E9%85%8D%20%E7%AE%80%E8%AE%B0.md
