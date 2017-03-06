@@ -1,5 +1,5 @@
 # 根本原因
-启用了 新的 `Task Stack`
+启用了 **新的** `Task Stack`
 
 #引发原因, 很多, 都是表象
 - `Activity` 用了 `singleTask` 或者 `singleInstance`
