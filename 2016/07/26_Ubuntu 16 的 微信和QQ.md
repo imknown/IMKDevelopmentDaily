@@ -20,6 +20,9 @@ http://www.ubuntukylin.com/application/show.php?lang=cn&id=279
 - 2016-10-24: ubuntu 16.04 完美运行新版QQ方案  
 https://www.so-cools.com/?p=739
 
+- 2017-03-07: 清风 QQ 和 Deepin QQ
+ - http://phpcj.org/wineqq/
+ - http://www.findspace.name/easycoding/1748
 
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
