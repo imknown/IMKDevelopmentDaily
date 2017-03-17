@@ -1,0 +1,3 @@
+- ActivityManager (am), ActivityManagerService (AMS)
+- Android KitKat 新特性: zRAM (https://source.android.com/devices/tech/config/low-ram.html#zram)
+- 进程优先级: https://developer.android.com/guide/topics/processes/process-lifecycle.html
