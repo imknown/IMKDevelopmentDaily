@@ -1,14 +1,14 @@
 - 修改 import 方式 `Settings > General > Auto Import`  
-![import 选项](/2016/08/24_import 选项.png)  
+![import 选项](/2016/08/24_import%20选项.png)  
 
 - 修改 选项卡关闭规则 `Settings > Editor > Editor Tabs`  
-![选项卡 关闭规则](/2016/08/24_选项卡 关闭规则.png)  
+![选项卡 关闭规则](/2016/08/24_选项卡%20关闭规则.png)  
 
 - 修改 文件头部文档注释 `Settings > Editor > File and Code Templates`  
 ![文件头部文档注释](/2016/08/24_文件头部文档注释.png)  
 
 - 建议提交时 的选项  
-![建议提交时 的选项](/2016/08/24_建议提交时 的选项.png)  
+![建议提交时 的选项](/2016/08/24_建议提交时%20的选项.png)  
 
 - Project .ignore 文件
 ```
