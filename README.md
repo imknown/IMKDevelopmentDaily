@@ -7,11 +7,20 @@ I recommended to use [octotree][octotree] for better browse experience~
 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
 # Contents
-## Linux
-
-
 ## VCS
 0. [更新 'Github Fork 之后的 Repo' 的方法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/04/23_%E6%9B%B4%E6%96%B0%20'Github%20Fork%20%E4%B9%8B%E5%90%8E%E7%9A%84%20Repo'%20%E7%9A%84%E6%96%B9%E6%B3%95.md)
+0. [又多了学习任务 Git](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/17_%E5%8F%88%E5%A4%9A%E4%BA%86%E5%AD%A6%E4%B9%A0%E4%BB%BB%E5%8A%A1%20Git.md)
+
+
+## Linux
+0. [Ubuntu 16 的 微信和QQ](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/26_Ubuntu%2016%20%E7%9A%84%20%E5%BE%AE%E4%BF%A1%E5%92%8CQQ.md)
+0. [安装完 Ubuntu 可能需要做的事情](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/29_%E5%AE%89%E8%A3%85%E5%AE%8C%20Ubuntu%20%E5%8F%AF%E8%83%BD%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85.md)
+0. [Ubuntu 搭建 OpenConnect VPN 科学上网](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/30_Ubuntu%20%E6%90%AD%E5%BB%BA%20OpenConnect%20VPN%20%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.md)
+
+
+## Windows
+0. [Windows 10 任务栏点击打不开 解决方案](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/03_Windows%2010%20%E4%BB%BB%E5%8A%A1%E6%A0%8F%E7%82%B9%E5%87%BB%E6%89%93%E4%B8%8D%E5%BC%80%20%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)
+0. [微软 相关的 工具 \(雾](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/23_%E5%BE%AE%E8%BD%AF%20%E7%9B%B8%E5%85%B3%E7%9A%84%20%E5%B7%A5%E5%85%B7%20(%E9%9B%BE.md)
 
 
 ## Android
@@ -47,6 +56,18 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [关于 ViewPager + Fragment 延迟加载问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/29_%E5%85%B3%E4%BA%8E%20ViewPager%20%2B%20Fragment%20%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD%E9%97%AE%E9%A2%98.md)
 0. [Gallery ViewPager 突出效果 资源搜索](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/30.01_Gallery%20ViewPager%20%E7%AA%81%E5%87%BA%E6%95%88%E6%9E%9C%20%E8%B5%84%E6%BA%90%E6%90%9C%E7%B4%A2.md)
 0. [关于 RecyclerView.Holder 中使用 LayoutInflater 的 坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/30.02_%E5%85%B3%E4%BA%8E%20RecyclerView.Holder%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20LayoutInflater%20%E7%9A%84%20%E5%9D%91.md)
+0. [好的 Android Studio 插件](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/01_%E5%A5%BD%E7%9A%84%20Android%20Studio%20%E6%8F%92%E4%BB%B6.md)
+0. [absfree 的 LruCache 缓存 Bitmap 的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/04_absfree%20%E7%9A%84%20LruCache%20%E7%BC%93%E5%AD%98%20Bitmap%20%E7%9A%84%E9%97%AE%E9%A2%98.md)
+0. [列表中 CompoundButton 状态动画问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/08_%E5%88%97%E8%A1%A8%E4%B8%AD%20CompoundButton%20%E7%8A%B6%E6%80%81%E5%8A%A8%E7%94%BB%E9%97%AE%E9%A2%98.md)
+0. [android 7 相关](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/10_android%207%20%E7%9B%B8%E5%85%B3.md)
+0. [贴一些 可能 用得上的 Launcher 资源](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/13_%E8%B4%B4%E4%B8%80%E4%BA%9B%20%E5%8F%AF%E8%83%BD%20%E7%94%A8%E5%BE%97%E4%B8%8A%E7%9A%84%20Launcher%20%E8%B5%84%E6%BA%90.md)
+0. [关于 Notification 消息合并之讨论](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/18_%E5%85%B3%E4%BA%8E%20Notification%20%E6%B6%88%E6%81%AF%E5%90%88%E5%B9%B6%E4%B9%8B%E8%AE%A8%E8%AE%BA.md)
+0. [Nexus 5X 摄像头 上下颠倒 解决一记](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/19_Nexus%205X%20%E6%91%84%E5%83%8F%E5%A4%B4%20%E4%B8%8A%E4%B8%8B%E9%A2%A0%E5%80%92%20%E8%A7%A3%E5%86%B3%E4%B8%80%E8%AE%B0.md)
+0. [打开系统 最近任务列表](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/20_%E6%89%93%E5%BC%80%E7%B3%BB%E7%BB%9F%20%E6%9C%80%E8%BF%91%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8.md)
+0. [关于 Launcher 的 Splash 问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/21_%E5%85%B3%E4%BA%8E%20Launcher%20%E7%9A%84%20Splash%20%E9%97%AE%E9%A2%98.md)
+0. [Android Studio applicationId 坑爹问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/22_Android%20Studio%20applicationId%20%E5%9D%91%E7%88%B9%E9%97%AE%E9%A2%98.md)
+0. [Eclipse 关联 support v4 等 jar 包源码](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/24_Eclipse%20%E5%85%B3%E8%81%94%20support%20v4%20%E7%AD%89%20jar%20%E5%8C%85%E6%BA%90%E7%A0%81.md)
+0. [Windows Android SDK 和 NDK 下载地址](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/25_Windows%20Android%20SDK%20%E5%92%8C%20NDK%20%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80.md)
 
 
 ## Prototype
@@ -77,6 +98,19 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [越来越忙](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/22_%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%BF%99.md)
 0. [分享一下 周五 跟同事 看的 ＜蜀道难＞](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/25_%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%8B%20%E5%91%A8%E4%BA%94%20%E8%B7%9F%E5%90%8C%E4%BA%8B%20%E7%9C%8B%E7%9A%84%20%EF%BC%9C%E8%9C%80%E9%81%93%E9%9A%BE%EF%BC%9E.md)
 0. [秘制关键字](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/26_%E7%A7%98%E5%88%B6%E5%85%B3%E9%94%AE%E5%AD%97.md)
+0. [华为开发者大赛华为企业云专场](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/02_%E5%8D%8E%E4%B8%BA%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%A7%E8%B5%9B%E5%8D%8E%E4%B8%BA%E4%BC%81%E4%B8%9A%E4%BA%91%E4%B8%93%E5%9C%BA.md)
+0. [Glide 坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/05_Glide%20%E5%9D%91.md)
+0. [坑坑坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/06_%E5%9D%91%E5%9D%91%E5%9D%91.md)
+0. [继续改Bug](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/07_%E7%BB%A7%E7%BB%AD%E6%94%B9Bug.md)
+0. [SegmentFault D-Day 大连](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/09_SegmentFault%20D-Day%20%E5%A4%A7%E8%BF%9E.md)
+0. [Glide 的 技术债务](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/11_Glide%20%E7%9A%84%20%E6%8A%80%E6%9C%AF%E5%80%BA%E5%8A%A1.md)
+0. [搞点书看](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/12_%E6%90%9E%E7%82%B9%E4%B9%A6%E7%9C%8B.md)
+0. [代码回顾](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/14_%E4%BB%A3%E7%A0%81%E5%9B%9E%E9%A1%BE.md)
+0. [重新学习](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/15_%E9%87%8D%E6%96%B0%E5%AD%A6%E4%B9%A0.md)
+0. [继续恶补](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/16_%E7%BB%A7%E7%BB%AD%E6%81%B6%E8%A1%A5.md)
+0. [淋雨崩溃中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/27_%E6%B7%8B%E9%9B%A8%E5%B4%A9%E6%BA%83%E4%B8%AD.md)
+0. [依旧崩溃中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/28_%E4%BE%9D%E6%97%A7%E5%B4%A9%E6%BA%83%E4%B8%AD.md)
+0. [月末总结](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/31_%E6%9C%88%E6%9C%AB%E6%80%BB%E7%BB%93.md)
 
 
 `EOF`
