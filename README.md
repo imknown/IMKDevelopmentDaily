@@ -37,3 +37,5 @@ I recommended to use [`octotree`](octotree) for better browse experience~
 ## Tittle-Tattle
 0. [开坑第一弹](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/15_%E5%BC%80%E5%9D%91%E7%AC%AC%E4%B8%80%E5%BC%B9.md)
 0. [有意义的一天](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/28_%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E4%B8%80%E5%A4%A9.md)
+
+`EOF`
