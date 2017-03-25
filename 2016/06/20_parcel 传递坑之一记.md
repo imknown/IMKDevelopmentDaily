@@ -11,7 +11,7 @@ String myNameString = getIntent().getStringExtra(IConstances.ONE);
 ```
 
 然后顺便报错:  
-![parcel 错误 异常截图](/2016/06/20_parcel 错误 异常截图.png)
+![parcel 错误 异常截图](/2016/06/20_parcel%20错误%20异常截图.png)
 
 一开始用 https://global.bing.com 搜索 怎么搜也都不到,  
 
