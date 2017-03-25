@@ -10,12 +10,15 @@ I recommended to use [octotree][octotree] for better browse experience~
 ## VCS
 0. [更新 'Github Fork 之后的 Repo' 的方法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/04/23_%E6%9B%B4%E6%96%B0%20'Github%20Fork%20%E4%B9%8B%E5%90%8E%E7%9A%84%20Repo'%20%E7%9A%84%E6%96%B9%E6%B3%95.md)
 0. [又多了学习任务 Git](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/17_%E5%8F%88%E5%A4%9A%E4%BA%86%E5%AD%A6%E4%B9%A0%E4%BB%BB%E5%8A%A1%20Git.md)
+0. [Push 的 巧合](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/05_Push%20%E7%9A%84%20%E5%B7%A7%E5%90%88.md)
+0. [Eclipse SVN 插件 使用文档](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/31_Eclipse%20SVN%20%E6%8F%92%E4%BB%B6%20%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3.md)
 
 
 ## Linux
 0. [Ubuntu 16 的 微信和QQ](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/26_Ubuntu%2016%20%E7%9A%84%20%E5%BE%AE%E4%BF%A1%E5%92%8CQQ.md)
 0. [安装完 Ubuntu 可能需要做的事情](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/29_%E5%AE%89%E8%A3%85%E5%AE%8C%20Ubuntu%20%E5%8F%AF%E8%83%BD%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85.md)
 0. [Ubuntu 搭建 OpenConnect VPN 科学上网](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/30_Ubuntu%20%E6%90%AD%E5%BB%BA%20OpenConnect%20VPN%20%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.md)
+0. [折腾 Ubuntu 16](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/01_%E6%8A%98%E8%85%BE%20Ubuntu%2016.md)
 
 
 ## Windows
@@ -68,6 +71,23 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Android Studio applicationId 坑爹问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/22_Android%20Studio%20applicationId%20%E5%9D%91%E7%88%B9%E9%97%AE%E9%A2%98.md)
 0. [Eclipse 关联 support v4 等 jar 包源码](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/24_Eclipse%20%E5%85%B3%E8%81%94%20support%20v4%20%E7%AD%89%20jar%20%E5%8C%85%E6%BA%90%E7%A0%81.md)
 0. [Windows Android SDK 和 NDK 下载地址](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/25_Windows%20Android%20SDK%20%E5%92%8C%20NDK%20%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80.md)
+0. [Odex 和 Dex 和 Smali](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/08_Odex%20%E5%92%8C%20Dex%20%E5%92%8C%20Smali.md)
+0. [简单分析了一下 蘑菇ROM助手](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/10_%E7%AE%80%E5%8D%95%E5%88%86%E6%9E%90%E4%BA%86%E4%B8%80%E4%B8%8B%20%E8%98%91%E8%8F%87ROM%E5%8A%A9%E6%89%8B.md)
+0. [odex 反编译 引发的 简单深入](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/11_odex%20%E5%8F%8D%E7%BC%96%E8%AF%91%20%E5%BC%95%E5%8F%91%E7%9A%84%20%E7%AE%80%E5%8D%95%E6%B7%B1%E5%85%A5.md)
+0. [反编译 Android N apk](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/12_%E5%8F%8D%E7%BC%96%E8%AF%91%20Android%20N%20apk.md)
+0. [apk 分析](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/13_apk%20%E5%88%86%E6%9E%90.md)
+0. [升级 Android Studio 2.1.3 正式版后 Gradle的坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/17_%E5%8D%87%E7%BA%A7%20Android%20Studio%202.1.3%20%E6%AD%A3%E5%BC%8F%E7%89%88%E5%90%8E%20Gradle%E7%9A%84%E5%9D%91.md)
+0. [android 7 兼容性问题 解决了](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/18_android%207%20%E5%85%BC%E5%AE%B9%E6%80%A7%E9%97%AE%E9%A2%98%20%E8%A7%A3%E5%86%B3%E4%BA%86.md)
+0. [重返 adt-bundle](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/19_%E9%87%8D%E8%BF%94%20adt-bundle.md)
+0. [打开 系统数据使用页 和 系统默认相机](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/21_%E6%89%93%E5%BC%80%20%E7%B3%BB%E7%BB%9F%E6%95%B0%E6%8D%AE%E4%BD%BF%E7%94%A8%E9%A1%B5%20%E5%92%8C%20%E7%B3%BB%E7%BB%9F%E9%BB%98%E8%AE%A4%E7%9B%B8%E6%9C%BA.md)
+0. [用 Gradle 代替 Maven archetype 的方案](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/22.1_%E7%94%A8%20Gradle%20%E4%BB%A3%E6%9B%BF%20Maven%20archetype%20%E7%9A%84%E6%96%B9%E6%A1%88.md)
+0. [android 常用 Maven repo](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/23_android%20%E5%B8%B8%E7%94%A8%20Maven%20repo.md)
+0. [Android Studio 常用配置](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/24_Android%20Studio%20%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE.md)
+0. [市场统计](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/25_%E5%B8%82%E5%9C%BA%E7%BB%9F%E8%AE%A1.md)
+0. [模拟器、仿真器、虚拟设备和虚拟机的区别](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/25_%E6%A8%A1%E6%8B%9F%E5%99%A8%E3%80%81%E4%BB%BF%E7%9C%9F%E5%99%A8%E3%80%81%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%92%8C%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+0. [Eclipse 使用 ButterKnife 7 的坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/26_Eclipse%20%E4%BD%BF%E7%94%A8%20ButterKnife%207%20%E7%9A%84%E5%9D%91.md)
+0. [找到了两年前 自己刚学习回调时 写的垃圾练习代码](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/27_%E6%89%BE%E5%88%B0%E4%BA%86%E4%B8%A4%E5%B9%B4%E5%89%8D%20%E8%87%AA%E5%B7%B1%E5%88%9A%E5%AD%A6%E4%B9%A0%E5%9B%9E%E8%B0%83%E6%97%B6%20%E5%86%99%E7%9A%84%E5%9E%83%E5%9C%BE%E7%BB%83%E4%B9%A0%E4%BB%A3%E7%A0%81.md)
+0. [熟悉 Volley](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/28_%E7%86%9F%E6%82%89%20Volley.md)
 
 
 ## Prototype
@@ -111,6 +131,18 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [淋雨崩溃中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/27_%E6%B7%8B%E9%9B%A8%E5%B4%A9%E6%BA%83%E4%B8%AD.md)
 0. [依旧崩溃中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/28_%E4%BE%9D%E6%97%A7%E5%B4%A9%E6%BA%83%E4%B8%AD.md)
 0. [月末总结](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/31_%E6%9C%88%E6%9C%AB%E6%80%BB%E7%BB%93.md)
+0. [Bad Game](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/02_Bad%20Game.md)
+0. [普法中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/03_%E6%99%AE%E6%B3%95%E4%B8%AD.md)
+0. [东方 Project 编程相关](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/04_%E4%B8%9C%E6%96%B9%20Project%20%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3.md)
+0. [周报改版](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/06_%E5%91%A8%E6%8A%A5%E6%94%B9%E7%89%88.md)
+0. [今天偶遇 20年前的 语言](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/07_%E4%BB%8A%E5%A4%A9%E5%81%B6%E9%81%87%2020%E5%B9%B4%E5%89%8D%E7%9A%84%20%E8%AF%AD%E8%A8%80.md)
+0. [同步 简历](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/09_%E5%90%8C%E6%AD%A5%20%E7%AE%80%E5%8E%86.md)
+0. [重新开始 补习基础](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/14_%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%20%E8%A1%A5%E4%B9%A0%E5%9F%BA%E7%A1%80.md)
+0. [整理路线图](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/15_%E6%95%B4%E7%90%86%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)
+0. [被人问了版本的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/16_%E8%A2%AB%E4%BA%BA%E9%97%AE%E4%BA%86%E7%89%88%E6%9C%AC%E7%9A%84%E9%97%AE%E9%A2%98.md)
+0. [又见久违的坑爹外包项目](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/20_%E5%8F%88%E8%A7%81%E4%B9%85%E8%BF%9D%E7%9A%84%E5%9D%91%E7%88%B9%E5%A4%96%E5%8C%85%E9%A1%B9%E7%9B%AE.md)
+0. [改 bug](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/29_%E6%94%B9%20bug.md)
+0. [适配 Bug](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/30_%E9%80%82%E9%85%8D%20Bug.md)
 
 
 `EOF`
