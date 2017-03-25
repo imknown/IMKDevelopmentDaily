@@ -14,7 +14,7 @@
 但是 点击 `Fix plugin version and sync project`,  
 其实 `Android Studio 2.1.3` 自己会把 `2.10` 更新到 `2.14.1`.  
 
-![启动 2.1.2 的项目 直接报错](/2016/08/17_启动 2.1.2 的项目 直接报错.png)  
+![启动 2.1.2 的项目 直接报错](/2016/08/17_启动%202.1.2%20的项目%20直接报错.png)  
 
 顺便说下, 点击第二个 连接, 可以看 兼容性文档:  
 > http://tools.android.com/tech-docs/new-build-system/version-compatibility  
