@@ -14,6 +14,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Eclipse SVN 插件 使用文档](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/08/31_Eclipse%20SVN%20%E6%8F%92%E4%BB%B6%20%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3.md)
 0. [Git 配置 多账户](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/09_Git%20%E9%85%8D%E7%BD%AE%20%E5%A4%9A%E8%B4%A6%E6%88%B7.md)
 0. [Git 工作流](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/17_Git%20%E5%B7%A5%E4%BD%9C%E6%B5%81.md)
+0. [Git 设置大小写敏感](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/19_Git%20%E8%AE%BE%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F.md)
 0. [神奇的 git](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/29_%E7%A5%9E%E5%A5%87%E7%9A%84%20git.md)
 0. [Git 客户端 使用体验](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/31_Git%20%E5%AE%A2%E6%88%B7%E7%AB%AF%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.md)
 
@@ -35,8 +36,6 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Ubuntu 16 配置 ADB 环境变量](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/14_Ubuntu%2016%20%E9%85%8D%E7%BD%AE%20ADB%20%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.md)
 0. [Ubuntu 16 SVN 和 Git 客户端](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/15_Ubuntu%2016%20SVN%20%E5%92%8C%20Git%20%E5%AE%A2%E6%88%B7%E7%AB%AF.md)
 0. [dpkg 与 apt 管理软件](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/18_dpkg%20%E4%B8%8E%20apt%20%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6.md)
-0. [Git 设置大小写敏感](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/19_Git%20%E8%AE%BE%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F.md)
-0. [Android 7.1.1 工厂和OTA镜像](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/20_Android%207.1.1%20%E5%B7%A5%E5%8E%82%E5%92%8COTA%E9%95%9C%E5%83%8F.md)
 
 
 ## Windows
@@ -127,6 +126,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [人脸识别 思路](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/05_%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%20%E6%80%9D%E8%B7%AF.md)
 0. [android 事件传递 好文章](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/07_android%20%E4%BA%8B%E4%BB%B6%E4%BC%A0%E9%80%92%20%E5%A5%BD%E6%96%87%E7%AB%A0.md)
 0. [Gradle 打包 apk](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/16_Gradle%20%E6%89%93%E5%8C%85%20apk.md)
+0. [Android 7.1.1 工厂和OTA镜像](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/20_Android%207.1.1%20%E5%B7%A5%E5%8E%82%E5%92%8COTA%E9%95%9C%E5%83%8F.md)
 0. [Android M 运行时权限](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/22_Android%20M%20%E8%BF%90%E8%A1%8C%E6%97%B6%E6%9D%83%E9%99%90.md)
 0. [android 7.1.1 使用体验](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/30_android%207.1.1%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.md)
 
