@@ -65,9 +65,9 @@ sudo openconnect <server hostname or ip>:<port> -u <AnyNameIsOk> -k <key file> -
 比如说 我封装了 Shell 脚本, 居然会报 找不到文件的错误:  
 ![奇怪的错误](/2016/07/30_文夹目录结构.jpg)  
 
-![奇怪的错误](/2016/07/30_相对路径路径 Shell 失败.jpg)  
+![奇怪的错误](/2016/07/30_相对路径路径%20Shell%20失败.jpg)  
 
-![奇怪的错误](/2016/07/30_绝对路径 Shell 失败.jpg)  
+![奇怪的错误](/2016/07/30_绝对路径%20Shell%20失败.jpg)  
 
 至今没解决 哎...  
 
