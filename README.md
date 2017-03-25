@@ -15,6 +15,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Git 配置 多账户](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/09_Git%20%E9%85%8D%E7%BD%AE%20%E5%A4%9A%E8%B4%A6%E6%88%B7.md)
 0. [Git 工作流](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/17_Git%20%E5%B7%A5%E4%BD%9C%E6%B5%81.md)
 0. [神奇的 git](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/29_%E7%A5%9E%E5%A5%87%E7%9A%84%20git.md)
+0. [Git 客户端 使用体验](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/31_Git%20%E5%AE%A2%E6%88%B7%E7%AB%AF%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.md)
 
 
 ## Linux
