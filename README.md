@@ -17,6 +17,9 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Git 设置大小写敏感](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/19_Git%20%E8%AE%BE%E7%BD%AE%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F.md)
 0. [神奇的 git](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/29_%E7%A5%9E%E5%A5%87%E7%9A%84%20git.md)
 0. [Git 客户端 使用体验](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/31_Git%20%E5%AE%A2%E6%88%B7%E7%AB%AF%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.md)
+0. [git flow 使用感受](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/04_git%20flow%20%E4%BD%BF%E7%94%A8%E6%84%9F%E5%8F%97.md)
+0. [Diff Merge 工具](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/24_Diff%20Merge%20%E5%B7%A5%E5%85%B7.md)
+0. [Git 本地未提交就 pull 的 风险](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/28_Git%20%E6%9C%AC%E5%9C%B0%E6%9C%AA%E6%8F%90%E4%BA%A4%E5%B0%B1%20pull%20%E7%9A%84%20%E9%A3%8E%E9%99%A9.md)
 
 
 ## Linux
@@ -36,6 +39,11 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Ubuntu 16 配置 ADB 环境变量](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/14_Ubuntu%2016%20%E9%85%8D%E7%BD%AE%20ADB%20%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.md)
 0. [Ubuntu 16 SVN 和 Git 客户端](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/15_Ubuntu%2016%20SVN%20%E5%92%8C%20Git%20%E5%AE%A2%E6%88%B7%E7%AB%AF.md)
 0. [dpkg 与 apt 管理软件](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/18_dpkg%20%E4%B8%8E%20apt%20%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6.md)
+0. [Ubuntu 16.04 升级到 16.10](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/01_Ubuntu%2016.04%20%E5%8D%87%E7%BA%A7%E5%88%B0%2016.10.md)
+0. [Ubuntu Gnome 管理 开机启动项](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/02_Ubuntu%20Gnome%20%E7%AE%A1%E7%90%86%20%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8%E9%A1%B9.md)
+0. [Ubuntu 删除 所有 rc标记 deb包](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/05_Ubuntu%20%E5%88%A0%E9%99%A4%20%E6%89%80%E6%9C%89%20rc%E6%A0%87%E8%AE%B0%20deb%E5%8C%85.md)
+0. [Xubuntu 16 + 调整 Color Profiles 色温](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/06_Xubuntu%2016%20%2B%20%E8%B0%83%E6%95%B4%20Color%20Profiles%20%E8%89%B2%E6%B8%A9.md)
+0. <a href='https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/09_Unicode(UTF-8%2CUTF-16%2CUTF-32)%20%E5%92%8C%20ISO10646(UCS-2%2CUCS-4).md'>Unicode(UTF-8,UTF-16,UTF-32) 和 ISO10646(UCS-2,UCS-4)</a>
 
 
 ## Windows
@@ -129,12 +137,21 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Android 7.1.1 工厂和OTA镜像](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/20_Android%207.1.1%20%E5%B7%A5%E5%8E%82%E5%92%8COTA%E9%95%9C%E5%83%8F.md)
 0. [Android M 运行时权限](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/22_Android%20M%20%E8%BF%90%E8%A1%8C%E6%97%B6%E6%9D%83%E9%99%90.md)
 0. [android 7.1.1 使用体验](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/30_android%207.1.1%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.md)
+0. [Android camera 拍照时 根据光线亮度 启用闪光灯](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/07_Android%20camera%20%E6%8B%8D%E7%85%A7%E6%97%B6%20%E6%A0%B9%E6%8D%AE%E5%85%89%E7%BA%BF%E4%BA%AE%E5%BA%A6%20%E5%90%AF%E7%94%A8%E9%97%AA%E5%85%89%E7%81%AF.md)
+0. [Camera 的坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/10_Camera%20%E7%9A%84%E5%9D%91.md)
+0. [android 原型设计 跨平台 单位换算 技术参考](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/12_android%20%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1%20%E8%B7%A8%E5%B9%B3%E5%8F%B0%20%E5%8D%95%E4%BD%8D%E6%8D%A2%E7%AE%97%20%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83.md)
+0. [Android studio gradle plugin 开发](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/15_Android%20studio%20gradle%20plugin%20%E5%BC%80%E5%8F%91.md)
+0. [Android Studio 插件 开发准备](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/16_Android%20Studio%20%E6%8F%92%E4%BB%B6%20%E5%BC%80%E5%8F%91%E5%87%86%E5%A4%87.md)
+0. [Android Studio Gradle release buildType 坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/22_Android%20Studio%20Gradle%20release%20buildType%20%E5%9D%91.md)
+0. [andorid 7.1.1 使用体验](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/23_andorid%207.1.1%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.md)
+0. [GPS 监听思路](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/26_GPS%20%E7%9B%91%E5%90%AC%E6%80%9D%E8%B7%AF.md)
 
 
 ## Prototype
 0. [前期设计 简单总结](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/21_%E5%89%8D%E6%9C%9F%E8%AE%BE%E8%AE%A1%20%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93.md)
 0. [协作临时准备](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/30.02_%E5%8D%8F%E4%BD%9C%E4%B8%B4%E6%97%B6%E5%87%86%E5%A4%87.md)
 0. [常用的 设计工具](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/02.01_%E5%B8%B8%E7%94%A8%E7%9A%84%20%E8%AE%BE%E8%AE%A1%E5%B7%A5%E5%85%B7.md)
+0. [协同工具 简用](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/03_%E5%8D%8F%E5%90%8C%E5%B7%A5%E5%85%B7%20%E7%AE%80%E7%94%A8.md)
 
 
 ## Professional-Training
@@ -204,6 +221,13 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [JIRA](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/26_JIRA.md)
 0. [回归 Bug](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/27_%E5%9B%9E%E5%BD%92%20Bug.md)
 0. [继续回归 bug](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/28_%E7%BB%A7%E7%BB%AD%E5%9B%9E%E5%BD%92%20bug.md)
+0. [Google 单词和短语 解释最准](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/08_Google%20%E5%8D%95%E8%AF%8D%E5%92%8C%E7%9F%AD%E8%AF%AD%20%E8%A7%A3%E9%87%8A%E6%9C%80%E5%87%86.md)
+0. [写代码](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/11_%E5%86%99%E4%BB%A3%E7%A0%81.md)
+0. [假死中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/13_%E5%81%87%E6%AD%BB%E4%B8%AD.md)
+0. [病了 罢工一天](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/14_%E7%97%85%E4%BA%86%20%E7%BD%A2%E5%B7%A5%E4%B8%80%E5%A4%A9.md)
+0. [近日计划](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/17_%E8%BF%91%E6%97%A5%E8%AE%A1%E5%88%92.md)
+0. [整理 Github](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/20_%E6%95%B4%E7%90%86%20Github.md)
+0. [最近要加紧写接口](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/21_%E6%9C%80%E8%BF%91%E8%A6%81%E5%8A%A0%E7%B4%A7%E5%86%99%E6%8E%A5%E5%8F%A3.md)
 
 
 `EOF`
