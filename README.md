@@ -252,7 +252,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [ADB 坏了](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/26_ADB%20%E5%9D%8F%E4%BA%86.md)
 0. [代码全是坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/27_%E4%BB%A3%E7%A0%81%E5%85%A8%E6%98%AF%E5%9D%91.md)
 0. [准备重构](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/29_%E5%87%86%E5%A4%87%E9%87%8D%E6%9E%84.md)
-0. [继续准备重构]()
+0. [继续准备重构](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/30_%E7%BB%A7%E7%BB%AD%E5%87%86%E5%A4%87%E9%87%8D%E6%9E%84.md)
 
 
 `EOF`
