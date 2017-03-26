@@ -145,6 +145,18 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Android Studio Gradle release buildType 坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/22_Android%20Studio%20Gradle%20release%20buildType%20%E5%9D%91.md)
 0. [andorid 7.1.1 使用体验](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/23_andorid%207.1.1%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.md)
 0. [GPS 监听思路](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/26_GPS%20%E7%9B%91%E5%90%AC%E6%80%9D%E8%B7%AF.md)
+0. [查看 ADB 占用](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/05_%E6%9F%A5%E7%9C%8B%20ADB%20%E5%8D%A0%E7%94%A8.md)
+0. [重构 MVP 的 V 和 P](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/06_%E9%87%8D%E6%9E%84%20MVP%20%E7%9A%84%20V%20%E5%92%8C%20P.md)
+0. [重构 MVP 之 内存泄漏](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/07_%E9%87%8D%E6%9E%84%20MVP%20%E4%B9%8B%20%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F.md)
+0. [多用继承](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/09_%E5%A4%9A%E7%94%A8%E7%BB%A7%E6%89%BF.md)
+0. [内容 填充 至 状态栏](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/10_%E5%86%85%E5%AE%B9%20%E5%A1%AB%E5%85%85%20%E8%87%B3%20%E7%8A%B6%E6%80%81%E6%A0%8F.md)
+0. [Android 7.1.1 正式版](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/11_Android%207.1.1%20%E6%AD%A3%E5%BC%8F%E7%89%88.md)
+0. [StatusBar NavigatorBar 适配 用的 开源库](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/17_StatusBar%20NavigatorBar%20%E9%80%82%E9%85%8D%20%E7%94%A8%E7%9A%84%20%E5%BC%80%E6%BA%90%E5%BA%93.md)
+0. [花了 一天时间 去整理 MVP](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/18_%E8%8A%B1%E4%BA%86%20%E4%B8%80%E5%A4%A9%E6%97%B6%E9%97%B4%20%E5%8E%BB%E6%95%B4%E7%90%86%20MVP.md)
+0. [狂用 弱引用](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/20_%E7%8B%82%E7%94%A8%20%E5%BC%B1%E5%BC%95%E7%94%A8.md)
+0. [断网测试 很重要](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/21_%E6%96%AD%E7%BD%91%E6%B5%8B%E8%AF%95%20%E5%BE%88%E9%87%8D%E8%A6%81.md)
+0. [Genymotion 相关](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/28_Genymotion%20%E7%9B%B8%E5%85%B3.md)
+0. [拆分 Presenter](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/31_%E6%8B%86%E5%88%86%20Presenter.md)
 
 
 ## Prototype
@@ -228,6 +240,19 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [近日计划](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/17_%E8%BF%91%E6%97%A5%E8%AE%A1%E5%88%92.md)
 0. [整理 Github](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/20_%E6%95%B4%E7%90%86%20Github.md)
 0. [最近要加紧写接口](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/21_%E6%9C%80%E8%BF%91%E8%A6%81%E5%8A%A0%E7%B4%A7%E5%86%99%E6%8E%A5%E5%8F%A3.md)
+0. [好忙 忘记写好几天了](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/01_%E5%A5%BD%E5%BF%99%20%E5%BF%98%E8%AE%B0%E5%86%99%E5%A5%BD%E5%87%A0%E5%A4%A9%E4%BA%86.md)
+0. [加了一小会儿的班](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/03_%E5%8A%A0%E4%BA%86%E4%B8%80%E5%B0%8F%E4%BC%9A%E5%84%BF%E7%9A%84%E7%8F%AD.md)
+0. [继续崩溃](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/04_%E7%BB%A7%E7%BB%AD%E5%B4%A9%E6%BA%83.md)
+0. [工作线程 内存泄漏 真不好搞定](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/08_%E5%B7%A5%E4%BD%9C%E7%BA%BF%E7%A8%8B%20%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%20%E7%9C%9F%E4%B8%8D%E5%A5%BD%E6%90%9E%E5%AE%9A.md)
+0. [忙](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/15_%E5%BF%99.md)
+0. [忙](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/16_%E5%BF%99.md)
+0. [分离 外包引用的 开源项目 到 gradle](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/19_%E5%88%86%E7%A6%BB%20%E5%A4%96%E5%8C%85%E5%BC%95%E7%94%A8%E7%9A%84%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20%E5%88%B0%20gradle.md)
+0. [内存泄漏 好多地方](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/22_%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%20%E5%A5%BD%E5%A4%9A%E5%9C%B0%E6%96%B9.md)
+0. [无语了](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/23_%E6%97%A0%E8%AF%AD%E4%BA%86.md)
+0. [ADB 坏了](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/26_ADB%20%E5%9D%8F%E4%BA%86.md)
+0. [代码全是坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/27_%E4%BB%A3%E7%A0%81%E5%85%A8%E6%98%AF%E5%9D%91.md)
+0. [准备重构](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/29_%E5%87%86%E5%A4%87%E9%87%8D%E6%9E%84.md)
+0. [继续准备重构]()
 
 
 `EOF`
