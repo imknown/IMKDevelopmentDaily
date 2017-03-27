@@ -20,6 +20,8 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [git flow 使用感受](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/04_git%20flow%20%E4%BD%BF%E7%94%A8%E6%84%9F%E5%8F%97.md)
 0. [Diff Merge 工具](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/24_Diff%20Merge%20%E5%B7%A5%E5%85%B7.md)
 0. [Git 本地未提交就 pull 的 风险](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/28_Git%20%E6%9C%AC%E5%9C%B0%E6%9C%AA%E6%8F%90%E4%BA%A4%E5%B0%B1%20pull%20%E7%9A%84%20%E9%A3%8E%E9%99%A9.md)
+0. [切换 lineage repo 分支](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/29_%E5%88%87%E6%8D%A2%20lineage%20repo%20%E5%88%86%E6%94%AF.md)
+0. [利用 Google repo 工具查看 远端更改](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/30_%E5%88%A9%E7%94%A8%20Google%20repo%20%E5%B7%A5%E5%85%B7%E6%9F%A5%E7%9C%8B%20%E8%BF%9C%E7%AB%AF%E6%9B%B4%E6%94%B9.md)
 
 
 ## Linux
@@ -44,6 +46,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Ubuntu 删除 所有 rc标记 deb包](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/05_Ubuntu%20%E5%88%A0%E9%99%A4%20%E6%89%80%E6%9C%89%20rc%E6%A0%87%E8%AE%B0%20deb%E5%8C%85.md)
 0. [Xubuntu 16 + 调整 Color Profiles 色温](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/06_Xubuntu%2016%20%2B%20%E8%B0%83%E6%95%B4%20Color%20Profiles%20%E8%89%B2%E6%B8%A9.md)
 0. <a href='https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/09_Unicode(UTF-8%2CUTF-16%2CUTF-32)%20%E5%92%8C%20ISO10646(UCS-2%2CUCS-4).md'>Unicode(UTF-8,UTF-16,UTF-32) 和 ISO10646(UCS-2,UCS-4)</a>
+0. [Ubuntu 16.10 修改 CPU 来降温](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/31_Ubuntu%2016.10%20%E4%BF%AE%E6%94%B9%20CPU%20%E6%9D%A5%E9%99%8D%E6%B8%A9.md)
 
 
 ## Windows
@@ -157,6 +160,14 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [断网测试 很重要](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/21_%E6%96%AD%E7%BD%91%E6%B5%8B%E8%AF%95%20%E5%BE%88%E9%87%8D%E8%A6%81.md)
 0. [Genymotion 相关](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/28_Genymotion%20%E7%9B%B8%E5%85%B3.md)
 0. [拆分 Presenter](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/31_%E6%8B%86%E5%88%86%20Presenter.md)
+0. [xml 中 View 与 view 的区别](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/09_xml%20%E4%B8%AD%20View%20%E4%B8%8E%20view%20%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+0. [高仿 iOS 10, 适配各种第三方 ROM](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/10_%E9%AB%98%E4%BB%BF%20iOS%2010%2C%20%E9%80%82%E9%85%8D%E5%90%84%E7%A7%8D%E7%AC%AC%E4%B8%89%E6%96%B9%20ROM.md)
+0. [DropDownListView EmptyView 实践](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/12_DropDownListView%20EmptyView%20%E5%AE%9E%E8%B7%B5.md)
+0. [内存泄漏 五花八门](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/14_%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%20%E4%BA%94%E8%8A%B1%E5%85%AB%E9%97%A8.md)
+0. [ROM 适配 简记](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/18_ROM%20%E9%80%82%E9%85%8D%20%E7%AE%80%E8%AE%B0.md)
+0. [搭建 TCL M3G LineageOS 编译环境](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/19_%E6%90%AD%E5%BB%BA%20TCL%20M3G%20LineageOS%20%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83.md)
+0. [TCL M3G 适配更高版本 Android 的一些想法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/22_TCL%20M3G%20%E9%80%82%E9%85%8D%E6%9B%B4%E9%AB%98%E7%89%88%E6%9C%AC%20Android%20%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95.md)
+0. [Rebrand to LineageOS](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/28_Rebrand%20to%20LineageOS.md)
 
 
 ## Prototype
@@ -170,6 +181,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [重要的 计算机网络](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/22_%E9%87%8D%E8%A6%81%E7%9A%84%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md)
 0. [StackOverflow 入门技巧](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/30.01_StackOverflow%20%E5%85%A5%E9%97%A8%E6%8A%80%E5%B7%A7.md)
 0. [Github 常用搜索](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/09/20_Github%20%E5%B8%B8%E7%94%A8%E6%90%9C%E7%B4%A2.md)
+0. [繪文字(Emoji) 与 顔文字(Kaomoji) 相关](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/07_%E7%B9%AA%E6%96%87%E5%AD%97(Emoji)%20%E4%B8%8E%20%E9%A1%94%E6%96%87%E5%AD%97(Kaomoji)%20%E7%9B%B8%E5%85%B3.md)
 
 
 ## Tittle-Tattle
@@ -253,6 +265,18 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [代码全是坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/27_%E4%BB%A3%E7%A0%81%E5%85%A8%E6%98%AF%E5%9D%91.md)
 0. [准备重构](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/29_%E5%87%86%E5%A4%87%E9%87%8D%E6%9E%84.md)
 0. [继续准备重构](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/12/30_%E7%BB%A7%E7%BB%AD%E5%87%86%E5%A4%87%E9%87%8D%E6%9E%84.md)
+0. [Happy New Year~](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/01_Happy%20New%20Year~.md)
+0. [研究 Github 开源的项目](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/02_%E7%A0%94%E7%A9%B6%20Github%20%E5%BC%80%E6%BA%90%E7%9A%84%E9%A1%B9%E7%9B%AE.md)
+0. [继续研究别人的开源项目](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/03_%E7%BB%A7%E7%BB%AD%E7%A0%94%E7%A9%B6%E5%88%AB%E4%BA%BA%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.md)
+0. [继续看别人写的代码](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/04_%E7%BB%A7%E7%BB%AD%E7%9C%8B%E5%88%AB%E4%BA%BA%E5%86%99%E7%9A%84%E4%BB%A3%E7%A0%81.md)
+0. [继续研究 android](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/05_%E7%BB%A7%E7%BB%AD%E7%A0%94%E7%A9%B6%20android.md)
+0. [忙](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/13_%E5%BF%99.md)
+0. [改 bug](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/16_%E6%94%B9%20bug.md)
+0. [继续改 bug](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/17_%E7%BB%A7%E7%BB%AD%E6%94%B9%20bug.md)
+0. [成功编译了 非官方的 CyanogenMod](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/20_%E6%88%90%E5%8A%9F%E7%BC%96%E8%AF%91%E4%BA%86%20%E9%9D%9E%E5%AE%98%E6%96%B9%E7%9A%84%20CyanogenMod.md)
+0. [继续研究 LineageOS](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/21_%E7%BB%A7%E7%BB%AD%E7%A0%94%E7%A9%B6%20LineageOS.md)
+0. [马上放假](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/24_%E9%A9%AC%E4%B8%8A%E6%94%BE%E5%81%87.md)
+0. [放假假死中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/26_%E6%94%BE%E5%81%87%E5%81%87%E6%AD%BB%E4%B8%AD.md)
 
 
 `EOF`
