@@ -22,6 +22,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Git 本地未提交就 pull 的 风险](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/28_Git%20%E6%9C%AC%E5%9C%B0%E6%9C%AA%E6%8F%90%E4%BA%A4%E5%B0%B1%20pull%20%E7%9A%84%20%E9%A3%8E%E9%99%A9.md)
 0. [切换 lineage repo 分支](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/29_%E5%88%87%E6%8D%A2%20lineage%20repo%20%E5%88%86%E6%94%AF.md)
 0. [利用 Google repo 工具查看 远端更改](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/30_%E5%88%A9%E7%94%A8%20Google%20repo%20%E5%B7%A5%E5%85%B7%E6%9F%A5%E7%9C%8B%20%E8%BF%9C%E7%AB%AF%E6%9B%B4%E6%94%B9.md)
+0. [Git 同步 远端 Tag](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/23_Git%20%E5%90%8C%E6%AD%A5%20%E8%BF%9C%E7%AB%AF%20Tag.md)
 
 
 ## Linux
@@ -47,6 +48,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Xubuntu 16 + 调整 Color Profiles 色温](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/06_Xubuntu%2016%20%2B%20%E8%B0%83%E6%95%B4%20Color%20Profiles%20%E8%89%B2%E6%B8%A9.md)
 0. <a href='https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/09_Unicode(UTF-8%2CUTF-16%2CUTF-32)%20%E5%92%8C%20ISO10646(UCS-2%2CUCS-4).md'>Unicode(UTF-8,UTF-16,UTF-32) 和 ISO10646(UCS-2,UCS-4)</a>
 0. [Ubuntu 16.10 修改 CPU 来降温](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/31_Ubuntu%2016.10%20%E4%BF%AE%E6%94%B9%20CPU%20%E6%9D%A5%E9%99%8D%E6%B8%A9.md)
+0. [考虑搞一下 Geetoo 或者 Arch](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/08_%E8%80%83%E8%99%91%E6%90%9E%E4%B8%80%E4%B8%8B%20Geetoo%20%E6%88%96%E8%80%85%20Arch.md)
 
 
 ## Windows
@@ -54,6 +56,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. <a href='https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/07/23_%E5%BE%AE%E8%BD%AF%20%E7%9B%B8%E5%85%B3%E7%9A%84%20%E5%B7%A5%E5%85%B7%20(%E9%9B%BE.md'>微软 相关的 工具 (雾</a>
 0. [WinForm 国际化](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/23_WinForm%20%E5%9B%BD%E9%99%85%E5%8C%96.md)
 0. [Mono 地址一记](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/24_Mono%20%E5%9C%B0%E5%9D%80%E4%B8%80%E8%AE%B0.md)
+0. [微软 Windows 10 一周年 RS1 MTP 失效临时解决方法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/09_%E5%BE%AE%E8%BD%AF%20Windows%2010%20%E4%B8%80%E5%91%A8%E5%B9%B4%20RS1%20MTP%20%E5%A4%B1%E6%95%88%E4%B8%B4%E6%97%B6%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.md)
 
 
 ## Android
@@ -168,6 +171,20 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [搭建 TCL M3G LineageOS 编译环境](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/19_%E6%90%AD%E5%BB%BA%20TCL%20M3G%20LineageOS%20%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83.md)
 0. [TCL M3G 适配更高版本 Android 的一些想法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/22_TCL%20M3G%20%E9%80%82%E9%85%8D%E6%9B%B4%E9%AB%98%E7%89%88%E6%9C%AC%20Android%20%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95.md)
 0. [Rebrand to LineageOS](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/28_Rebrand%20to%20LineageOS.md)
+0. [升级到 Android 7.1.2 卡出翔](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/02_%E5%8D%87%E7%BA%A7%E5%88%B0%20Android%207.1.2%20%E5%8D%A1%E5%87%BA%E7%BF%94.md)
+0. [一些 C(PP) IDE](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/03_%E4%B8%80%E4%BA%9B%20C(PP)%20IDE..md)
+0. [常用 C(PP) 编译器](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/04_%E5%B8%B8%E7%94%A8%20C(PP)%20%E7%BC%96%E8%AF%91%E5%99%A8.md)
+0. [Android 可能用到的 动画库](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/06_Android%20%E5%8F%AF%E8%83%BD%E7%94%A8%E5%88%B0%E7%9A%84%20%E5%8A%A8%E7%94%BB%E5%BA%93.md)
+0. [Activity 重建的几个原因](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/11_Activity%20%E9%87%8D%E5%BB%BA%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8E%9F%E5%9B%A0.md)
+0. [适配 Android N 的 Multi-Window和 Freeform](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/13_%E9%80%82%E9%85%8D%20Android%20N%20%E7%9A%84%20Multi-Window%E5%92%8C%20Freeform.md)
+0. [认真看 android 动画](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/14_%E8%AE%A4%E7%9C%9F%E7%9C%8B%20android%20%E5%8A%A8%E7%94%BB.md)
+0. [编译 TCL M3G 的 Linux Kernel](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/16_%E7%BC%96%E8%AF%91%20TCL%20M3G%20%E7%9A%84%20Linux%20Kernel.md)
+0. [关于 AdapterView 的 ViewHolder](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/20_%E5%85%B3%E4%BA%8E%20AdapterView%20%E7%9A%84%20ViewHolder.md)
+0. [Android kernel log 抓取](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/21_Android%20kernel%20log%20%E6%8A%93%E5%8F%96.md)
+0. [简单抓 Android 分区](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/22_%E7%AE%80%E5%8D%95%E6%8A%93%20Android%20%E5%88%86%E5%8C%BA.md)
+0. [Android Reveal 动画 及 模糊](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/24_Android%20Reveal%20%E5%8A%A8%E7%94%BB%20%E5%8F%8A%20%E6%A8%A1%E7%B3%8A.md)
+0. [Android 4.x Reveal 动画](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/27_Android%204.x%20Reveal%20%E5%8A%A8%E7%94%BB.md)
+0. [高斯模糊 加 RenderScript 等于 迷茫](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/28_%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A%20%E5%8A%A0%20RenderScript%20%E7%AD%89%E4%BA%8E%20%E8%BF%B7%E8%8C%AB.md)
 
 
 ## Prototype
@@ -182,6 +199,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [StackOverflow 入门技巧](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/30.01_StackOverflow%20%E5%85%A5%E9%97%A8%E6%8A%80%E5%B7%A7.md)
 0. [Github 常用搜索](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/09/20_Github%20%E5%B8%B8%E7%94%A8%E6%90%9C%E7%B4%A2.md)
 0. [繪文字(Emoji) 与 顔文字(Kaomoji) 相关](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/07_%E7%B9%AA%E6%96%87%E5%AD%97(Emoji)%20%E4%B8%8E%20%E9%A1%94%E6%96%87%E5%AD%97(Kaomoji)%20%E7%9B%B8%E5%85%B3.md)
+0. [关于谷歌服务器 与 其反向代理服务器](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/07_%E5%85%B3%E4%BA%8E%E8%B0%B7%E6%AD%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%20%E4%B8%8E%20%E5%85%B6%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8.md)
 
 
 ## Tittle-Tattle
@@ -277,6 +295,8 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [继续研究 LineageOS](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/21_%E7%BB%A7%E7%BB%AD%E7%A0%94%E7%A9%B6%20LineageOS.md)
 0. [马上放假](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/24_%E9%A9%AC%E4%B8%8A%E6%94%BE%E5%81%87.md)
 0. [放假假死中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/26_%E6%94%BE%E5%81%87%E5%81%87%E6%AD%BB%E4%B8%AD.md)
+0. [码农 又陷入 需求和业务 的沼泽](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/15_%E7%A0%81%E5%86%9C%20%E5%8F%88%E9%99%B7%E5%85%A5%20%E9%9C%80%E6%B1%82%E5%92%8C%E4%B8%9A%E5%8A%A1%20%E7%9A%84%E6%B2%BC%E6%B3%BD.md)
+0. [了解手机半导体行业](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/19_%E4%BA%86%E8%A7%A3%E6%89%8B%E6%9C%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A.md)
 
 
 `EOF`
