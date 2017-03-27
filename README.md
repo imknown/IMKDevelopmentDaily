@@ -49,6 +49,10 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. <a href='https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/09_Unicode(UTF-8%2CUTF-16%2CUTF-32)%20%E5%92%8C%20ISO10646(UCS-2%2CUCS-4).md'>Unicode(UTF-8,UTF-16,UTF-32) 和 ISO10646(UCS-2,UCS-4)</a>
 0. [Ubuntu 16.10 修改 CPU 来降温](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/31_Ubuntu%2016.10%20%E4%BF%AE%E6%94%B9%20CPU%20%E6%9D%A5%E9%99%8D%E6%B8%A9.md)
 0. [考虑搞一下 Geetoo 或者 Arch](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/08_%E8%80%83%E8%99%91%E6%90%9E%E4%B8%80%E4%B8%8B%20Geetoo%20%E6%88%96%E8%80%85%20Arch.md)
+0. [Android Studio 2.4 CJK(中文日文韩文) 乱码](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/15_Android%20Studio%202.4%20CJK(%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87%E9%9F%A9%E6%96%87)%20%E4%B9%B1%E7%A0%81.md)
+0. [解决 Ubuntu AVD 不能使用 Hareware 驱动](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/19_%E8%A7%A3%E5%86%B3%20Ubuntu%20AVD%20%E4%B8%8D%E8%83%BD%E4%BD%BF%E7%94%A8%20Hareware%20%E9%A9%B1%E5%8A%A8.md)
+0. [[转载] Ubuntu 搜狗拼音 不能输入中文 解决方法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/20_Java%208%20%E5%A5%BD%E5%A4%9A%E8%AF%AD%E6%B3%95%E5%8F%82%E8%80%83%E4%BA%86%20%E5%85%B6%E4%BB%96%20JVM%20%E8%AF%AD%E8%A8%80.md)
+0. [Ubuntu 16 修改 DNS](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/24_Ubuntu%2016%20%E4%BF%AE%E6%94%B9%20DNS.md)
 
 
 ## Windows
@@ -185,6 +189,22 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Android Reveal 动画 及 模糊](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/24_Android%20Reveal%20%E5%8A%A8%E7%94%BB%20%E5%8F%8A%20%E6%A8%A1%E7%B3%8A.md)
 0. [Android 4.x Reveal 动画](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/27_Android%204.x%20Reveal%20%E5%8A%A8%E7%94%BB.md)
 0. [高斯模糊 加 RenderScript 等于 迷茫](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/28_%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A%20%E5%8A%A0%20RenderScript%20%E7%AD%89%E4%BA%8E%20%E8%BF%B7%E8%8C%AB.md)
+0. [Android PopupWindow 踩坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/01_Android%20PopupWindow%20%E8%B8%A9%E5%9D%91.md)
+0. [MD 控件](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/02_MD%20%E6%8E%A7%E4%BB%B6.md)
+0. [研究 张鸿洋大神 代码 收获匪浅](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/03_%E7%A0%94%E7%A9%B6%20%E5%BC%A0%E9%B8%BF%E6%B4%8B%E5%A4%A7%E7%A5%9E%20%E4%BB%A3%E7%A0%81%20%E6%94%B6%E8%8E%B7%E5%8C%AA%E6%B5%85.md)
+0. [Fragment 嵌套通信问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/04_Fragment%20%E5%B5%8C%E5%A5%97%E9%80%9A%E4%BF%A1%E9%97%AE%E9%A2%98.md)
+0. [Activity 的 onActivityResult 方法 回调过早的原因](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/06_Activity%20%E7%9A%84%20onActivityResult%20%E6%96%B9%E6%B3%95%20%E5%9B%9E%E8%B0%83%E8%BF%87%E6%97%A9%E7%9A%84%E5%8E%9F%E5%9B%A0.md)
+0. [关于 Intent 的 Flags](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/09_%E5%85%B3%E4%BA%8E%20Intent%20%E7%9A%84%20Flags.md)
+0. [[转载] 涨姿势！手机端的META你知道多少？](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/11_%5B%E8%BD%AC%E8%BD%BD%5D%20%E6%B6%A8%E5%A7%BF%E5%8A%BF%EF%BC%81%E6%89%8B%E6%9C%BA%E7%AB%AF%E7%9A%84META%E4%BD%A0%E7%9F%A5%E9%81%93%E5%A4%9A%E5%B0%91%EF%BC%9F.md)
+0. [应用安装后 点击打开, 回到启动器桌面, 点击图标 应用重启的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/12_%E5%BA%94%E7%94%A8%E5%AE%89%E8%A3%85%E5%90%8E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80%2C%20%E5%9B%9E%E5%88%B0%E5%90%AF%E5%8A%A8%E5%99%A8%E6%A1%8C%E9%9D%A2%2C%20%E7%82%B9%E5%87%BB%E5%9B%BE%E6%A0%87%20%E5%BA%94%E7%94%A8%E9%87%8D%E5%90%AF%E7%9A%84%E9%97%AE%E9%A2%98.md)
+0. [百度定位 回调线程问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/14_%E7%99%BE%E5%BA%A6%E5%AE%9A%E4%BD%8D%20%E5%9B%9E%E8%B0%83%E7%BA%BF%E7%A8%8B%E9%97%AE%E9%A2%98.md)
+0. [解决 Linux Android Studio Emulator 无网络的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/16_%E8%A7%A3%E5%86%B3%20Linux%20Android%20Studio%20Emulator%20%E6%97%A0%E7%BD%91%E7%BB%9C%E7%9A%84%E9%97%AE%E9%A2%98.md)
+0. [android 内存 几则小知识](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/17_android%20%E5%86%85%E5%AD%98%20%E5%87%A0%E5%88%99%E5%B0%8F%E7%9F%A5%E8%AF%86.md)
+0. [Java 8 流操作神类](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/18_Java%208%20%E6%B5%81%E6%93%8D%E4%BD%9C%E7%A5%9E%E7%B1%BB.md)
+0. [Android 去 网络的叉 或者 叹号](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/22_Android%20去%20网络的叉%20或者%20叹号.md)
+0. [用了一天 Android 8](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/23_%E7%94%A8%E4%BA%86%E4%B8%80%E5%A4%A9%20Android%208.md)
+0. [Android API 26 获取宽度 缺少 1px](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/25_Android%20API%2026%20%E8%8E%B7%E5%8F%96%E5%AE%BD%E5%BA%A6%20%E7%BC%BA%E5%B0%91%201px.md)
+0. [Android L 过度动画 几篇文章](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/27_Android%20L%20%E8%BF%87%E5%BA%A6%E5%8A%A8%E7%94%BB%20%E5%87%A0%E7%AF%87%E6%96%87%E7%AB%A0.md)
 
 
 ## Prototype
@@ -200,6 +220,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Github 常用搜索](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/09/20_Github%20%E5%B8%B8%E7%94%A8%E6%90%9C%E7%B4%A2.md)
 0. [繪文字(Emoji) 与 顔文字(Kaomoji) 相关](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/07_%E7%B9%AA%E6%96%87%E5%AD%97(Emoji)%20%E4%B8%8E%20%E9%A1%94%E6%96%87%E5%AD%97(Kaomoji)%20%E7%9B%B8%E5%85%B3.md)
 0. [关于谷歌服务器 与 其反向代理服务器](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/07_%E5%85%B3%E4%BA%8E%E8%B0%B7%E6%AD%8C%E6%9C%8D%E5%8A%A1%E5%99%A8%20%E4%B8%8E%20%E5%85%B6%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8.md)
+0. [[转载] 也许，这样理解HTTPS更容易](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/08_%5B%E8%BD%AC%E8%BD%BD%5D%20%E4%B9%9F%E8%AE%B8%EF%BC%8C%E8%BF%99%E6%A0%B7%E7%90%86%E8%A7%A3HTTPS%E6%9B%B4%E5%AE%B9%E6%98%93.md)
 
 
 ## Tittle-Tattle
@@ -297,6 +318,9 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [放假假死中](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/26_%E6%94%BE%E5%81%87%E5%81%87%E6%AD%BB%E4%B8%AD.md)
 0. [码农 又陷入 需求和业务 的沼泽](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/15_%E7%A0%81%E5%86%9C%20%E5%8F%88%E9%99%B7%E5%85%A5%20%E9%9C%80%E6%B1%82%E5%92%8C%E4%B8%9A%E5%8A%A1%20%E7%9A%84%E6%B2%BC%E6%B3%BD.md)
 0. [了解手机半导体行业](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/19_%E4%BA%86%E8%A7%A3%E6%89%8B%E6%9C%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A.md)
+0. [Review 公司代码](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/05_Review%20%E5%85%AC%E5%8F%B8%E4%BB%A3%E7%A0%81.md)
+0. [努力做好自己](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/10_%E5%8A%AA%E5%8A%9B%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1.md)
+0. [Java 8 好多语法参考了 其他 JVM 语言](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/20_Java%208%20%E5%A5%BD%E5%A4%9A%E8%AF%AD%E6%B3%95%E5%8F%82%E8%80%83%E4%BA%86%20%E5%85%B6%E4%BB%96%20JVM%20%E8%AF%AD%E8%A8%80.md)
 
 
 `EOF`
