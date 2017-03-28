@@ -8,7 +8,7 @@
 ``` bash
 # 这个 `DNS` 改成 可用的就行, 不一定是 谷歌的 '8.8.8.8'.
 # 这个 模拟器名字 别忘记换成自己的
-emulator -avd Nexus_5X_API_24 -dns-server 8.8.8.8 -verbose
+./emulator -avd Nexus_5X_API_25 -dns-server 8.8.8.8 -verbose
 ```
 
 # 参考
