@@ -2,7 +2,7 @@
 
 加入参数: `-use-system-libs`
 ``` bash
-./emulator -avd Nexus_5X_API_24 -dns-server 119.29.29.29 -verbose -use-system-libs`
+./emulator -avd Nexus_5X_API_24 -dns-server 119.29.29.29 -verbose -use-system-libs
 ```
 
 **如果 不好用**, 尝试:
