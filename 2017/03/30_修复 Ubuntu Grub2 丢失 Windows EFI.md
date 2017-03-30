@@ -1,4 +1,4 @@
-手动感谢 @LrinQVQ.
+手动感谢 @lrinQVQ.
 
 ### 手动查看信息
 `/boot/grub/grub.cfg` 这个文件 会在 `sudo update-grub2` 之后覆写.  
