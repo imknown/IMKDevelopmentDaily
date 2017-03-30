@@ -4,9 +4,10 @@
 `/boot/grub/grub.cfg` 这个文件 会在 `sudo update-grub2` 之后覆写.  
 覆写的依据是 `/etc/grub.d` 中 若干文件 (参看 `/etc/grub.d/README`).
 > cat /boot/grub/grub.cfg
+
 > fdisk -l
 
-备份一下 我的**正确** `Windows 10` 引导:
+~~顺便~~ 备份一下 我的**正确** `Windows 10` 引导:
 ``` cfg
 ### BEGIN /etc/grub.d/30_os-prober ###
 menuentry 'Windows Boot Manager (on /dev/sdb2)' --class windows --class os $menuentry_id_option 'osprober-efi-A2BB-769D' {
