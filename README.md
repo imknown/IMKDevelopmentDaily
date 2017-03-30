@@ -53,6 +53,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [解决 Ubuntu AVD 不能使用 Hareware 驱动](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/19_%E8%A7%A3%E5%86%B3%20Ubuntu%20AVD%20%E4%B8%8D%E8%83%BD%E4%BD%BF%E7%94%A8%20Hareware%20%E9%A9%B1%E5%8A%A8.md)
 0. [[转载] Ubuntu 搜狗拼音 不能输入中文 解决方法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/20_Java%208%20%E5%A5%BD%E5%A4%9A%E8%AF%AD%E6%B3%95%E5%8F%82%E8%80%83%E4%BA%86%20%E5%85%B6%E4%BB%96%20JVM%20%E8%AF%AD%E8%A8%80.md)
 0. [Ubuntu 16 修改 DNS](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/24_Ubuntu%2016%20%E4%BF%AE%E6%94%B9%20DNS.md)
+0. [修复 Ubuntu GRUB2 丢失 Windows EFI](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/30_%E4%BF%AE%E5%A4%8D%20Ubuntu%20GRUB2%20%E4%B8%A2%E5%A4%B1%20Windows%20EFI.md)
 
 
 ## Windows
