@@ -1,0 +1,11 @@
+- https://poi.apache.org/
+- https://github.com/centic9/poi-on-android/
+- https://github.com/qhm123/POI-Android
+- https://github.com/centic9/poi-on-android/
+------
+- https://github.com/andruhon/AndroidReadXLSX
+- https://github.com/andruhon/android5xlsx
+- https://github.com/orient33/androidPPTXreader
+------
+- https://github.com/OfficeDev/Office-365-SDK-for-Android
+- https://github.com/ashank/Office-365-SDK-for-Android
