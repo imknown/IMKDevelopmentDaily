@@ -324,6 +324,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Review 公司代码](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/05_Review%20%E5%85%AC%E5%8F%B8%E4%BB%A3%E7%A0%81.md)
 0. [努力做好自己](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/10_%E5%8A%AA%E5%8A%9B%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1.md)
 0. [Java 8 好多语法参考了 其他 JVM 语言](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/20_Java%208%20%E5%A5%BD%E5%A4%9A%E8%AF%AD%E6%B3%95%E5%8F%82%E8%80%83%E4%BA%86%20%E5%85%B6%E4%BB%96%20JVM%20%E8%AF%AD%E8%A8%80.md)
+0. [愚人节快乐](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/01_%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90.md)
 
 
 `EOF`
