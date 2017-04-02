@@ -43,7 +43,10 @@
 | MacOS / iOS      | 72   |
 | Windows / Ubuntu | 96   |
 | Android          | 160  |
-参考: http://askubuntu.com/questions/197828/how-to-find-and-change-the-screen-dpi
+
+参考:
+- https://blogs.msdn.microsoft.com/fontblog/2005/11/08/where-does-96-dpi-come-from-in-windows/
+- http://askubuntu.com/questions/197828/how-to-find-and-change-the-screen-dpi
 
 # Android 常用 DPI 常量
 | 缩写    | 值   | 值 / mdpi |
