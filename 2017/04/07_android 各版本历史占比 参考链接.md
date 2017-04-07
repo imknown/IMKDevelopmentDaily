@@ -1,0 +1,6 @@
+- https://developer.android.com/about/dashboards/index.html
+- http://www.bidouille.org/misc/androidcharts
+- https://en.wikipedia.org/wiki/Android_version_history
+- https://www.android.com/history
+- http://www.umindex.com/
+- https://developer.android.com/about/index.html
