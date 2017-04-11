@@ -211,6 +211,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Android 系统应用 开发准备 参考资料](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/03_Android%20%E7%B3%BB%E7%BB%9F%E5%BA%94%E7%94%A8%20%E5%BC%80%E5%8F%91%E5%87%86%E5%A4%87%20%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.md)
 0. [android 各版本历史占比 参考链接](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/07_android%20%E5%90%84%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2%E5%8D%A0%E6%AF%94%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
 0. [[转载] 「Android」 APK瘦身探索](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/10_%5B%E8%BD%AC%E8%BD%BD%5D%20%E3%80%8CAndroid%E3%80%8D%20APK%E7%98%A6%E8%BA%AB%E6%8E%A2%E7%B4%A2.md)
+0. [LinearLayout 子控件分隔 实现思路](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/11_LinearLayout%20%E5%AD%90%E6%8E%A7%E4%BB%B6%E5%88%86%E9%9A%94%20%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF.md)
 
 
 ## Prototype
