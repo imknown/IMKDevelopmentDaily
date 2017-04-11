@@ -7,5 +7,5 @@
 - http://stackoverflow.com/questions/19115332/android-draw-a-horizontal-line-between-views
 - http://stackoverflow.com/questions/15128652/how-to-add-vertical-divider-to-a-horizontal-linearlayout
 - http://envyandroid.com/view-separators/
-- https://github.com/JakeWharton/ActionBarSherlock/blob/master/actionbarsherlock/src/android/support/v4/app/Watson.java
+- https://github.com/JakeWharton/ActionBarSherlock/blob/master/actionbarsherlock/src/com/actionbarsherlock/internal/widget/IcsLinearLayout.java
 - http://blog.csdn.net/lmj623565791/article/details/42407923
