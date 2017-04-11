@@ -3,6 +3,6 @@
 2. 程序崩溃, `Task Stack` 从 `栈顶` 重建 `Activity`.
 3. 启用了 `开发者模式` 的 `不保留活动`.
 4. `Multi-Window` 或者 `FreeForm` 的 `大小改变`.
-5. 修改系统设置 (如 `dpi`, `语言`, `字号`等).  
+5. 修改 系统设置 `Configuration` (如 `dpi`, `语言`, `字号`等).  
    可能是因为影响了 `Resources ` 的 `Configuration`.
 6. `类似原理` 的操作..
