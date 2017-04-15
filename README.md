@@ -23,6 +23,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [切换 lineage repo 分支](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/29_%E5%88%87%E6%8D%A2%20lineage%20repo%20%E5%88%86%E6%94%AF.md)
 0. [利用 Google repo 工具查看 远端更改](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/01/30_%E5%88%A9%E7%94%A8%20Google%20repo%20%E5%B7%A5%E5%85%B7%E6%9F%A5%E7%9C%8B%20%E8%BF%9C%E7%AB%AF%E6%9B%B4%E6%94%B9.md)
 0. [Git 同步 远端 Tag](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/23_Git%20%E5%90%8C%E6%AD%A5%20%E8%BF%9C%E7%AB%AF%20Tag.md)
+0. [git 通过 反代 提交 大体积文件](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/15_git%20%E9%80%9A%E8%BF%87%20%E5%8F%8D%E4%BB%A3%20%E6%8F%90%E4%BA%A4%20%E5%A4%A7%E4%BD%93%E7%A7%AF%E6%96%87%E4%BB%B6.md)
 
 
 ## Linux
