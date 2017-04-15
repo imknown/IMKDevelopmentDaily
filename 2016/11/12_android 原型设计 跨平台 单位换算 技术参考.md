@@ -146,7 +146,9 @@ P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
 ```
 
 # 小例子: 手机 显示 100dp
-设 `C = 100dp`  
+> 可参考 https://material.io/devices/
+
+设 `C = 100dp`  
 
 | pr        | S       | √‾S        |
 | --------- | ------- | ---------- |
