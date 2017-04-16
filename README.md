@@ -7,7 +7,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
 # Contents
-> https://github.com/imknown/IMKDevelopmentDaily
+https://github.com/imknown/IMKDevelopmentDaily
 
 ## VCS
 0. [更新 'Github Fork 之后的 Repo' 的方法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/04/23_%E6%9B%B4%E6%96%B0%20'Github%20Fork%20%E4%B9%8B%E5%90%8E%E7%9A%84%20Repo'%20%E7%9A%84%E6%96%B9%E6%B3%95.md)
