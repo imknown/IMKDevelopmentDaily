@@ -1,5 +1,5 @@
 # Hello, world!
-原始地址 https://github.com/imknown/IMKDevelopmentDaily
+原始地址: [https://github.com/imknown/IMKDevelopmentDaily](https://github.com/imknown/IMKDevelopmentDaily)
 
 I recommended to use [octotree][octotree] for better browse experience~
 
