@@ -1,6 +1,6 @@
-1. android:showDividers, android:divider
+1. `android:showDividers`, `android:divider`
 2. `<View />` or `<Space />`
-3. style="?android:listSeparatorTextViewStyle" (效果待核实)
+3. `style="?android:listSeparatorTextViewStyle"` (效果待核实)
 
 # 参考
 - http://stackoverflow.com/questions/5049852/android-drawing-separator-divider-line-in-layout
