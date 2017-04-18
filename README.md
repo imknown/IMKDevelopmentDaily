@@ -217,6 +217,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [LinearLayout 子控件分隔 实现思路](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/11_LinearLayout%20%E5%AD%90%E6%8E%A7%E4%BB%B6%E5%88%86%E9%9A%94%20%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF.md)
 0. [Java 单例 参考链接](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/14_Java%20%E5%8D%95%E4%BE%8B%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
 0. [解决 'Unable to find module with Gradle path. Linking to xxx-unspecified instead' 的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/16_%E8%A7%A3%E5%86%B3%20'Unable%20to%20find%20module%20with%20Gradle%20path.%20Linking%20to%20xxx-unspecified%20instead'%20%E7%9A%84%E9%97%AE%E9%A2%98.md)
+0. [ViewPager 使用 PagerAdapter 报错 The specified child already has a parent](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/17_ViewPager%20%E4%BD%BF%E7%94%A8%20PagerAdapter%20%E6%8A%A5%E9%94%99%20The%20specified%20child%20already%20has%20a%20parent.md)
 
 
 ## Prototype
