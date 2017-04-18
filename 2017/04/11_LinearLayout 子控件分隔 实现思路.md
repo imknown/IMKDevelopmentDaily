@@ -1,5 +1,5 @@
 1. android:showDividers, android:divider
-2. <View /> or <Space />
+2. `<View />` or `<Space />`
 3. style="?android:listSeparatorTextViewStyle" (效果待核实)
 
 # 参考
