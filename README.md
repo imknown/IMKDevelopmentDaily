@@ -339,6 +339,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [愚人节快乐](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/01_%E6%84%9A%E4%BA%BA%E8%8A%82%E5%BF%AB%E4%B9%90.md)
 0. [半透明 Activity 就是一个坑](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/05_%E5%8D%8A%E9%80%8F%E6%98%8E%20Activity%20%E5%B0%B1%E6%98%AF%E4%B8%80%E4%B8%AA%E5%9D%91.md)
 0. [学习 MD](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/25_%E5%AD%A6%E4%B9%A0%20MD.md)
+0. [继续学习 MD](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/28_%E7%BB%A7%E7%BB%AD%E5%AD%A6%E4%B9%A0%20MD.md)
 
 
 `EOF`
