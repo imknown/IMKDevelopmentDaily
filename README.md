@@ -58,6 +58,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Ubuntu 16 修改 DNS](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/24_Ubuntu%2016%20%E4%BF%AE%E6%94%B9%20DNS.md)
 0. [修复 Ubuntu GRUB2 丢失 Windows EFI](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/03/30_%E4%BF%AE%E5%A4%8D%20Ubuntu%20GRUB2%20%E4%B8%A2%E5%A4%B1%20Windows%20EFI.md)
 0. [XFCE 中 Thunar 无法运行 shell 脚本的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/24_XFCE%20%E4%B8%AD%20Thunar%20%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%20shell%20%E8%84%9A%E6%9C%AC%E7%9A%84%E9%97%AE%E9%A2%98.md)
+0. [修复 Ubuntu 16.04 RTL8723BE 无线网卡 不稳定](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/29_%E4%BF%AE%E5%A4%8D%20Ubuntu%2016.04%20RTL8723BE%20%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%20%E4%B8%8D%E7%A8%B3%E5%AE%9A.md)
 
 
 ## Windows
