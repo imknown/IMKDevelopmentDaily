@@ -7,3 +7,4 @@
 - https://github.com/hongyangAndroid/baseAdapter
 - https://github.com/Malinskiy/SuperRecyclerView
 - https://github.com/drakeet/MultiType
+- https://github.com/yanzhenjie/SwipeRecyclerView
