@@ -222,6 +222,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [ViewPager 使用 PagerAdapter 报错 The specified child already has a parent](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/17_ViewPager%20%E4%BD%BF%E7%94%A8%20PagerAdapter%20%E6%8A%A5%E9%94%99%20The%20specified%20child%20already%20has%20a%20parent.md)
 0. [CoordinatorLayout 自定义 Behavior 参考链接](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/30_CoordinatorLayout%20%E8%87%AA%E5%AE%9A%E4%B9%89%20Behavior%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
 0. [RecyclerView 轮子 参考链接](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/01_RecyclerView%20%E8%BD%AE%E5%AD%90%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
+0. [Android 竖屏下 虚拟导航栏 存在性及其高度](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/03_Android%20%E7%AB%96%E5%B1%8F%E4%B8%8B%20%E8%99%9A%E6%8B%9F%E5%AF%BC%E8%88%AA%E6%A0%8F%20%E5%AD%98%E5%9C%A8%E6%80%A7%E5%8F%8A%E5%85%B6%E9%AB%98%E5%BA%A6.md)
 
 
 ## Prototype
