@@ -1,15 +1,38 @@
 # 是否存在
 ``` java
 public static boolean isSoftNavigationBarAvailable() {
-    // OPPO R9m (Android 6) return 'ture' (is wrong)
-    // int id = context.getResources().getIdentifier("config_showNavigationBar", "bool", "android");
-    // boolean has1 = (id > 0 && context.getResources().getBoolean(id));
+    boolean hasSoftwareKeys;
 
-    boolean hasBackKey = KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_BACK);
-    boolean hasHomeKey = KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_HOME);
-    boolean has2 = (!(hasBackKey && hasHomeKey));
+//    // 这个 在 OPPO R9m (Android 6) 返回 true, 但是 应该返回 false
+//    int id = context.getResources().getIdentifier("config_showNavigationBar", "bool", "android");
+//    hasSoftwareKeys = (id > 0 && context.getResources().getBoolean(id));
 
-    return /* has1 || */ has2;
+    WindowManager manager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+        Display d = manager.getDefaultDisplay();
+
+        DisplayMetrics realDisplayMetrics = new DisplayMetrics();
+        d.getRealMetrics(realDisplayMetrics);
+
+        int realHeight = realDisplayMetrics.heightPixels;
+        int realWidth = realDisplayMetrics.widthPixels;
+
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        d.getMetrics(displayMetrics);
+
+        int displayHeight = displayMetrics.heightPixels;
+        int displayWidth = displayMetrics.widthPixels;
+
+        hasSoftwareKeys = (realWidth - displayWidth) > 0 || (realHeight - displayHeight) > 0;
+    } else {
+//        boolean hasMenuKey = ViewConfiguration.get(context).hasPermanentMenuKey();
+        boolean hasBackKey = KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_BACK);
+        boolean hasHomeKey = KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_HOME);
+        hasSoftwareKeys = !(hasBackKey && hasHomeKey);
+    }
+
+    return hasSoftwareKeys;
 }
 ```
 
