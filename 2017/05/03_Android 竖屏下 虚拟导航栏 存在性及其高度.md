@@ -1,6 +1,6 @@
 # 是否存在
 ``` java
-public static boolean isSoftNavigationBarAvailable() {
+public static boolean isSoftNavigationBarAvailable(Context context) {
     boolean hasSoftwareKeys;
 
 //    // 这个 在 OPPO R9m (Android 6) 返回 true, 但是 应该返回 false
