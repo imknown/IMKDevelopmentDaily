@@ -350,6 +350,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [继续学习 MD](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/28_%E7%BB%A7%E7%BB%AD%E5%AD%A6%E4%B9%A0%20MD.md)
 0. [上线加班](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/04_%E4%B8%8A%E7%BA%BF%E5%8A%A0%E7%8F%AD.md)
 0. [疯狂加班 但是没有工资](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/10_%E7%96%AF%E7%8B%82%E5%8A%A0%E7%8F%AD%20%E4%BD%86%E6%98%AF%E6%B2%A1%E6%9C%89%E5%B7%A5%E8%B5%84.md)
+0. [坐等 Android O](https://github.com/imknown/IMKDevelopmentDaily/tree/master/2017/05)
 
 
 `EOF`
