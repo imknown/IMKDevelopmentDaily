@@ -8,6 +8,7 @@ sudo gedit /sys/devices/system/cpu/intel_pstate/no_turbo
 
 ### 参考
 - http://askubuntu.com/questions/764204/cant-disable-turbo-boost-since-ubuntu-16-04
+- http://yanke.info/?id=46
 
 ------
 
