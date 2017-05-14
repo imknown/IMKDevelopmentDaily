@@ -226,6 +226,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Android 竖屏下 虚拟导航栏 存在性及其高度](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/03_Android%20%E7%AB%96%E5%B1%8F%E4%B8%8B%20%E8%99%9A%E6%8B%9F%E5%AF%BC%E8%88%AA%E6%A0%8F%20%E5%AD%98%E5%9C%A8%E6%80%A7%E5%8F%8A%E5%85%B6%E9%AB%98%E5%BA%A6.md)
 0. [属性动画真不错](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/05_%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB%E7%9C%9F%E4%B8%8D%E9%94%99.md)
 0. [ViewPager 和 Adapter 获取当前 View](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/06_ViewPager%20和%20Adapter%20获取当前%20View.md)
+0. [[转载] WebView 全面使用攻略](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/14_%5B%E8%BD%AC%E8%BD%BD%5D%20WebView%20%E5%85%A8%E9%9D%A2%E4%BD%BF%E7%94%A8%E6%94%BB%E7%95%A5.md)
 
 
 ## Prototype
