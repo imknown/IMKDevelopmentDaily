@@ -227,6 +227,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [属性动画真不错](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/05_%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB%E7%9C%9F%E4%B8%8D%E9%94%99.md)
 0. [ViewPager 和 Adapter 获取当前 View](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/06_ViewPager%20和%20Adapter%20获取当前%20View.md)
 0. [[转载] WebView 全面使用攻略](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/14_%5B%E8%BD%AC%E8%BD%BD%5D%20WebView%20%E5%85%A8%E9%9D%A2%E4%BD%BF%E7%94%A8%E6%94%BB%E7%95%A5.md)
+0. [解决 TextWatcher 中 EditText.setText() 导致的 StackOverflow](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/15_%E8%A7%A3%E5%86%B3%20TextWatcher%20%E4%B8%AD%20EditText.setText()%20%E5%AF%BC%E8%87%B4%E7%9A%84%20StackOverflow.md)
 
 
 ## Prototype
