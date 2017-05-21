@@ -1,13 +1,10 @@
 # PPA 源
-- 官方 (ppa:wine/wine-builds, 最新开发版?)  
-https://launchpad.net/~wine/+archive/ubuntu/wine-builds  
-https://wiki.winehq.org/Ubuntu
-``` bash
-sudo dpkg --add-architecture i386
-sudo add-apt-repository ppa:wine/wine-builds
-sudo apt-get update
-sudo apt-get install --install-recommends winehq-devel
-```
+- WineHQ 官方
+  - 新方法  
+  https://wiki.winehq.org/Ubuntu
+
+  - 过时的方法:  
+  https://launchpad.net/~wine/+archive/ubuntu/wine-builds  
 
 - Ubuntu Wine Team (ppa:ubuntu-wine/ppa)  
 https://launchpad.net/~ubuntu-wine/+archive/ubuntu/ppa
