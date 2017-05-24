@@ -12,6 +12,7 @@ Android 4 貌似 只能先把 `CardView` 里面的 控件**预先**处理成 圆
 - http://gmariotti.blogspot.tw/2014/11/android-5-card-and-images-with-rounded.html
 - https://gist.github.com/gabrielemariotti/f5a176f1b941200fac68
 - https://medium.com/@etiennelawlor/layout-tips-for-pre-and-post-lollipop-bcb2e4cdd6b2
+- https://stackoverflow.com/questions/27394300/make-imageview-fit-width-of-cardview
 
 # 圆角处理
 - http://blog.csdn.net/lmj623565791/article/details/24555655
