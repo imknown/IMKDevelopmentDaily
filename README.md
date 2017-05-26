@@ -238,6 +238,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [协作临时准备](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/30.02_%E5%8D%8F%E4%BD%9C%E4%B8%B4%E6%97%B6%E5%87%86%E5%A4%87.md)
 0. [常用的 设计工具](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/02.01_%E5%B8%B8%E7%94%A8%E7%9A%84%20%E8%AE%BE%E8%AE%A1%E5%B7%A5%E5%85%B7.md)
 0. [协同工具 简用](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/03_%E5%8D%8F%E5%90%8C%E5%B7%A5%E5%85%B7%20%E7%AE%80%E7%94%A8.md)
+0. [adb 获取 WIFI Mac](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/26_adb%20%E8%8E%B7%E5%8F%96%20WIFI%20Mac.md)
 
 
 ## Professional-Training
