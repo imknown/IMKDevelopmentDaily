@@ -18,7 +18,7 @@ lsof -i:5037
 
 查询出 某些 `PID_A`:
 ``` bash
-ps -ef|grep PID_A
+ps -ef | grep PID_A
 ```
 
 - Approach 2:
