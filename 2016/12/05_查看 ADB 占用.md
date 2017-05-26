@@ -23,5 +23,5 @@ ps -ef | grep PID_A
 
 - Approach 2:
 ``` bash
-sudo netstat -tlnp|grep 5037
+sudo netstat -tlnp | grep 5037
 ```
