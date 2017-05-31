@@ -27,3 +27,8 @@ adb -version
 ```
 
 **如果 `终端` 关闭之后 失效了, 注销或者重启一下即可.**
+
+# 偷懒方式
+``` bash
+sudo apt install android-tools-adb android-tools-fastboot
+```
