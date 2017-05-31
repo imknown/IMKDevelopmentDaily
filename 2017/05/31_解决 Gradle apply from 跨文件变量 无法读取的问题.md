@@ -1,4 +1,5 @@
-直接上代码:
+直接上代码:  
+
 项目根目录 **新建** 的文件 `buildScriptConfig.gradle`
 ``` gradle
 ext {
@@ -30,5 +31,5 @@ buildscript {
 ```
 
 ### 注意
-`apply` 方法 **必须** 写在 `buildscript` 方法内部 (写在 `dependencies` 方法中也可以)xiezai...  
+`apply` 方法 **必须** 写在 `buildscript` 方法内部 (写在 `dependencies` 方法中也可以)...  
 当然, 不能写在 `classpath "com.android.tools.build:gradle:$androidStudioGradlePluginVersion"` 下面...
