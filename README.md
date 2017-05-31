@@ -231,6 +231,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [CardView 压住同级控件的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/17_CardView%20%E5%8E%8B%E4%BD%8F%E5%90%8C%E7%BA%A7%E6%8E%A7%E4%BB%B6%E7%9A%84%E9%97%AE%E9%A2%98.md)
 0. [Android 4 CardView 圆角被覆盖的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/24_Android%204%20CardView%20%E5%9C%86%E8%A7%92%E8%A2%AB%E8%A6%86%E7%9B%96%E7%9A%84%E9%97%AE%E9%A2%98.md)
 0. [活跃 JVM 平台语言](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/25_%E6%B4%BB%E8%B7%83%20JVM%20%E5%B9%B3%E5%8F%B0%E8%AF%AD%E8%A8%80.md)
+0. [解决 Gradle apply from 跨文件变量 无法读取的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/31_%E8%A7%A3%E5%86%B3%20Gradle%20apply%20from%20%E8%B7%A8%E6%96%87%E4%BB%B6%E5%8F%98%E9%87%8F%20%E6%97%A0%E6%B3%95%E8%AF%BB%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98.md)
 
 
 ## Prototype
