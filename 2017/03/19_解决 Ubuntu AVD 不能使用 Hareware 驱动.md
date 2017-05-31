@@ -1,10 +1,13 @@
-`cd` 到 `../android-sdk-linux/emulator/`
+# Way 1
+- `cd` 到 `../android-sdk-linux/emulator/`
 
-加入参数: `-use-system-libs`
-``` bash
-./emulator -avd Nexus_5X_API_24 -dns-server 119.29.29.29 -verbose -use-system-libs
-```
+- 加入参数: `-use-system-libs`
+  ``` bash
+  ./emulator -avd Nexus_5X_API_24 -dns-server 119.29.29.29 -verbose -use-system-libs
+  ```
+  **注意: 在最新的 `Linux Kernel` 使用 `-verbose` 可能会导致 模拟器闪退, 删掉即可...**
 
+# Way 2
 **如果 不好用**, 尝试:
 ``` bash
 # 列出 所有位置
