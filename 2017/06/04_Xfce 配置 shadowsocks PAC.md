@@ -1,7 +1,9 @@
 # 第一步: shadowsocks-qt5
-1. 安装 `shadowsocks-qt5`
+1. 安装 [`shadowsocks-qt5`][1]
 1. 配置 `shadowsocks-qt5`, 如 'socks5 127.0.0.1:1080'
 1. 连接服务器
+
+[1]: https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/03_shadowsocks%20%E9%A1%B9%E7%9B%AE%20%E5%AE%A2%E6%88%B7%E7%AB%AF.md
 
 # 第二步: 生成 PAC
 1. 安装 `genpac`: https://github.com/JinnLynn/GenPAC
