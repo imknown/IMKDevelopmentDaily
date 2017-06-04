@@ -60,6 +60,8 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [XFCE 中 Thunar 无法运行 shell 脚本的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/24_XFCE%20%E4%B8%AD%20Thunar%20%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C%20shell%20%E8%84%9A%E6%9C%AC%E7%9A%84%E9%97%AE%E9%A2%98.md)
 0. [修复 Ubuntu 16.04 RTL8723BE 无线网卡 不稳定](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/04/29_%E4%BF%AE%E5%A4%8D%20Ubuntu%2016.04%20RTL8723BE%20%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%20%E4%B8%8D%E7%A8%B3%E5%AE%9A.md)
 0. [Wine 安装 可用 迅雷官方精简版](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/08_Wine%20%E5%AE%89%E8%A3%85%20%E5%8F%AF%E7%94%A8%20%E8%BF%85%E9%9B%B7%E5%AE%98%E6%96%B9%E7%B2%BE%E7%AE%80%E7%89%88.md)
+0. [shadowsocks 项目 客户端](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/03_shadowsocks%20%E9%A1%B9%E7%9B%AE%20%E5%AE%A2%E6%88%B7%E7%AB%AF.md)
+0. [Xfce 配置 shadowsocks PAC](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/04_Xfce%20%E9%85%8D%E7%BD%AE%20shadowsocks%20PAC.md)
 
 
 ## Windows
