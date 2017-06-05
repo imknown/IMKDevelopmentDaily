@@ -62,6 +62,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Wine 安装 可用 迅雷官方精简版](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/08_Wine%20%E5%AE%89%E8%A3%85%20%E5%8F%AF%E7%94%A8%20%E8%BF%85%E9%9B%B7%E5%AE%98%E6%96%B9%E7%B2%BE%E7%AE%80%E7%89%88.md)
 0. [shadowsocks 项目 客户端](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/03_shadowsocks%20%E9%A1%B9%E7%9B%AE%20%E5%AE%A2%E6%88%B7%E7%AB%AF.md)
 0. [Xfce 配置 shadowsocks PAC](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/04_Xfce%20%E9%85%8D%E7%BD%AE%20shadowsocks%20PAC.md)
+0. [tsocks 是个好东西](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/05_tsocks%20%E6%98%AF%E4%B8%AA%E5%A5%BD%E4%B8%9C%E8%A5%BF.md)
 
 
 ## Windows
