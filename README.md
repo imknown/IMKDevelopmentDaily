@@ -236,6 +236,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [活跃 JVM 平台语言](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/25_%E6%B4%BB%E8%B7%83%20JVM%20%E5%B9%B3%E5%8F%B0%E8%AF%AD%E8%A8%80.md)
 0. [解决 Gradle apply from 跨文件变量 无法读取的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/31_%E8%A7%A3%E5%86%B3%20Gradle%20apply%20from%20%E8%B7%A8%E6%96%87%E4%BB%B6%E5%8F%98%E9%87%8F%20%E6%97%A0%E6%B3%95%E8%AF%BB%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98.md)
 0. [android 路由框架 参考链接](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/01_android%20%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
+0. [android AOP 参考链接.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/06_android%20AOP%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
 
 
 ## Prototype
