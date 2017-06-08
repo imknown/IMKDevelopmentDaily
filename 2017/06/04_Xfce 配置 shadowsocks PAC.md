@@ -19,6 +19,11 @@
 genpac --gfwlist-proxy "SOCKS5 127.0.0.1:1080" --proxy "SOCKS5 127.0.0.1:1080" --output "gfwlist.pac"
 ```
 
+### Update 2017-06-08
+关于 白名单:
+- https://github.com/breakwa11/gfw_whitelist
+- https://github.com/R0uter/gfw_domain_whitelist
+
 # 第三步: 导入系统
 ### Ubuntu: 自动
 选择 `设置` 中的 `网络代理`, 选择 "自动",  
