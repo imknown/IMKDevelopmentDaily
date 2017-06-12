@@ -64,6 +64,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [Xfce 配置 shadowsocks PAC](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/04_Xfce%20%E9%85%8D%E7%BD%AE%20shadowsocks%20PAC.md)
 0. [tsocks 是个好东西](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/05_tsocks%20%E6%98%AF%E4%B8%AA%E5%A5%BD%E4%B8%9C%E8%A5%BF.md)
 0. [修复 Wine 文字显示为 ☐ 乱码的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/09_%E4%BF%AE%E5%A4%8D%20Wine%20%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E4%B8%BA%20%E2%98%90%20%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98.md)
+0. [[转载] Linux命令中的常用符号解释](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/11_%5B%E8%BD%AC%E8%BD%BD%5D%20Linux%E5%91%BD%E4%BB%A4%E4%B8%AD%E7%9A%84%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7%E8%A7%A3%E9%87%8A.md)
 
 
 ## Windows
