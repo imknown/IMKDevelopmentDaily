@@ -240,6 +240,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [android 路由框架 参考链接](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/01_android%20%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
 0. [android AOP 参考链接.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/06_android%20AOP%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
 0. [Android 调试 系统 Framework 参考链接](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/10_Android%20%E8%B0%83%E8%AF%95%20%E7%B3%BB%E7%BB%9F%20Framework%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
+0. [[转载] JumboMode vs MultiDex](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/13_%5B%E8%BD%AC%E8%BD%BD%5D%20JumboMode%20vs%20MultiDex.md)
 
 
 ## Prototype
