@@ -19,3 +19,7 @@ Android 4 貌似 只能先把 `CardView` 里面的 控件**预先**处理成 圆
 - http://blog.csdn.net/lmj623565791/article/details/41967509
 - https://developer.android.com/reference/android/graphics/drawable/Drawable.html
 - http://www.techrepublic.com/article/pro-tip-round-corners-on-an-android-imageview-with-this-hack/
+---
+- https://github.com/skyline1631/RoundCornerLayout
+- https://github.com/Seanalair/RoundedCornerFrameLayout
+- https://github.com/QuarkWorks/RoundedFrameLayout-Android
