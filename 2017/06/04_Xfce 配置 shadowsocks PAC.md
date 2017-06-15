@@ -44,4 +44,4 @@ AUTO_PROXY="file:///Path/to/your/gfwlist.pac"
 
 # 第四步 (可选, 用于后期维护): 编辑 PAC
 经常更换 `ss` 不可避免. 注意修改 `pac` 中 `代理协议` 和 `ip 地址:端口` 等.  
-`pac` 一般开头都可以找到.
+一般在 `pac` 的开头 都可以找到.
