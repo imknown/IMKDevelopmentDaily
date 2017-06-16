@@ -236,6 +236,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [CardView 压住同级控件的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/17_CardView%20%E5%8E%8B%E4%BD%8F%E5%90%8C%E7%BA%A7%E6%8E%A7%E4%BB%B6%E7%9A%84%E9%97%AE%E9%A2%98.md)
 0. [Android 4 CardView 圆角被覆盖的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/24_Android%204%20CardView%20%E5%9C%86%E8%A7%92%E8%A2%AB%E8%A6%86%E7%9B%96%E7%9A%84%E9%97%AE%E9%A2%98.md)
 0. [活跃 JVM 平台语言](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/25_%E6%B4%BB%E8%B7%83%20JVM%20%E5%B9%B3%E5%8F%B0%E8%AF%AD%E8%A8%80.md)
+0. [adb 获取 WIFI Mac](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/26_adb%20%E8%8E%B7%E5%8F%96%20WIFI%20Mac.md)
 0. [解决 Gradle apply from 跨文件变量 无法读取的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/31_%E8%A7%A3%E5%86%B3%20Gradle%20apply%20from%20%E8%B7%A8%E6%96%87%E4%BB%B6%E5%8F%98%E9%87%8F%20%E6%97%A0%E6%B3%95%E8%AF%BB%E5%8F%96%E7%9A%84%E9%97%AE%E9%A2%98.md)
 0. [android 路由框架 参考链接](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/01_android%20%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
 0. [android AOP 参考链接.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/06_android%20AOP%20%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5.md)
@@ -248,7 +249,6 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [协作临时准备](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/05/30.02_%E5%8D%8F%E4%BD%9C%E4%B8%B4%E6%97%B6%E5%87%86%E5%A4%87.md)
 0. [常用的 设计工具](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/06/02.01_%E5%B8%B8%E7%94%A8%E7%9A%84%20%E8%AE%BE%E8%AE%A1%E5%B7%A5%E5%85%B7.md)
 0. [协同工具 简用](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/11/03_%E5%8D%8F%E5%90%8C%E5%B7%A5%E5%85%B7%20%E7%AE%80%E7%94%A8.md)
-0. [adb 获取 WIFI Mac](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/05/26_adb%20%E8%8E%B7%E5%8F%96%20WIFI%20Mac.md)
 
 
 ## Professional-Training
