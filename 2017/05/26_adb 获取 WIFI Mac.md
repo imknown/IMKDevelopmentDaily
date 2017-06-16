@@ -1,12 +1,12 @@
 ``` bash
 # Way 1:
-adb shell ip addr show wlan0  | grep 'link/ether '| cut -d' ' -f6
+adb shell ip addr show wlan0  | grep 'link/ether ' | cut -d' ' -f6
 
 # Way 2: Need root?
 adb shell cat /sys/class/net/wlan0/address
 
 # Way 3: busybox
-adb shell busybox ifconfig -a|grep wlan0
+adb shell busybox ifconfig -a | grep wlan0
 ```
 
 参考:
