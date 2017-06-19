@@ -73,6 +73,7 @@ I recommended to use [octotree][octotree] for better browse experience~
 0. [WinForm 国际化](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/23_WinForm%20%E5%9B%BD%E9%99%85%E5%8C%96.md)
 0. [Mono 地址一记](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/24_Mono%20%E5%9C%B0%E5%9D%80%E4%B8%80%E8%AE%B0.md)
 0. [微软 Windows 10 一周年 RS1 MTP 失效临时解决方法](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/02/09_%E5%BE%AE%E8%BD%AF%20Windows%2010%20%E4%B8%80%E5%91%A8%E5%B9%B4%20RS1%20MTP%20%E5%A4%B1%E6%95%88%E4%B8%B4%E6%97%B6%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.md)
+0. [Windows 上 SRS Essentials 服务无法启动的问题](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/19_Windows%20%E4%B8%8A%20SRS%20Essentials%20%E6%9C%8D%E5%8A%A1%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98.md)
 
 
 ## Android
