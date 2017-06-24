@@ -10,3 +10,4 @@ gsettings set org.gnome.nautilus.desktop network-icon-visible true
 - http://ubuntu-tweak.com
 - https://apps.ubuntu.com/cat/applications/unity-tweak-tool/
 - http://www.florian-diesch.de/software/unsettings
+- http://www.noobslab.com/2016/04/important-20-tweaksthings-to-do-after.html
