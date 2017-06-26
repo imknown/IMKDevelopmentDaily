@@ -1,0 +1,2 @@
+- https://stackoverflow.com/questions/9483348/gson-treat-null-as-empty-string
+- https://stackoverflow.com/questions/36621747/how-do-you-set-a-value-to-null-with-com-google-gson-jsonobject-in-java
