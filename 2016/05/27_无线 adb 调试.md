@@ -6,6 +6,12 @@ stop adbd
 start adbd
 ```
 
+- 谷歌的方法 (免 Root)  
+参考 https://developer.android.com/studio/command-line/adb.html#wireless
+``` bash
+adb tcpip 5555
+```
+
 - 研发机 设备 控制台输入:  
 ``` shell
 adb connect 192.168.1.101:5555
