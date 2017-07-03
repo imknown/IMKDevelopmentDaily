@@ -7,8 +7,7 @@ https://github.com/geeeeeeeeek/electronic-wechat/releases
 
 # QQ 安装
 ### 建议先安装 Wine, 虽然 Ubuntu 自带
-[03_Ubuntu Wine 安装总结.md][03_Ubuntu Wine 安装总结.md]
-[03_Ubuntu Wine 安装总结.md]: https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md
+[Ubuntu Wine 安装总结.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md)
 
 
 - Longene Wine QQ 7.8 (推荐, 可自动升级到最新版)  
