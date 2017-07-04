@@ -1,7 +1,7 @@
 Android Studio 2.2 Preview 1 中,  
 带了一个 好强大的 `android.support.constraint.ConstraintLayout` ,  
 在 https://dev.android.com 都搜索不到. =_ =  
-```groovy
+``` gradle
 compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha'
 ```
 
