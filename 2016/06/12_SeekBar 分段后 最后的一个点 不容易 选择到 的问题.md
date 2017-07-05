@@ -1,6 +1,6 @@
 前几天就发现 `SeekBar` 使用 `android:max` 之后,  
 滑杆的 最后一个值 特别难选中,  
-尤其是 `android:width="match_parent"` 之后,  
+尤其是 `android:width="match_parent"` 之后,  
 虽然 `SeekBar` 自身也有 一定的 `padding`,  
 找了一下 stackoverflow 没啥头绪,  
 然后 百度了一下, 居然找到了...  
