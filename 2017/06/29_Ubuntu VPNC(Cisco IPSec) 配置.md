@@ -9,9 +9,9 @@ sudo apt install network-manager-vpnc
 sudo apt install network-manager-vpnc-gnome
 ```
 
+### 启动
 **推荐使用 `自定义 conf 文件` 方式启动, 可以保存更多信息, 切换更加灵活.**
 
-### 启动
 ``` bash
 sudo vpnc-connect sample.conf
 # 或
