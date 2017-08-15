@@ -14,9 +14,15 @@
    pip install genpac
    ```
 
-1. 生成 PAC 文件 (官网文档已过时, 自行 `--help`)
+2. 生成 PAC 文件 (官网文档已过时, 自行 `--help`)
+  - SOCKS5 协议
 ``` bash
-genpac --gfwlist-proxy "SOCKS5 127.0.0.1:1080" --proxy "SOCKS5 127.0.0.1:1080" --output "gfwlist.pac"
+genpac --gfwlist-proxy "SOCKS5 127.0.0.1:1080" --proxy "SOCKS5 127.0.0.1:1080" --output "gfwlist-socks5.pac"
+```
+
+  - HTTP(S) 协议
+``` bash
+genpac --gfwlist-proxy "PROXY 127.0.0.1:1081" --proxy "PROXY 127.0.0.1:1081" --output "gfwlist-http.pac"
 ```
 
 ### Update 2017-06-08
