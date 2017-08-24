@@ -23,8 +23,10 @@ https://www.so-cools.com/?p=739
   - http://phpcj.org/wineqq/
   - http://www.findspace.name/easycoding/1748
 
-- 2017-08-24 (感谢 牛老板 和 张老板): IT之家学院：在Linux下完美运行Windows PC版QQ/TIM教程
-https://www.ithome.com/html/win10/307236.htm
+- 2017-08-24 (感谢 @JarvanMo & @nelson1110):
+  - https://www.ithome.com/html/win10/307236.htm
+  - http://tieba.baidu.com/p/2848294621 的 14楼
+  - https://infinitescript.com/2017/03/install-qq-in-linux-with-wine/
 
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
@@ -38,6 +40,16 @@ apt-get install libgtk3.0-0:i386
 apt-get install libgtk2.0-0:i386
 ```
 参考: http://blog.csdn.net/cwll2009/article/details/24449893  
+
+# 不能输入 QQ号 的问题
+方法来源 参考上面的 `2017-08-24`:
+
+``` bash
+winecfg
+```
+
+然后 在 `Libraries` 选项卡 加入 `msvcp60` 和 `riched20`.  
+重启 QQ 即可.
 
 # QQ 不能输入中文的问题
 用 sudo 打开:  
