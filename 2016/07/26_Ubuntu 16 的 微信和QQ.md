@@ -23,6 +23,9 @@ https://www.so-cools.com/?p=739
   - http://phpcj.org/wineqq/
   - http://www.findspace.name/easycoding/1748
 
+- 2017-08-24 (感谢 牛老板 和 张老板): IT之家学院：在Linux下完美运行Windows PC版QQ/TIM教程
+https://www.ithome.com/html/win10/307236.htm
+
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
 
