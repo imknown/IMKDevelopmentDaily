@@ -27,6 +27,7 @@ https://www.so-cools.com/?p=739
   - https://www.ithome.com/html/win10/307236.htm
   - http://tieba.baidu.com/p/2848294621 的 14楼
   - https://infinitescript.com/2017/03/install-qq-in-linux-with-wine/
+  - http://yanke.info/?id=43
 
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
