@@ -1,9 +1,9 @@
 今天装回了 `ubuntu 16.04.1`, 唉，  
 比 `麒麟 16` 和 `ubuntu 14.04` 强好多啊。  
 
-# WeChat 安装
-- 原生 微信  
-https://github.com/geeeeeeeeek/electronic-wechat/releases  
+# WeChat 安装 (Electron)
+- https://github.com/geeeeeeeeek/electronic-wechat/releases
+- https://github.com/trazyn/weweChat
 
 # QQ 安装
 ### 建议先安装 Wine, 虽然 Ubuntu 自带
