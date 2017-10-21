@@ -35,12 +35,11 @@ http://www.cnblogs.com/exmyth/p/4066090.html
 # 64位 Ubuntu 无法启动 QQ
 尝试 安装 32位 库:
 ``` bash
-dpkg --add-architecture i386
-apt-get install libgtk3.0-0:i386
-# 或者
-apt-get install libgtk2.0-0:i386
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
 ```
-参考: http://blog.csdn.net/cwll2009/article/details/24449893  
+参考: http://blog.csdn.net/cwll2009/article/details/24449893
 
 # 不能输入 QQ号 的问题
 方法来源 参考上面的 `2017-08-24`:
