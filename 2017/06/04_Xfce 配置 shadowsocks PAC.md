@@ -37,13 +37,24 @@ genpac --gfwlist-proxy "PROXY 127.0.0.1:1081" --proxy "PROXY 127.0.0.1:1081" --o
 
 ### Xubuntu: 手动
 ``` bash
-sudo gedit /etc/environment
+sudo mousepad /etc/environment
 ```
 
 在 文件最后面 加入:
 ``` properties
 auto_proxy="file:///Path/to/your/gfwlist.pac"
 AUTO_PROXY="file:///Path/to/your/gfwlist.pac"
+
+http_proxy="file:///Path/to/your/gfwlist.pac"
+https_proxy="file:///Path/to/your/gfwlist.pac"
+
+HTTP_PROXY="file:///Path/to/your/gfwlist.pac"
+HTTPS_PROXY="file:///Path/to/your/gfwlist.pac"
+```
+
+执行:
+``` bash
+source /etc/environment
 ```
 
 保存, 注销 后 生效...
