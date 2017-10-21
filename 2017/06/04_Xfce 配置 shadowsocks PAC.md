@@ -44,12 +44,6 @@ sudo mousepad /etc/environment
 ``` properties
 auto_proxy="file:///Path/to/your/gfwlist.pac"
 AUTO_PROXY="file:///Path/to/your/gfwlist.pac"
-
-http_proxy="file:///Path/to/your/gfwlist.pac"
-https_proxy="file:///Path/to/your/gfwlist.pac"
-
-HTTP_PROXY="file:///Path/to/your/gfwlist.pac"
-HTTPS_PROXY="file:///Path/to/your/gfwlist.pac"
 ```
 
 执行:
