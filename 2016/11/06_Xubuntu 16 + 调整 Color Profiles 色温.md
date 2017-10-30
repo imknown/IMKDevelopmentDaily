@@ -27,6 +27,12 @@ temp-day=5700
 temp-night=4000
 
 transition=1
+
+location-provider=manual
+
+[manual]
+lat=38.92
+lon=121.62
 ```
 具体用法 参考 官网 http://jonls.dk/redshift/#configuration-file .  
 
