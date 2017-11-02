@@ -28,6 +28,11 @@ https://www.so-cools.com/?p=739
   - http://tieba.baidu.com/p/2848294621 的 14楼
   - https://infinitescript.com/2017/03/install-qq-in-linux-with-wine/
   - http://yanke.info/?id=43
+- 2017-11-02
+  - http://www.jianshu.com/p/5f9330dd62a5
+  - https://www.lulinux.com/archives/1319
+  - https://www.findhao.net/easycoding/1748
+  - https://github.com/askme765cs/Wine-QQ/wiki
 
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
