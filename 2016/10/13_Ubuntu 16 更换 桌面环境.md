@@ -1,11 +1,14 @@
 - Xfce  
 http://www.xfce.org/
+
+安装:
 ``` bash
 sudo apt-get update
 sudo apt-get install xfce4
 sudo apt-get install xubuntu-desktop # 可选, 推荐, 可以使用 更多面板
 ```
-参考(安装 与 卸载):  
+
+卸载参考:
 ```
 sudo apt-get purge xfconf xfce4-utils xfwm4 xfce4-session thunar xfdesktop4 exo-utils xfce4-panel xfce4-terminal libxfce4util-common scim xscreensaver
 sudo apt-get purge *xubuntu*
