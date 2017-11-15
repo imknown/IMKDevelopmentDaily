@@ -10,6 +10,7 @@ adb shell settings put global captive_portal_server www.google.cn
 ```
 
 # 可选服务器
+- connect.rom.miui.com
 - captive.v2ex.co
 - noisyfox.cn
 - google.cn
