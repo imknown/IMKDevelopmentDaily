@@ -5,3 +5,8 @@
 `Wine` `Fonts` 路径, 例如: 
 - ~/.wine/drive_c/windows/Fonts/
 - ~/.longene/qq/dosdevices/c:/windows/Fonts/
+
+如果是 `英文系统` 使用 `中文软件`, 可以在头部添加:
+``` shell
+export LANG=zh_CN.UTF8
+```
