@@ -37,7 +37,9 @@ sudo apt install oracle-java8-installer
 ```
 
 - 配置环境变量 (可选)
-  - 设置成 默认版本  
+  - 查看 已安装的版本 (还会包括 `OpenJDK`)
+  `update-java-alternatives -l`
+  - 设置成 默认版本  
   `sudo apt-get install oracle-java8-set-default`
   - 切换成 其他版本 (前提是得安装吧)  
   `sudo update-java-alternatives -s java-7-oracle`
