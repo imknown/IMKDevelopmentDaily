@@ -1,0 +1,7 @@
+- https://futurestud.io/tutorials/retrofit-2-how-to-download-files-from-server
+- http://www.codexpedia.com/android/retrofit-2-and-rxjava-for-file-downloading-in-android/
+- https://gist.github.com/lsurvila/d3c034e5ee514009e31b
+- https://github.com/square/okhttp/blob/master/samples/guide/src/main/java/okhttp3/recipes/Progress.java
+- https://blog.playmoweb.com/view-download-progress-on-android-using-retrofit2-and-okhttp3-83ed704cb968
+- http://blog.csdn.net/sk719887916/article/details/51958010
+- http://blog.csdn.net/sk719887916/article/details/51988507
