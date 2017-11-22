@@ -5,3 +5,5 @@
 - https://blog.playmoweb.com/view-download-progress-on-android-using-retrofit2-and-okhttp3-83ed704cb968
 - http://blog.csdn.net/sk719887916/article/details/51958010
 - http://blog.csdn.net/sk719887916/article/details/51988507
+- https://github.com/JessYanCoding/ProgressManager
+- https://github.com/lizhangqu/CoreProgress
