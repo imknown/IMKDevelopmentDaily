@@ -2,8 +2,26 @@
 比 `麒麟 16` 和 `ubuntu 14.04` 强好多啊。  
 
 # WeChat 安装 (Electron)
+### 原生应用
+Update 2017-11-27: 不再推荐, Web 的 API 貌似会逐渐关闭, 请使用 `Wine`  
 - https://github.com/geeeeeeeeek/electronic-wechat/releases
 - https://github.com/trazyn/weweChat
+
+### Wine 方式:
+先从 `TIM` 或者 `QQ` 的 目录中, 拷贝一份 `RICHED20.DLL`.  
+然后通过 `winecfg` 把 `riched20.dll` 改为 `Native(原版)` 即可.
+
+不行的话, 尝试安装:
+```
+winetricks ie7 riched20  msctf vcrun2005 cjkfonts
+```
+
+参考:  
+- http://tieba.baidu.com/p/4867218926#post_content_109004052038
+- http://r9it.com/20170219/ubuntu-install-qq2013.html
+- https://www.cnblogs.com/makefile/p/6079451.html
+- http://www.jianshu.com/p/6aa175a534c4
+
 
 # QQ 安装
 ### 建议先安装 Wine, 虽然 Ubuntu 自带
