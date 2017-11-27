@@ -8,8 +8,8 @@ Update 2017-11-27: 不再推荐, Web 的 API 貌似会逐渐关闭, 请使用 `W
 - https://github.com/trazyn/weweChat
 
 ### Wine 方式:
-先从 `TIM` 或者 `QQ` 的 目录中, 拷贝一份 `RICHED20.DLL`.  
-然后通过 `winecfg` 把 `riched20.dll` 改为 `Native(原版)` 即可.
+先从 `TIM` 或者 `QQ` 的 目录中, 拷贝一份 `RICHED20.DLL`.  
+然后通过 `winecfg` 把 `riched20.dll` 改为 `Native(原版)` 即可.  
 
 不行的话, 尝试安装:
 ```
