@@ -11,5 +11,11 @@ http://gitslave.sourceforge.net/
 - Git Subtree  
 https://github.com/apenwarr/git-subtree/
 
+- giternal  
+https://github.com/patmaddox/giternal
+
+- Braid  
+https://github.com/cristibalan/braid
+
 参考:  
 http://www.jianshu.com/p/284ded3d191b
