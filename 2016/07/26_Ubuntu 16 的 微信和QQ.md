@@ -13,8 +13,16 @@ Update 2017-11-27: 不再推荐, Web 的 API 貌似会逐渐关闭, 请使用 `W
 
 不行的话, 尝试安装:
 ```
-winetricks ie7 riched20  msctf vcrun2005 cjkfonts
+winetricks ie7 riched20 msctf vcrun2005 cjkfonts
 ```
+
+如果不能发图片和文件, 尝试: 
+```
+winetricks ole32
+```
+
+速度慢的话用工具下载下, 放到:
+> ~/.cache/winetricks/winxpsp3/WindowsXP-KB936929-SP3-x86-ENU.exe
 
 参考:  
 - http://tieba.baidu.com/p/4867218926#post_content_109004052038
