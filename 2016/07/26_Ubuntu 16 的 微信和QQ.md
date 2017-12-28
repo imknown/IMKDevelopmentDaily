@@ -16,7 +16,7 @@ Update 2017-11-27: 不再推荐, Web 的 API 貌似会逐渐关闭, 请使用 `W
 winetricks ie7 riched20 msctf vcrun2005 cjkfonts
 ```
 
-如果不能发图片和文件, 尝试: 
+如果不能发图片和文件, 尝试 (慎用, 可能会导致 `wine` 崩溃): 
 ```
 winetricks ole32
 ```
