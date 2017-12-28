@@ -2,7 +2,7 @@
 但是 其他主题 并没有这个问题. 经过对比, 需要改动如下:
 
 ``` shell
-sudo mousepad '/usr/share/themes/Adwaita/gtk-2.0/gtkrc'
+sudo mousepad '/usr/share/themes/Adwaita/gtk-2.0/main.rc'
 ```
 
 修改 `L2472` 的 `style "button"` 成 如下内容 (建议先备份):
