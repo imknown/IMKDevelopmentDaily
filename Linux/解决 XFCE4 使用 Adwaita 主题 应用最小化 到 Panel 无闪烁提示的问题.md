@@ -5,7 +5,7 @@
 sudo mousepad '/usr/share/themes/Adwaita/gtk-2.0/main.rc'
 ```
 
-修改 `L2472` 的 `style "button"` 成 如下内容 (建议先备份):
+修改 `style "button"` 成 如下内容 (建议先备份):
 ``` cfg
 style "button" {  
   bg[ACTIVE]        = "#c2d1e1"
@@ -21,3 +21,63 @@ style "button" {
 ```
 
 然后用 `Settings/Appearance` 重新选择 `Adwaita` 即可.
+
+备份一下原始数据:
+``` cfg
+style "button" {
+
+  xthickness = 2
+  ythickness = 2
+
+  # For the sake of sanity style buttons this way
+  engine "pixmap" {
+
+    ###########
+    # Buttons #
+    ###########
+
+    image {
+      function = BOX
+      state    = NORMAL
+      file     = "assets/button.png"
+      border   = {4, 4, 4, 4}
+      stretch  = TRUE
+    }
+
+    image {
+      function = BOX
+      state    = PRELIGHT
+      shadow   = OUT
+      file     = "assets/button-hover.png"
+      border   = {4, 4, 4, 4}
+      stretch  = TRUE
+    }
+
+    # Don't add hover effect on pressed buttons
+    image {
+      function = BOX
+      state    = PRELIGHT
+      shadow   = IN
+      file     = "assets/button-active.png"
+      border   = {4, 4, 4, 4}
+      stretch  = TRUE
+    }
+
+    image {
+      function = BOX
+      state    = ACTIVE
+      file     = "assets/button-active.png"
+      border   = {4, 4, 4, 4}
+      stretch  = TRUE
+    }
+
+    image {
+      function = BOX
+      state    = INSENSITIVE
+      file     = "assets/button-insensitive.png"
+      border   = {4, 4, 4, 4}
+      stretch  = TRUE
+    }
+  }
+}
+```
