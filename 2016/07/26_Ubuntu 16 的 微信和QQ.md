@@ -1,9 +1,9 @@
 今天装回了 `ubuntu 16.04.1`, 唉，  
 比 `麒麟 16` 和 `ubuntu 14.04` 强好多啊。  
 
-# WeChat 安装 (Electron)
+# WeChat 安装
 ### 原生应用
-Update 2017-11-27: 不再推荐, Web 的 API 貌似会逐渐关闭, 请使用 `Wine`  
+~~Update 2017-11-27: 不再推荐, Web 的 API 貌似会逐渐关闭, 请使用 `Wine`~~  
 - https://github.com/geeeeeeeeek/electronic-wechat/releases
 - https://github.com/trazyn/weweChat
 
