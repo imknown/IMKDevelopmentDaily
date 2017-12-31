@@ -112,3 +112,7 @@ export QT_IM_MODULE="fcitx"
 参考:
 - http://forum.ubuntu.org.cn/viewtopic.php?p=2669658
 - http://www.linuxdiyf.com/linux/18884.html
+
+# 英文系统 使用 中文 Wine
+设置 `LC_ALL=zh_CN.UTF-8` 即可, 例如:
+> Exec=env WINEPREFIX="/home/imknown/.wine" LC_ALL=zh_CN.UTF-8 wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/imknown/.wine/dosdevices/c:/users/Public/Desktop/WeChat.lnk
