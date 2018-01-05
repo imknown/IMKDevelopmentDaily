@@ -104,6 +104,11 @@ export QT_IM_MODULE="fcitx"
 ```
 保存, 然后重启 `QQ` 即可.
 
+# QQ 设置 闪退的问题
+```
+winetricks mdac28
+```
+
 # 替换字体
 尝试放置 `windows` 的 `宋体` `Microsoft YaHei` 等 字体:
 > .../.wine/drive_c/windows/Fonts/simsun.ttf
