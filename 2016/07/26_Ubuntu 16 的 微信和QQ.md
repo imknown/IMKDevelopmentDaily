@@ -16,7 +16,7 @@
 winetricks ie7 riched20 msctf vcrun2005 cjkfonts
 ```
 
-如果不能发图片和文件, 尝试 (慎用, 可能会导致 `wine` 崩溃): 
+如果不能发图片和文件, 尝试 (**慎用**, 可能会导致 `wine` 崩溃): 
 ```
 winetricks ole32
 ```
@@ -104,10 +104,9 @@ export QT_IM_MODULE="fcitx"
 ```
 保存, 然后重启 `QQ` 即可.
 
-# 替换字体 (有待复测)
-替换同名文件即可, 我用的 `Win10 微软雅黑`,  
-个别地方 显示成 方块儿, 但是可以忍 :D
-> ~/.longene/qq/drive_c/windows/Fonts/simsun.ttf  
+# 替换字体
+尝试放置 `windows` 的 `宋体` `Microsoft YaHei` 等 字体:
+> .../.wine/drive_c/windows/Fonts/simsun.ttf
 
 参考:
 - http://forum.ubuntu.org.cn/viewtopic.php?p=2669658
