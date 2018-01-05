@@ -13,7 +13,7 @@
 
 不行的话, 尝试安装:
 ```
-winetricks ie7 riched20 msctf vcrun2005 cjkfonts
+winetricks riched20 msctf vcrun2005
 ```
 
 如果不能发图片和文件, 尝试 (**慎用**, 可能会导致 `wine` 崩溃): 
@@ -64,8 +64,10 @@ https://www.so-cools.com/?p=739
 - 2017-11-16
   - https://www.ubuntukylin.com/ukylin/forum.php?mod=viewthread&tid=30490
 
+
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
+
 
 # 64位 Ubuntu 无法启动 QQ
 尝试 安装 32位 库:
@@ -76,6 +78,7 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
 ```
 参考: http://blog.csdn.net/cwll2009/article/details/24449893
 
+
 # 不能输入 QQ号 的问题
 方法来源 参考上面的 `2017-08-24`:
 
@@ -85,6 +88,7 @@ winecfg
 
 然后 在 `Libraries` 选项卡 加入 `msvcp60` 和 `riched20`.  
 重启 QQ 即可.
+
 
 # QQ 不能输入中文的问题
 用 sudo 打开:  
@@ -104,10 +108,12 @@ export QT_IM_MODULE="fcitx"
 ```
 保存, 然后重启 `QQ` 即可.
 
-# QQ 设置 闪退的问题
+
+# QQ 设置 闪退的问题 (err: ole)
 ```
 winetricks mdac28
 ```
+
 
 # 替换字体
 尝试放置 `windows` 的 `宋体` `Microsoft YaHei` 等 字体:
@@ -116,6 +122,7 @@ winetricks mdac28
 参考:
 - http://forum.ubuntu.org.cn/viewtopic.php?p=2669658
 - http://www.linuxdiyf.com/linux/18884.html
+
 
 # 英文系统 使用 中文 Wine
 设置 `LC_ALL=zh_CN.UTF-8` 即可, 例如:
