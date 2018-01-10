@@ -88,7 +88,8 @@ sudo service privoxy restart
 
 4. 使用
 ``` bash
-# 也可以配置到环境变量
+# 也可以配置到环境变量, 参考:
+# https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/14_Ubuntu 16 配置 ADB 环境变量.md
 export http_proxy=http://127.0.0.1:8118
 export https_proxy=http://127.0.0.1:8118
 ```
