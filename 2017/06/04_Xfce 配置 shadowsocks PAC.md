@@ -58,9 +58,58 @@ source /etc/environment
 一般在 `pac` 的开头 都可以找到.
 
 # 关于全局代理
-1. 浏览器的话, 可以装 `SwitchyOmega` 等插件
-1. Proxifier
-1. Privoxy
-1. polipo
-1. proxychains
-1. https://github.com/shadowsocks/shadowsocks/wiki
+### 浏览器的话, 可以装 `SwitchyOmega` 等插件
+
+### Proxifier
+
+### Privoxy
+1. 安装
+``` bash
+sudo apt install privoxy
+```
+
+2. 配置
+``` config
+#  4.1. listen-address
+listen-address  127.0.0.1:8118
+listen-address  [::1]:8118
+
+#  5.2. forward-socks4, forward-socks4a, forward-socks5 and forward-socks5t
+forward-socks5 / 127.0.0.1:1080 .
+```
+
+3. 关于服务: 启动/停止/状态...
+``` bash
+sudo service privoxy start
+sudo service privoxy stop
+sudo service privoxy status
+sudo service privoxy restart
+```
+
+4. 使用
+``` bash
+# 也可以配置到环境变量
+export http_proxy=http://127.0.0.1:8118
+export https_proxy=http://127.0.0.1:8118
+```
+
+5. 测试
+``` bash
+curl google.com
+```
+
+返回如下内容 即表示成功:
+``` html
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+```
+
+### polipo
+
+### proxychains
+
+### https://github.com/shadowsocks/shadowsocks/wiki
