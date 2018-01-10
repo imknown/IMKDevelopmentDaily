@@ -60,7 +60,7 @@ source /etc/environment
 # 关于全局代理
 ### 浏览器的话, 可以装 `SwitchyOmega` 等插件
 
-### Proxifier
+### ~~Proxifier~~
 
 ### Privoxy
 1. 安装
