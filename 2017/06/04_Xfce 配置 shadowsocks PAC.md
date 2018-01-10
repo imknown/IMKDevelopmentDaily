@@ -62,4 +62,5 @@ source /etc/environment
 1. Proxifier
 1. Privoxy
 1. polipo
-1. `终端` 的话 看官方 [WIKI](https://github.com/shadowsocks/shadowsocks/wiki)
+1. proxychains
+1. https://github.com/shadowsocks/shadowsocks/wiki
