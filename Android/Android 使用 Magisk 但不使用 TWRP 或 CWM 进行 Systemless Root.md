@@ -23,7 +23,8 @@ https://developer.android.google.cn/studio/releases/platform-tools.html?hl=zh
 adb devices -l
 ```
 
-不确定自己解没解锁的, 可以先试试如下命令, 看看 是否可以进入 `BootLoader`
+不确定自己解没解锁的, 可以先试试如下命令,  
+看看 是否可以进入 `BootLoader`
 ``` bash
 adb reboot bootloader
 ```
@@ -31,7 +32,7 @@ adb reboot bootloader
 ## 结论
 如果执行命令之后, `进不了 BootLoader` 或者 `自动重启`,  
 恭喜你, **基本要解锁了**.   
-请先解锁 `OEM 锁` 或者 `BootLoader (BL 锁)`, 再继续往下看.  
+请先解锁 `OEM 锁` 或者 `BootLoader (BL 锁)`, 再继续往下看.  
 `解锁的命令行` 请自行百度. `ROM` 各不相同.  
 
 # 2. 开始刷
