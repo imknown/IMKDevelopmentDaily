@@ -94,9 +94,9 @@ fastboot reboot
 好了, 尽情地 体验 `Root` 吧!
 
 # 3. 关于 `OTA` 和 `卸载 Root`
-进行 `OTA` 之前, 请 **务必** 在 `Magisk Mnanger` 卸载 Root.  
-他会 **自动** 帮你 还原成最初的 Stock `boot.img` 等操作, 相当于 卸载了 `Root`.  
-基本是无痛的.  
+进行 `OTA` 之前, 请 **务必** 在 `Magisk Mnanger` 卸载 `Root`.  
+他会 **自动** 帮你执行 "还原成 最初的 `Stock` `boot.img`" 等操作.  
+相当于 卸载了 `Root`. 基本是无痛的.
 
 `OTA` 成功之后, 还需要 **重新再来一边** 本文的流程.  
 不过 时间长了也就熟练了. 也不是很难.
