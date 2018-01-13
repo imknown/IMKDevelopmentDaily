@@ -36,9 +36,10 @@ adb reboot bootloader
 
 # 2. 开始刷
 ## 获取 Stock `boot.img`
-下载你的官方ROM zip 包,  
-然后在 zip 包 解压出 `boot.image`.  
-把 `boot.image` 扔到手机里.
+下载 你 **当前手机对应版本** 的 `Stock(官方) ROM` 的 `zip 刷机包`,  
+**别下错版本了, 后果自负啊**!!  
+然后在 `zip 刷机包` 中, 解压出 `boot.image`.  
+并把 `boot.image` 扔到手机里.
 
 ## 生成 `patch-boot.img`
 手机 安装最新版 `Magisk Manager`,  
@@ -103,5 +104,5 @@ fastboot reboot
 哈哈, 自己找吧 或者 自己写吧. 已超出本文范畴.
 
 # 4. 相关链接
-- Magisk 官网
+- Magisk 官网  
 https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445
