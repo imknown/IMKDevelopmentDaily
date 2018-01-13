@@ -91,7 +91,7 @@ fastboot reboot
 
 好了, 尽情地 体验 `Root` 吧!
 
-# 关于 `OTA` 和 `卸载 Root`
+# 3. 关于 `OTA` 和 `卸载 Root`
 进行 `OTA` 之前, 请 **务必** 在 `Magisk Mnanger` 卸载 Root.  
 他会 **自动** 帮你 还原成最初的 Stock `boot.img` 等操作, 相当于 卸载了 `Root`.  
 基本是无痛的.  
@@ -102,6 +102,6 @@ fastboot reboot
 如此繁琐无聊的体力活, 是否有 "想找找 别人封装好的脚本" 的 冲动了已经?  
 哈哈, 自己找吧 或者 自己写吧. 已超出本文范畴.
 
-# 相关链接
+# 4. 相关链接
 - Magisk 官网
 https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445
