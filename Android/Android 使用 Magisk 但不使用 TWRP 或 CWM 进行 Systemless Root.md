@@ -31,8 +31,8 @@ adb reboot bootloader
 ## 结论
 如果执行命令之后, `进不了 BootLoader` 或者 `自动重启`,  
 恭喜你, **基本要解锁了**.   
-请先解锁 `OEM 锁` 或者 `BootLoader (BL 锁)`, 再继续往下看.  
-解锁命令行请自行百度. `ROM` 各不相同.  
+请先解锁 `OEM 锁` 或者 `BootLoader (BL 锁)`, 再继续往下看.  
+`解锁的命令行` 请自行百度. `ROM` 各不相同.  
 
 # 2. 开始刷
 ## 获取 Stock `boot.img`
