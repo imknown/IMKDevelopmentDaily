@@ -10,7 +10,7 @@
 #### 基本单位术语
 - pt(point): 磅 **<硬件规格>**
 - px(pixel): 像素
-- in(inch/″): 英寸 **<硬件规格>**
+- in(inch, 符号`″`): 英寸 **<硬件规格>**
 - dip/dp(device-independent pixel): 设备独立像素
 - sp(scale-independent pixel): 比例独立像素
 - density: 密度
