@@ -6,6 +6,9 @@
 [shadowsocks-qt5]: https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/03_shadowsocks%20%E9%A1%B9%E7%9B%AE%20%E5%AE%A2%E6%88%B7%E7%AB%AF.md
 
 # 第二步: 生成 PAC
+**2018-01-24 Update**:  
+官方已发布 `2.x` 版本.
+
 1. 安装 [`genpac`][genpac]
 
 [genpac]: https://github.com/JinnLynn/GenPAC
@@ -14,15 +17,15 @@
    pip install genpac
    ```
 
-2. 生成 PAC 文件 (官网文档已过时, 自行 `--help`)
+2. 生成 PAC 文件 ~~(官网文档已过时, 自行 `--help`)~~
   - SOCKS5 协议
 ``` bash
-genpac --gfwlist-proxy "SOCKS5 127.0.0.1:1080" --proxy "SOCKS5 127.0.0.1:1080" --output "gfwlist-socks5.pac"
+genpac --gfwlist-proxy "SOCKS5 127.0.0.1:1080" --pac-proxy "SOCKS5 127.0.0.1:1080" --output "gfwlist-socks5.pac"
 ```
 
   - HTTP(S) 协议
 ``` bash
-genpac --gfwlist-proxy "PROXY 127.0.0.1:1081" --proxy "PROXY 127.0.0.1:1081" --output "gfwlist-http.pac"
+genpac --gfwlist-proxy "PROXY 127.0.0.1:1081" --pac-proxy "PROXY 127.0.0.1:1081" --output "gfwlist-http.pac"
 ```
 
 ### Update 2017-06-08
