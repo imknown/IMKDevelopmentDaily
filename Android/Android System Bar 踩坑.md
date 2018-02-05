@@ -1,9 +1,9 @@
 科普一下, `Material Design` 把 `Status Bar`, `Navigation Bar` 和 `(窗口模式下的) Window Bar` 统称为 `System Bar`...
 
 # 原生
-- `Android J` 不支持 状态栏/导航栏API
-- `Android K` 支持 `半透明渐变状态栏/导航栏`, `内容在状态栏/导航栏下`
-- `Android L` 支持 状态栏/导航栏 API, 可以 `变色`, `完全透明`, `半透明`
+- `Android J` **不**支持 `状态栏/导航栏``API`
+- `Android K` 支持 `半透明` `渐变` 的 `状态栏/导航栏`, `内容在状态栏/导航栏下`
+- `Android L` 支持 `状态栏/导航栏``API`, 可以 `变色`, `完全透明`, `半透明`
 - `Android M` 支持 `深色 状态栏 icon`
 - `Android O` 支持 `深色 导航栏 icon`
 
