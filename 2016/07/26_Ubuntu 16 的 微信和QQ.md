@@ -35,10 +35,22 @@ winetricks ole32
 ### 建议先安装 Wine, 虽然 Ubuntu 自带
 [Ubuntu Wine 安装总结.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md)
 
-- **不建议 安装 QQ9.0.1, 卡出翔, 没朋友. 建议安装 `8.9.4`, 稳定...**
+- **不建议 安装 `9.0.1`, 卡出翔, 没朋友. 建议安装 `8.9.4`, 稳定...**
+   - https://dldir1.qq.com/qqfile/qq/QQ8.0/16954/QQ8.0.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.1/17216/QQ8.1.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.2/17724/QQ8.2.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.3/18033/QQ8.3.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.4/18357/QQ8.4.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.5/18600/QQ8.5.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.6/18781/QQ8.6.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.7/19071/QQ8.7.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.8/19876/QQ8.8.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9/19990/QQ8.9.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9.1/20437/QQ8.9.1.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9.2/20760/QQ8.9.2.exe
    - https://dldir1.qq.com/qqfile/qq/QQ8.9.3/21149/QQ8.9.3.exe
    - https://dldir1.qq.com/qqfile/qq/QQ8.9.4/21584/QQ8.9.4.exe
-   - https://dldir1.qq.com/qqfile/qq/QQ8.9.5/21951/QQ8.9.5.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9.5/22062/QQ8.9.5.exe
    - https://dldir1.qq.com/qqfile/qq/QQ8.9.6/22404/QQ8.9.6.exe
 
 - Longene Wine QQ 7.8 (~~推荐~~, 可自动升级到最新版)  
