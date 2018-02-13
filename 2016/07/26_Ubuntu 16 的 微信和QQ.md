@@ -35,8 +35,13 @@ winetricks ole32
 ### 建议先安装 Wine, 虽然 Ubuntu 自带
 [Ubuntu Wine 安装总结.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md)
 
+- **不建议 安装 QQ9.0.1, 卡出翔, 没朋友. 建议安装 `8.9.4`, 稳定...**
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9.3/21149/QQ8.9.3.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9.4/21584/QQ8.9.4.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9.5/21951/QQ8.9.5.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9.6/22404/QQ8.9.6.exe
 
-- Longene Wine QQ 7.8 (推荐, 可自动升级到最新版)  
+- Longene Wine QQ 7.8 (~~推荐~~, 可自动升级到最新版)  
 http://www.longene.org/forum/viewtopic.php?f=6&t=30516  
 
 - Wine QQ 国际版 2012 (不推荐)  
