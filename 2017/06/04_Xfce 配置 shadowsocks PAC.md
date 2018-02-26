@@ -60,7 +60,34 @@ source /etc/environment
 经常更换 `ss` 不可避免. 注意修改 `pac` 中 `代理协议` 和 `ip 地址:端口` 等.  
 一般在 `pac` 的开头 都可以找到.
 
-# 关于全局代理
+----
+
+# 终端临时
+- Windows
+``` cmd
+:: http(s)
+set http_proxy='http://127.0.0.1:1080'
+set https_proxy='https://127.0.0.1:1080'
+
+:: socks5
+set http_proxy='socks5://127.0.0.1:1080'
+set https_proxy='socks5://127.0.0.1:1080'
+```
+
+- Linux
+``` bash
+# http(s)
+export http_proxy='http://127.0.0.1:1080'
+export https_proxy='https://127.0.0.1:1080'
+
+# socks5
+export http_proxy='socks5://127.0.0.1:1080'
+export https_proxy='socks5://127.0.0.1:1080'
+```
+
+----
+
+# 全局代理
 ### 浏览器的话, 可以装 `SwitchyOmega` 等插件
 
 ### ~~Proxifier~~
