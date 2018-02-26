@@ -1,17 +1,33 @@
-- 终端临时
-``` bash
-export http_proxy="http.proxy http://127.0.0.1:1080"
-export https_proxy="https://127.0.0.1:1080"
+# 终端临时
+- Windows
+``` cmd
+# http(s)
+set http_proxy='http://127.0.0.1:1080'
+set https_proxy='https://127.0.0.1:1080'
+
+# socks5
+set http_proxy='socks5://127.0.0.1:1080'
+set https_proxy='socks5://127.0.0.1:1080'
 ```
 
-- http
+- Linux
 ``` bash
+# http(s)
+export http_proxy='http://127.0.0.1:1080'
+export https_proxy='https://127.0.0.1:1080'
+
+# socks5
+export http_proxy='socks5://127.0.0.1:1080'
+export https_proxy='socks5://127.0.0.1:1080'
+```
+
+# git
+``` bash
+# https(s)
 git config --global http.proxy http://127.0.0.1:1080
 git config --global https.proxy https://127.0.0.1:1080
-```
 
-- 客户端 支持 `Socks5` 的话 可以用
-``` bash
+# socks
 git config --global http.proxy 'socks5://127.0.0.1:1080'
 git config --global https.proxy 'socks5://127.0.0.1:1080'
 ```
