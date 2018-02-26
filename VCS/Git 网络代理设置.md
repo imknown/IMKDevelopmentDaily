@@ -1,25 +1,5 @@
 # 终端临时
-- Windows
-``` cmd
-:: http(s)
-set http_proxy='http://127.0.0.1:1080'
-set https_proxy='https://127.0.0.1:1080'
-
-:: socks5
-set http_proxy='socks5://127.0.0.1:1080'
-set https_proxy='socks5://127.0.0.1:1080'
-```
-
-- Linux
-``` bash
-# http(s)
-export http_proxy='http://127.0.0.1:1080'
-export https_proxy='https://127.0.0.1:1080'
-
-# socks5
-export http_proxy='socks5://127.0.0.1:1080'
-export https_proxy='socks5://127.0.0.1:1080'
-```
+https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/04_Xfce%20配置%20shadowsocks%20PAC.md#终端临时
 
 # git
 ``` bash
