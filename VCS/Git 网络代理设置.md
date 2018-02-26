@@ -1,11 +1,11 @@
 # 终端临时
 - Windows
 ``` cmd
-# http(s)
+::http(s)
 set http_proxy='http://127.0.0.1:1080'
 set https_proxy='https://127.0.0.1:1080'
 
-# socks5
+::socks5
 set http_proxy='socks5://127.0.0.1:1080'
 set https_proxy='socks5://127.0.0.1:1080'
 ```
