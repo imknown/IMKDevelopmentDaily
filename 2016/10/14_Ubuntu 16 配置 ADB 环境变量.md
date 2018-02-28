@@ -1,21 +1,22 @@
 # 手动方式
 ## 编辑环境变量
+- bash
 ``` bash
-# 当前用户 (bash)
+# 当前用户
 gedit ~/.bashrc
 
-# 所有用户 (bash)
+# 所有用户
 sudo gedit /etc/profile
 
-# 系统 (bash)
+# 系统
 sudo gedit /etc/environment
 
-# 系统 (bash)
+# 系统
 sudo gedit /etc/bash.bashrc
 ```
 
+- ZSH
 ``` zsh
-# ZSH
 sudo gedit /etc/zsh/zproile
 ```
 
@@ -28,6 +29,7 @@ PATH=${ANDROID_HOME}/platform-tools:$PATH
 ## 刷新生效
 **建议在 `bash` 执行, `zsh` 等可能会抽风**
 
+- bash
 ``` bash
 source ~/.bashrc
 source /etc/profile
@@ -35,6 +37,7 @@ source /etc/environment
 source /etc/bash.bashrc
 ```
 
+- ZSH
 ``` zsh
 # 使用 ZSH (非 /etc/zsh/zproile 方式), 可以在 ~/.zshrc 加入 上述的对应的命令 才会生效
 ```
