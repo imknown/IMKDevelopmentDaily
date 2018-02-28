@@ -1,7 +1,16 @@
 # 手动方式
 ## 编辑环境变量
 
-参考: http://blog.csdn.net/tsuilei/article/details/4714256
+> 参考: http://blog.csdn.net/tsuilei/article/details/4714256
+
+- ZSH
+``` zsh
+# 当前用户
+gedit ~/.zprofile
+
+# 所有用户
+sudo gedit /etc/zsh/zproile
+```
 
 - bash
 ``` bash
@@ -11,16 +20,11 @@ gedit ~/.bashrc
 # 所有用户
 sudo gedit /etc/profile
 
-# 系统
+# 系统 (如果 ZSH 不使用 zprofile, 推荐请使用这个, 因为 zsh 不兼容 部分 bash 语法. 其他几个里面, 都有 bash 命令)
 sudo gedit /etc/environment
 
 # 系统
 sudo gedit /etc/bash.bashrc
-```
-
-- ZSH
-``` zsh
-sudo gedit /etc/zsh/zproile
 ```
 
 最下面加入
@@ -35,14 +39,19 @@ PATH=${ANDROID_HOME}/platform-tools:$PATH
 - bash
 ``` bash
 source ~/.bashrc
+
 source /etc/profile
+
 source /etc/environment
+
 source /etc/bash.bashrc
 ```
 
 - ZSH  
-使用 `ZSH` (非 `/etc/zsh/zproile` 方式), 可以在 `~/.zshrc` 加入 `上述的对应的命令` 才会生效.  
-参考: https://github.com/robbyrussell/oh-my-zsh/issues/3807
+如果 `ZSH` 使用了 `非 zproile 方式`,  
+建议修改 `/etc/environment`, 并在 `~/.zshrc` 加入 `source /etc/environment` 以生效.  
+
+> 参考: https://github.com/robbyrussell/oh-my-zsh/issues/3807
 
 ## 查看是否成功 (区分大小写)：
 ```
