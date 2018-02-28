@@ -1,9 +1,13 @@
+
 ``` bash
-sudo gedit ~/.bashrc # 当前用户
-# 或者
-sudo gedit /etc/profile # 所有用户
-# 或者
-sudo gedit /etc/environment # 系统
+# 当前用户
+sudo gedit ~/.bashrc
+
+# 所有用户
+sudo gedit /etc/profile
+
+# 系统
+sudo gedit /etc/environment
 ```
 
 最下面加入
@@ -28,9 +32,7 @@ echo $PATH
 adb --version
 ```
 
-**如果 `终端` 关闭之后 失效了, 注销或者重启一下即可.**
-
-# 偷懒方式
+**偷懒方式**
 ``` bash
 sudo apt install android-tools-adb android-tools-fastboot
 ```
