@@ -17,7 +17,9 @@ ANDROID_HOME="/home/imknown/me/Dev/Android/SDK/android-sdk-linux"
 PATH=${ANDROID_HOME}/platform-tools:$PATH
 ```
 
-## 刷新生效 (建议在 `bash` 执行, `zsh` 等可能会抽风)
+## 刷新生效
+**建议在 `bash` 执行, `zsh` 等可能会抽风**
+
 ``` bash
 source ~/.bashrc
 # 或者
