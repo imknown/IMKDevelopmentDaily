@@ -36,6 +36,12 @@ PATH=${ANDROID_HOME}/platform-tools:$PATH
 ## 刷新生效
 **建议在 `bash` 执行, `zsh` 等可能会抽风**
 
+- ZSH  
+如果 `ZSH` 使用了 `非 zproile 方式`,  
+建议修改 `/etc/environment`, 并在 `~/.zshrc` 加入 `source /etc/environment` 以生效.  
+
+> 参考: https://github.com/robbyrussell/oh-my-zsh/issues/3807
+
 - bash
 ``` bash
 source ~/.bashrc
@@ -46,12 +52,6 @@ source /etc/environment
 
 source /etc/bash.bashrc
 ```
-
-- ZSH  
-如果 `ZSH` 使用了 `非 zproile 方式`,  
-建议修改 `/etc/environment`, 并在 `~/.zshrc` 加入 `source /etc/environment` 以生效.  
-
-> 参考: https://github.com/robbyrussell/oh-my-zsh/issues/3807
 
 ## 查看是否成功 (区分大小写)：
 ```
