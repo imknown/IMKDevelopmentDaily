@@ -1,4 +1,5 @@
-
+# 手动方式
+## 编辑边境变量
 ``` bash
 # 当前用户
 sudo gedit ~/.bashrc
@@ -16,7 +17,7 @@ ANDROID_HOME="/home/imknown/me/Dev/Android/SDK/android-sdk-linux"
 PATH=${ANDROID_HOME}/platform-tools:$PATH
 ```
 
-刷新生效 (建议在 `bash` 执行, `zsh` 等可能会抽风)
+## 刷新生效 (建议在 `bash` 执行, `zsh` 等可能会抽风)
 ``` bash
 source ~/.bashrc
 # 或者
@@ -25,14 +26,14 @@ source /etc/profile
 source /etc/environment
 ```
 
-查看是否成功 (区分大小写)：
+## 查看是否成功 (区分大小写)：
 ```
 echo $ANDROID_HOME
 echo $PATH
 adb --version
 ```
 
-**偷懒方式**
+# 偷懒方式
 ``` bash
 sudo apt install android-tools-adb android-tools-fastboot
 ```
