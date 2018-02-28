@@ -1,5 +1,8 @@
 # 手动方式
 ## 编辑环境变量
+
+参考: http://blog.csdn.net/tsuilei/article/details/4714256
+
 - bash
 ``` bash
 # 当前用户
@@ -37,10 +40,9 @@ source /etc/environment
 source /etc/bash.bashrc
 ```
 
-- ZSH
-``` zsh
-# 使用 ZSH (非 /etc/zsh/zproile 方式), 可以在 ~/.zshrc 加入 上述的对应的命令 才会生效
-```
+- ZSH  
+使用 `ZSH` (非 `/etc/zsh/zproile` 方式), 可以在 `~/.zshrc` 加入 `上述的对应的命令` 才会生效.  
+参考: https://github.com/robbyrussell/oh-my-zsh/issues/3807
 
 ## 查看是否成功 (区分大小写)：
 ```
@@ -49,6 +51,9 @@ echo $PATH
 adb --version
 ```
 
+## 参考
+- http://blog.csdn.net/tsuilei/article/details/4714256
+- https://github.com/robbyrussell/oh-my-zsh/issues/3807
 # 偷懒方式
 ``` bash
 sudo apt install android-tools-adb android-tools-fastboot
