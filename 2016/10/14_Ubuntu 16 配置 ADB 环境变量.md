@@ -33,7 +33,9 @@ source ~/.bashrc
 source /etc/profile
 source /etc/environment
 source /etc/bash.bashrc
+```
 
+``` zsh
 # 使用 ZSH (非 /etc/zsh/zproile 方式), 可以在 ~/.zshrc 加入 上述的对应的命令 才会生效
 ```
 
