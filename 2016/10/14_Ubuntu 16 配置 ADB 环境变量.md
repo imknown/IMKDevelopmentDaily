@@ -12,18 +12,20 @@ ANDROID_HOME="/home/imknown/me/Dev/Android/SDK/android-sdk-linux"
 PATH=${ANDROID_HOME}/platform-tools:$PATH
 ```
 
-刷新一下 (临时)，查看是否成功 (区分大小写)：
+刷新生效 (建议在 `bash` 执行, `zsh` 等可能会抽风)
 ``` bash
 source ~/.bashrc
 # 或者
 source /etc/profile
 # 或者
 source /etc/environment
+```
 
-# 然后执行:
+查看是否成功 (区分大小写)：
+```
 echo $ANDROID_HOME
 echo $PATH
-adb -version
+adb --version
 ```
 
 **如果 `终端` 关闭之后 失效了, 注销或者重启一下即可.**
