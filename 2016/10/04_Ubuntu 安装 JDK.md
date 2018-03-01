@@ -43,7 +43,7 @@ https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/14_Ubuntu%201
 最下面加入
 ``` bash
 JAVA_HOME="/your_unzip_location"
-PATH=${JAVA_HOME}/bin:$PATH
+PATH=$JAVA_HOME/bin:$PATH
 ```
 
 如果 配置不生效,  
