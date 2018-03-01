@@ -6,10 +6,7 @@
 - ZSH
 ``` zsh
 # 当前用户
-gedit ~/.zprofile
-
-# 所有用户
-sudo gedit /etc/zsh/zproile
+gedit ~/.zshrc
 ```
 
 - bash
@@ -17,10 +14,10 @@ sudo gedit /etc/zsh/zproile
 # 当前用户
 gedit ~/.bashrc
 
-# 所有用户
+# 所有用户 (不推荐)
 sudo gedit /etc/profile
 
-# 系统 (如果 ZSH 不使用 zprofile, 推荐请使用这个, 因为 zsh 不兼容 部分 bash 语法. 其他几个里面, 都有 bash 命令)
+# 系统 (不推荐)
 sudo gedit /etc/environment
 
 # 系统
@@ -29,18 +26,14 @@ sudo gedit /etc/bash.bashrc
 
 最下面加入
 ``` bash
-ANDROID_HOME="/home/imknown/me/Dev/Android/SDK/android-sdk-linux"
-PATH=${ANDROID_HOME}/platform-tools:$PATH
+export ANDROID_HOME="/your_android_sdk_location"
+export PATH=$ANDROID_HOME/platform-tools:$PATH
 ```
 
 ## 刷新生效
-**建议在 `bash` 执行, `zsh` 等可能会抽风**
 
 - ZSH  
-如果 `ZSH` 使用了 `非 zproile 方式`,  
-建议修改 `/etc/environment`, 并在 `~/.zshrc` 加入 `source /etc/environment` 以生效.  
-
-> 参考: https://github.com/robbyrussell/oh-my-zsh/issues/3807
+貌似自动生效, 新开 ZSH 即可.
 
 - bash
 ``` bash
