@@ -66,8 +66,8 @@ source /etc/environment
 - Windows
 ``` cmd
 :: http(s)
-set http_proxy='http://127.0.0.1:1080'
-set https_proxy='https://127.0.0.1:1080'
+set http_proxy='http://127.0.0.1:1081'
+set https_proxy='https://127.0.0.1:1081'
 
 :: socks5
 set http_proxy='socks5://127.0.0.1:1080'
@@ -77,8 +77,8 @@ set https_proxy='socks5://127.0.0.1:1080'
 - Linux
 ``` bash
 # http(s)
-export http_proxy='http://127.0.0.1:1080'
-export https_proxy='https://127.0.0.1:1080'
+export http_proxy='http://127.0.0.1:1081'
+export https_proxy='https://127.0.0.1:1081'
 
 # socks5
 export http_proxy='socks5://127.0.0.1:1080'
