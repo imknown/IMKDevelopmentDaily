@@ -99,13 +99,17 @@ sudo apt install privoxy
 ```
 
 2. 配置
+``` bash
+sudo gedit /etc/privoxy/config
+```
+
 ``` config
 #  4.1. listen-address
 listen-address  127.0.0.1:8118
 listen-address  [::1]:8118
 
-#  5.2. forward-socks4, forward-socks4a, forward-socks5 and forward-socks5t
 forward-socks5 / 127.0.0.1:1080 .
+forward / 127.0.0.1:1081 .
 ```
 
 3. 关于服务: 启动/停止/状态...
