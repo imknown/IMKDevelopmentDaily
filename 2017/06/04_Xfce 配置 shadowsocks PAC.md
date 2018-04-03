@@ -92,7 +92,7 @@ export https_proxy='socks5://127.0.0.1:1080'
 
 ### ~~Proxifier~~
 
-### Privoxy
+### [Privoxy](https://www.privoxy.org/)
 1. 安装
 ``` bash
 sudo apt install privoxy
