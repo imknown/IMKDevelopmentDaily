@@ -24,6 +24,21 @@ sudo apt-get purge *xfce4*
 ```
 
 
+# KDE/Plasma
+- https://www.kde.org/plasma-desktop
+- https://askubuntu.com/questions/417/how-do-i-install-kde
+
+- 最小安装
+``` bash
+sudo apt-get install plasma-desktop
+```
+
+- 完整安装
+``` bash
+sudo apt-get install kubuntu-desktop
+```
+
+
 # LXDE
 - https://wiki.lxde.org/en/Installation#Instructions_for_Ubuntu.2FDebian_.28APT.29
 
@@ -39,17 +54,8 @@ sudo apt-get install lubuntu-core lubuntu-icon-theme lubuntu-restricted-extras
 ```
 
 
-# Cinnamon
-- https://github.com/linuxmint/Cinnamon
-
-``` bash
-sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
-sudo apt-get update
-sudo apt-get install cinnamon
-```
-
 # MATE
-http://wiki.mate-desktop.org/download#ubuntu
+- http://wiki.mate-desktop.org/download#ubuntu
 
 ### 最小安装
 ``` bash
@@ -74,19 +80,15 @@ sudo apt-get install ubuntu-mate-core ubuntu-mate-desktop
 ```
 
 
-# KDE/Plasma
-- https://www.kde.org/plasma-desktop
-- https://askubuntu.com/questions/417/how-do-i-install-kde
+# Cinnamon
+- https://github.com/linuxmint/Cinnamon
 
-- 最小安装
 ``` bash
-sudo apt-get install plasma-desktop
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
+sudo apt-get update
+sudo apt-get install cinnamon
 ```
 
-- 完整安装
-``` bash
-sudo apt-get install kubuntu-desktop
-```
 
 ----
 
