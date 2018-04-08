@@ -28,12 +28,12 @@ sudo apt-get purge *xfce4*
 - https://www.kde.org/plasma-desktop
 - https://askubuntu.com/questions/417/how-do-i-install-kde
 
-- 最小安装
+### 最小安装
 ``` bash
 sudo apt-get install plasma-desktop
 ```
 
-- 完整安装
+### 完整安装
 ``` bash
 sudo apt-get install kubuntu-desktop
 ```
