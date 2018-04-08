@@ -27,6 +27,7 @@ sudo apt-get purge *xfce4*
 # KDE/Plasma
 - https://www.kde.org/plasma-desktop
 - https://askubuntu.com/questions/417/how-do-i-install-kde
+- http://www.tecmint.com/install-kde-plasma-5-in-linux/
 
 ### 最小安装
 ``` bash
@@ -93,4 +94,5 @@ sudo apt-get install cinnamon
 ----
 
 参考:  
-- http://www.tecmint.com/install-kde-plasma-5-in-linux/
+- 七大顶级桌面比较！Linux平台自由选择  
+  http://server.zol.com.cn/536/5363403.html
