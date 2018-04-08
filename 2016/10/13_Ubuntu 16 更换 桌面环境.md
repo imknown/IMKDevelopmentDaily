@@ -63,5 +63,7 @@ sudo apt-get dist-upgrade
 sudo apt-get install kubuntu-desktop
 ```
 
+----
+
 参考:  
 - http://www.tecmint.com/install-kde-plasma-5-in-linux/
