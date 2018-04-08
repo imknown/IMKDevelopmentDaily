@@ -40,6 +40,29 @@ sudo apt-get install kubuntu-desktop
 ```
 
 
+# Budgie
+- https://fossbytes.com/how-to-install-budgie-desktop-10-4-ubuntu-16-04-17-10/
+
+### Ubuntu 16.04 LTS
+``` bash
+sudo add-apt-repository ppa:budgie-remix/ppa
+sudo apt update
+sudo apt install budgie-desktop
+```
+
+### Ubuntu 17.04
+``` bash
+sudo add-apt-repository ppa:ubuntubudgie/backports
+sudo apt update
+sudo apt install budgie-desktop
+```
+
+### Ubuntu 17.10
+``` bash
+sudo apt install budgie-desktop
+```
+
+
 # LXDE
 - https://wiki.lxde.org/en/Installation#Instructions_for_Ubuntu.2FDebian_.28APT.29
 
