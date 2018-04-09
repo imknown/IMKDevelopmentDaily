@@ -4,8 +4,8 @@ https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/04_Xfce%20配
 # git
 ``` bash
 # https(s)
-git config --global http.proxy http://127.0.0.1:1080
-git config --global https.proxy https://127.0.0.1:1080
+git config --global http.proxy http://127.0.0.1:1081
+git config --global https.proxy https://127.0.0.1:1081
 
 # socks
 git config --global http.proxy 'socks5://127.0.0.1:1080'
