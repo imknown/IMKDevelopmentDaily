@@ -106,11 +106,11 @@ sudo apt-get install ubuntu-mate-core ubuntu-mate-desktop
 
 # Cinnamon
 - https://github.com/linuxmint/Cinnamon
+- https://askubuntu.com/a/94202
 
 ``` bash
-sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
-sudo apt-get update
-sudo apt-get install cinnamon
+sudo apt-get install cinnamon-desktop-environment
+
 ```
 
 
