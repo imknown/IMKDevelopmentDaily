@@ -29,4 +29,6 @@ env WINEARCH=win32 WINEPREFIX=~/.wine32 winetricks "xxx"
 env WINEPREFIX=~/.wine32 winetricks "xxx"
 ```
 
-参考: https://askubuntu.com/questions/231587/installing-dotnet-2-0-on-64-bit-machine
+参考: 
+- https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/09_修复%20Wine%20文字显示为%20☐%20乱码的问题.md
+- https://askubuntu.com/questions/231587/installing-dotnet-2-0-on-64-bit-machine
