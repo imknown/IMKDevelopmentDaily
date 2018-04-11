@@ -1,30 +1,32 @@
-# PPA 源
-- WineHQ 官方
-  - 新方法  
-  https://wiki.winehq.org/Ubuntu
+# WineHQ 官方
+https://wiki.winehq.org/Ubuntu
 
-  - 过时的方法:  
-  https://launchpad.net/~wine/+archive/ubuntu/wine-builds  
-
-- Ubuntu Wine Team (ppa:ubuntu-wine/ppa)  
-https://launchpad.net/~ubuntu-wine/+archive/ubuntu/ppa
-``` bash
-sudo add-apt-repository ppa:ubuntu-wine/ppa
-sudo apt-get update
-sudo apt-get install wine1.8 winetricks
-```
-
-- Rico Tzschichholz (ppa:ricotz/unstable)
-https://launchpad.net/~ricotz/+archive/ubuntu/unstable
-``` bash
-sudo add-apt-repository ppa:ricotz/unstable
-sudo apt-get update
-```
+参考: http://wiki.ubuntu.com.cn/Wine
 
 # wine 配置工具
 ``` bash 
 winecfg
 ```
 
-### 参考
-http://wiki.ubuntu.com.cn/Wine
+# Winetricks
+``` bash
+sudo apt install winetricks
+```
+
+参考: https://wiki.winehq.org/Winetricks
+
+# 32位 Wine 环境 (前缀)
+创建
+``` bash
+-WINEARCH=win32 WINEPREFIX=~/.wine32 winecfg
+```
+
+运行, 例如:
+``` bash
+env WINEARCH=win32 WINEPREFIX=~/.wine32 winetricks "xxx"
+
+# 或者
+env WINEPREFIX=~/.wine32 winetricks "xxx"
+```
+
+参考: https://askubuntu.com/questions/231587/installing-dotnet-2-0-on-64-bit-machine
