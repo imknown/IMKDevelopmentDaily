@@ -8,5 +8,5 @@
 
 如果是 `英文系统` 使用 `中文软件`, 可以在头部添加:
 ``` shell
-export LANG=zh_CN.UTF8
+export LC_ALL=zh_CN.UTF-8
 ```
