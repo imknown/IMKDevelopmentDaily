@@ -2,8 +2,8 @@
 比 `麒麟 16` 和 `ubuntu 14.04` 强好多啊。  
 
 # 安装 Wine
-**建议先安装 Wine, 虽然 Ubuntu 自带**  
-[Ubuntu Wine 安装总结.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md)
+**建议先安装 Wine, 虽然 Ubuntu 自带**  
+[Ubuntu Wine 安装总结](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md)
 
 # 安装 WeChat
 ### 原生应用
