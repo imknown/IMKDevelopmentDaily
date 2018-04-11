@@ -1,7 +1,11 @@
 今天装回了 `ubuntu 16.04.1`, 唉，  
 比 `麒麟 16` 和 `ubuntu 14.04` 强好多啊。  
 
-# WeChat 安装
+# 安装 Wine
+**建议先安装 Wine, 虽然 Ubuntu 自带**  
+[Ubuntu Wine 安装总结.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md)
+
+# 安装 WeChat
 ### 原生应用
 ~~Update 2017-11-27: 不再推荐, Web 的 API 貌似会逐渐关闭, 请使用 `Wine`~~  
 - https://github.com/geeeeeeeeek/electronic-wechat/releases
@@ -31,10 +35,7 @@ winetricks ole32
 - http://www.jianshu.com/p/6aa175a534c4
 
 
-# QQ 安装
-### 建议先安装 Wine, 虽然 Ubuntu 自带
-[Ubuntu Wine 安装总结.md](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md)
-
+# 安装 QQ
 - **不建议 安装 `9.0.1`, 卡出翔, 没朋友. 建议安装 `8.9.4`, 稳定...**
    - https://dldir1.qq.com/qqfile/qq/QQ8.0/16954/QQ8.0.exe
    - https://dldir1.qq.com/qqfile/qq/QQ8.1/17216/QQ8.1.exe
