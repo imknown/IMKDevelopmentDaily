@@ -144,3 +144,5 @@ winetricks mdac28
 # 英文系统 使用 中文 Wine
 设置 `LC_ALL=zh_CN.UTF-8` 即可, 例如:
 > Exec=env WINEPREFIX="/home/imknown/.wine" LC_ALL=zh_CN.UTF-8 wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/imknown/.wine/dosdevices/c:/users/Public/Desktop/WeChat.lnk
+
+参考: https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/09_修复%20Wine%20文字显示为%20☐%20乱码的问题.md
