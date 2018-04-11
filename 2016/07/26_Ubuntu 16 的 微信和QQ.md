@@ -86,8 +86,8 @@ https://www.so-cools.com/?p=739
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
 
-
-# 64位 Ubuntu 无法启动 QQ
+# 疑难杂症
+## 64位 Ubuntu 无法启动 QQ
 尝试 安装 32位 库:
 ``` bash
 sudo dpkg --add-architecture i386
@@ -97,7 +97,7 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
 参考: http://blog.csdn.net/cwll2009/article/details/24449893
 
 
-# 不能输入 QQ号 的问题
+## 不能输入 QQ号 的问题
 方法来源 参考上面的 `2017-08-24`:
 
 ``` bash
@@ -108,7 +108,7 @@ winecfg
 重启 QQ 即可.
 
 
-# QQ 不能输入中文的问题
+## QQ 不能输入中文的问题
 用 sudo 打开:  
 - 国际版
 > /usr/share/deepinwine/qqintl/wine-qqintl  
@@ -127,13 +127,13 @@ export QT_IM_MODULE="fcitx"
 保存, 然后重启 `QQ` 即可.
 
 
-# QQ 设置 闪退的问题 (err: ole)
+## QQ 设置 闪退的问题 (err: ole)
 ```
 winetricks mdac28
 ```
 
 
-# 替换字体
+## 替换字体
 尝试放置 `windows` 的 `宋体` `Microsoft YaHei` 等 字体:
 > .../.wine/drive_c/windows/Fonts/simsun.ttf
 
@@ -142,8 +142,8 @@ winetricks mdac28
 - http://www.linuxdiyf.com/linux/18884.html
 
 
-# 英文系统 使用 中文 Wine
+## 英文系统 使用 中文 Wine
 设置 `LC_ALL=zh_CN.UTF-8` 即可, 例如:
 > Exec=env WINEPREFIX="/home/imknown/.wine" LC_ALL=zh_CN.UTF-8 wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/imknown/.wine/dosdevices/c:/users/Public/Desktop/WeChat.lnk
 
-参考: https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/09_修复%20Wine%20文字显示为%20☐%20乱码的问题.md
+具体用法 参考: https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/09_修复%20Wine%20文字显示为%20☐%20乱码的问题.md
