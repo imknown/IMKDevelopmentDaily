@@ -1,40 +1,38 @@
 **注意! 本文部分内容的可用性, 有待进一步核实!**
 
 # 安装
-## SunJDK/OracleJDK (版本号可以换)
+## PPA
+### OracleJDK
 ``` bash
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt update
 sudo apt install oracle-java8-installer
-
-# 这句话 貌似可以 自动同意 安装协议, 可选
-# echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 ```
 
-- 配置环境变量 (可选)
+- 配置环境变量
   - 查看 已安装的版本 (还会包括 `OpenJDK`)  
   `update-java-alternatives -l`
   - 设置成 默认版本  
   `sudo apt-get install oracle-java8-set-default`
-  - 切换成 其他版本 (前提是得安装吧)  
+  - 切换成 其他版本  
   `sudo update-java-alternatives -s java-7-oracle`
 
-## OpenJDK (版本号可以换)
+### OpenJDK
 ``` bash
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
 sudo apt-get install openjdk-8-jdk
 ```
 
-- Ubuntu 16.xx 安装 OpenJDK 7  
-http://askubuntu.com/a/803616/626522
-
 - 配置环境变量
 参考: 
 - http://askubuntu.com/questions/464755/how-to-install-openjdk-8-on-14-04-lts
-- [SunJDK/OracleJDK (版本号可以换)](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/04_Ubuntu%20%E5%AE%89%E8%A3%85%20JDK.md#sunjdkoraclejdk-版本号可以换)
   
-## 官网下载(适合自己折腾)
+## 官网下载 (适合自己折腾)
+### OpenJDK
+http://openjdk.java.net/install/
+
+### OracleJDK
 http://www.oracle.com/technetwork/java/javase/downloads/index.html  
 
 - 配置环境变量  
