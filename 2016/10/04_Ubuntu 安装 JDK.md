@@ -79,8 +79,8 @@ javac -version
 sudo apt purge openjdk*
 
 # oracle jdk
-sudo rm /var/lib/dpkg/info/oracle-java8-installer*
-sudo apt purge oracle-java8-installer*
+sudo rm /var/lib/dpkg/info/oracle-j*
+sudo apt purge oracle-j*
 sudo rm /etc/apt/sources.list.d/*java*
 sudo apt update
 ```
