@@ -35,7 +35,11 @@ http://openjdk.java.net/install/
 ### OracleJDK
 http://www.oracle.com/technetwork/java/javase/downloads/index.html  
 
-- 配置环境变量  
+### 配置方法1 (仿 PPA)
+https://stackoverflow.com/a/49507161
+
+### 配置方法2 (不推荐)
+- 配置环境变量  
 https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/14_Ubuntu%2016%20配置%20ADB%20环境变量.md#手动方式
 
 最下面加入
@@ -76,5 +80,5 @@ sudo apt update
 ```
 
 # 参考
-- http://wiki.ubuntu.org.cn/Java  
-- http://blog.sina.com.cn/s/blog_53a99cf30102v6o4.html  
+- ~~http://wiki.ubuntu.org.cn/Java~~  
+- ~~http://blog.sina.com.cn/s/blog_53a99cf30102v6o4.html~~  
