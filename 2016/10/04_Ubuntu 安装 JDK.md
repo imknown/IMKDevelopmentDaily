@@ -3,6 +3,8 @@
 # 安装
 ## PPA
 ### OracleJDK
+- https://launchpad.net/~webupd8team/+archive/ubuntu/java
+
 ``` bash
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt update
