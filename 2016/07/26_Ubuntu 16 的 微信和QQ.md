@@ -6,12 +6,12 @@
 [Ubuntu Wine 安装总结](https://github.com/imknown/IMKDevelopmentDaily/blob/master/2016/10/03_Ubuntu%20Wine%20%E5%AE%89%E8%A3%85%E6%80%BB%E7%BB%93.md)
 
 # 安装 WeChat
-### 原生应用
+## 原生应用
 ~~Update 2017-11-27: 不再推荐, Web 的 API 貌似会逐渐关闭, 请使用 `Wine`~~  
 - https://github.com/geeeeeeeeek/electronic-wechat/releases
 - https://github.com/trazyn/weweChat
 
-### Wine 方式:
+## Wine 方式:
 先从 `TIM` 或者 `QQ` 的 目录中, 拷贝一份 `RICHED20.DLL`.  
 然后通过 `winecfg` 把 `riched20.dll` 改为 `Native(原版)` 即可.  
 
@@ -19,14 +19,6 @@
 ```
 winetricks riched20 msctf vcrun2005
 ```
-
-如果不能发图片和文件, 尝试 (**慎用**, 可能会导致 `wine` 崩溃): 
-```
-winetricks ole32
-```
-
-速度慢的话用工具下载下, 放到:
-> ~/.cache/winetricks/winxpsp3/WindowsXP-KB936929-SP3-x86-ENU.exe
 
 参考:  
 - http://tieba.baidu.com/p/4867218926#post_content_109004052038
@@ -86,6 +78,7 @@ https://www.so-cools.com/?p=739
 # 卸载 Wine QQ  
 http://www.cnblogs.com/exmyth/p/4066090.html  
 
+
 # 疑难杂症
 ## 64位 Ubuntu 无法启动 QQ
 尝试 安装 32位 库:
@@ -104,8 +97,7 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
 winecfg
 ```
 
-然后 在 `Libraries` 选项卡 加入 `msvcp60` 和 `riched20`.  
-重启 QQ 即可.
+然后 在 `Libraries` 选项卡 加入 `msvcp60` 和 `riched20`, 改为 `Native(原版)` 即可.
 
 
 ## QQ 不能输入中文的问题
@@ -147,3 +139,17 @@ winetricks mdac28
 > Exec=env WINEPREFIX="/home/imknown/.wine" LC_ALL=zh_CN.UTF-8 wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/imknown/.wine/dosdevices/c:/users/Public/Desktop/WeChat.lnk
 
 具体用法 参考: https://github.com/imknown/IMKDevelopmentDaily/blob/master/2017/06/09_修复%20Wine%20文字显示为%20☐%20乱码的问题.md
+
+
+## winecfg 配置 参考
+> ~/.wine/user.reg
+
+"*mtxdm"="native,builtin"
+"*odbc32"="native,builtin"
+"*odbccp32"="native,builtin"
+"*oledb32"="native,builtin"
+"*msls31"="native"
+"*riched20"="native"
+"*riched32"="native"
+
+**Windows 版本 建议使用 Windows XP**
