@@ -23,9 +23,11 @@ env WINEARCH=win32 WINEPREFIX=$HOME/.wine32 winecfg
 
 运行, 例如:
 ``` bash
+env WINEARCH=win32 WINEPREFIX=$HOME/.wine32 wine "xxx"
 env WINEARCH=win32 WINEPREFIX=$HOME/.wine32 winetricks "xxx"
 
 # 或者
+env WINEPREFIX=$HOME/.wine32 wine "xxx"
 env WINEPREFIX=$HOME/.wine32 winetricks "xxx"
 ```
 
