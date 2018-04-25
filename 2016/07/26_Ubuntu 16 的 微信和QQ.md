@@ -151,9 +151,9 @@ winetricks mdac28
 "*odbc32"="native,builtin"
 "*odbccp32"="native,builtin"
 "*oledb32"="native,builtin"
-"*msls31"="native"
-"*riched20"="native"
-"*riched32"="native"
+"*msls31"="native,builtin"
+"*riched20"="native,builtin"
+"*riched32"="native,builtin"
 ```
 
 
