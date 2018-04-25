@@ -144,6 +144,7 @@ winetricks mdac28
 ## winecfg 配置 参考
 > ~/.wine/user.reg
 
+``` reg
 "*mtxdm"="native,builtin"
 "*odbc32"="native,builtin"
 "*odbccp32"="native,builtin"
@@ -151,5 +152,6 @@ winetricks mdac28
 "*msls31"="native"
 "*riched20"="native"
 "*riched32"="native"
+```
 
 **Windows 版本 建议使用 Windows XP**
