@@ -18,5 +18,5 @@ env LC_ALL=zh_CN.utf-8 wine "xxx"
 
 或者 指定前缀:
 ``` bash
-env WINEPREFIX="/home/imknown/.wine" LC_ALL=zh_CN.UTF-8 wine "xxx"
+env WINEPREFIX="$HOME/.wine" LC_ALL=zh_CN.UTF-8 wine "xxx"
 ```
