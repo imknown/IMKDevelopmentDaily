@@ -18,15 +18,15 @@ sudo apt install winetricks
 # 32位 Wine 环境 (前缀)
 创建
 ``` bash
--WINEARCH=win32 WINEPREFIX=~/.wine32 winecfg
+env WINEARCH=win32 WINEPREFIX=$HOME/.wine32 winecfg
 ```
 
 运行, 例如:
 ``` bash
-env WINEARCH=win32 WINEPREFIX=~/.wine32 winetricks "xxx"
+env WINEARCH=win32 WINEPREFIX=$HOME/.wine32 winetricks "xxx"
 
 # 或者
-env WINEPREFIX=~/.wine32 winetricks "xxx"
+env WINEPREFIX=$HOME/.wine32 winetricks "xxx"
 ```
 
 参考: 
