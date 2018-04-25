@@ -142,7 +142,9 @@ winetricks mdac28
 
 
 ## winecfg 配置 参考
-> ~/.wine/user.reg
+**建议使用 Wine 32位 前缀, Windows 版本 建议使用 Windows XP**
+
+> ~/.wine32/user.reg
 
 ``` reg
 "*mtxdm"="native,builtin"
@@ -154,4 +156,4 @@ winetricks mdac28
 "*riched32"="native"
 ```
 
-**Windows 版本 建议使用 Windows XP**
+
