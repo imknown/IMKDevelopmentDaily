@@ -44,7 +44,7 @@ winetricks riched20 msctf vcrun2005
    - https://dldir1.qq.com/qqfile/qq/QQ8.9.3/21149/QQ8.9.3.exe
    - https://dldir1.qq.com/qqfile/qq/QQ8.9.4/21584/QQ8.9.4.exe
    - https://dldir1.qq.com/qqfile/qq/QQ8.9.5/22062/QQ8.9.5.exe
-   - https://dldir1.qq.com/qqfile/qq/QQ8.9.6/22404/QQ8.9.6.exe
+   - https://dldir1.qq.com/qqfile/qq/QQ8.9.6/22427/QQ8.9.6.exe
 
 - Longene Wine QQ 7.8 (~~推荐~~, 可自动升级到最新版)  
 http://www.longene.org/forum/viewtopic.php?f=6&t=30516  
