@@ -146,5 +146,47 @@ The document has moved
 ### polipo
 
 ### proxychains
+1. 安装
+``` bash
+sudo apt install proxychains
+```
+
+2. 配置
+``` bash
+sudo gedit /etc/proxychains.conf
+```
+
+``` config
+[ProxyList]
+# add proxy here ...
+# meanwile
+# defaults set to "tor"
+# socks5  127.0.0.1   1080
+http  127.0.0.1   1081
+```
+
+3. 使用
+``` bash
+proxychains xxx
+```
+
+4. 测试
+``` bash
+curl google.com
+```
+
+返回如下内容 即表示成功:
+``` html
+|DNS-request| google.com 
+|S-chain|-<>-127.0.0.1:1081-<><>-4.2.2.2:53-<><>-OK
+|DNS-response| google.com is 172.217.11.78
+|S-chain|-<>-127.0.0.1:1081-<><>-172.217.11.78:80-<><>-OK
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+```
 
 ### https://github.com/shadowsocks/shadowsocks/wiki
