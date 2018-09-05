@@ -1,3 +1,6 @@
+# DeepinWine
+https://github.com/wszqkzqk/deepin-wine-ubuntu
+
 # WineHQ 官方
 https://wiki.winehq.org/Ubuntu
 
