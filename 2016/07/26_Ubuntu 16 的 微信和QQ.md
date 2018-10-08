@@ -26,6 +26,8 @@ winetricks riched20 msctf vcrun2005
 - https://www.cnblogs.com/makefile/p/6079451.html
 - http://www.jianshu.com/p/6aa175a534c4
 
+# 企业微信
+参考 (待整理): http://elkpi.com/topics/ubuntu-16-04-wine-wxwork.html
 
 # 安装 QQ
 - **不建议 安装 `9.0.1`, 卡出翔, 没朋友. 建议安装 `8.9.4`, 稳定...**
