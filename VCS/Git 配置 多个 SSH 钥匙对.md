@@ -25,7 +25,7 @@ ssh -T imknown@github.com # 改成自己的用户名...
 ```
 
 - 排错
-```
+``` bash
 ssh -vT git@github.com # 普通
 ssh -vvv git@github.com # 终极
 ```
