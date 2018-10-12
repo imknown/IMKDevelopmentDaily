@@ -21,13 +21,8 @@ IdentityFile "/d/1_imknown/Keys/SSH2/imknown_rsa" # 改成自己的路径...
 - 验证
 ``` bash
 ssh -T git@github.com
-ssh -T imknown@github.com # 改成自己的用户名...
-```
-
-- 排错
-``` bash
-ssh -vT git@github.com # 普通
-ssh -vvv git@github.com # 终极
+ssh -vT git@github.com # 普通排错
+ssh -vvv git@github.com # 终极排错
 ```
 
 - 参考
