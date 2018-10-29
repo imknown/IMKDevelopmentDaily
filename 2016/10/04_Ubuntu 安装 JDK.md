@@ -1,4 +1,5 @@
-**注意! 本文部分内容的可用性, 有待进一步核实!**
+# Java 11
+[Java 11 相关](https://github.com/imknown/IMKDevelopmentDaily/blob/master/Android/Java%2011%20%E7%9B%B8%E5%85%B3.md)
 
 # 安装
 ## PPA
