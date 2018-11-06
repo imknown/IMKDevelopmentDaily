@@ -11,20 +11,21 @@ style "button" {
   xthickness = 3
   ythickness = 3
 
-  bg[NORMAL]        = "#eeeeec" # @bg_color
+  bg[NORMAL]        = @bg_color
   bg[PRELIGHT]      = "#ffffff"
   bg[ACTIVE]        = "#c2d1e1"
   bg[SELECTED]      = "#ffbd8d"
 # bg[INSENSITIVE]   = @insensitive_bg_color
 
+  # copied from '/usr/share/themes/Greybird/gtk-2.0/gtkrc'
   engine "murrine"
   {
     contrast            = 0.9
     highlight_shade     = 1.0
     lightborder_shade   = 1.2
-    gradient_shades     = {1.05,1.0,0.97,0.97}
+    gradient_shades     = { 1.05, 1.0, 0.97, 0.97}
     border_shades       = { 1.1, 0.9 }
-    shadow_shades       = {1.0,1.0}
+    shadow_shades       = { 1.0, 1.0 }
     reliefstyle         = 0
     roundness	        = 2
   }
