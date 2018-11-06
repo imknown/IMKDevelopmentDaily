@@ -5,6 +5,9 @@
 - 2018年wine QQ最完美解决方案（多Linux发行版通过测试并稳定运行）  
 https://www.lulinux.com/archives/1319
 
+- PlayOnLinux  
+https://www.playonlinux.com
+
 - deepin
   - http://packages.deepin.com/deepin/pool/non-free/d/
   - http://mirrors.aliyun.com/deepin/pool/non-free/d/
