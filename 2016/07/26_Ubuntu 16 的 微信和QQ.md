@@ -2,8 +2,12 @@
 比 `麒麟 16` 和 `ubuntu 14.04` 强好多啊。  
 
 # 推荐阅读
-2018年wine QQ最完美解决方案（多Linux发行版通过测试并稳定运行）  
+- 2018年wine QQ最完美解决方案（多Linux发行版通过测试并稳定运行）  
 https://www.lulinux.com/archives/1319
+
+- deepin
+  - http://packages.deepin.com/deepin/pool/non-free/d/
+  - http://mirrors.aliyun.com/deepin/pool/non-free/d/
 
 # 安装 Wine
 **建议先安装 Wine, 虽然 Ubuntu 自带**  
