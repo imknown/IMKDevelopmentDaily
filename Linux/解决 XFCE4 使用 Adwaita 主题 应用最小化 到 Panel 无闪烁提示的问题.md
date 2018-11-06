@@ -8,15 +8,26 @@ sudo mousepad '/usr/share/themes/Adwaita/gtk-2.0/main.rc'
 修改 `style "button"` 成 如下内容 (建议先备份):
 ``` cfg
 style "button" {  
-  bg[ACTIVE]        = "#c2d1e1"
-  bg[NORMAL]        = "#eeeeec"
-  bg[PRELIGHT]      = "#ffffff"
-  bg[SELECTED]      = "#ffbd8d"
+	xthickness = 3
+	ythickness = 3
 
-  engine "xfce" {
-      smooth_edge = true
-      grip_style = none
-  }
+	bg[ACTIVE]        = "#c2d1e1"
+	bg[NORMAL]        = "#eeeeec"
+	bg[PRELIGHT]      = "#ffffff"
+	bg[SELECTED]      = "#ffbd8d"
+#	bg[INSENSITIVE] = @insensitive_bg_color
+
+	engine "murrine"
+	{
+		contrast            = 0.9
+		highlight_shade     = 1.0
+		lightborder_shade   = 1.2
+		gradient_shades     = {1.05,1.0,0.97,0.97}
+		border_shades       = { 1.1, 0.9 }
+		shadow_shades       = {1.0,1.0}
+		reliefstyle         = 0
+		roundness	    = 2
+	}
 }
 ```
 
