@@ -145,7 +145,7 @@ The document has moved
 
 ### polipo
 
-### proxychains4
+### [proxychains4](https://github.com/haad/proxychains)
 1. 安装
 ``` bash
 sudo apt install proxychains4
