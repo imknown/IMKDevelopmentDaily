@@ -145,15 +145,15 @@ The document has moved
 
 ### polipo
 
-### proxychains
+### proxychains4
 1. 安装
 ``` bash
-sudo apt install proxychains
+sudo apt install proxychains4
 ```
 
 2. 配置
 ``` bash
-sudo gedit /etc/proxychains.conf
+sudo gedit /etc/proxychains4.conf
 ```
 
 ``` config
@@ -161,26 +161,26 @@ sudo gedit /etc/proxychains.conf
 # add proxy here ...
 # meanwile
 # defaults set to "tor"
-# socks5  127.0.0.1   1080
+# socks4 	127.0.0.1 9050
 http  127.0.0.1   1081
 ```
 
 3. 使用
 ``` bash
-proxychains xxx
+proxychains4 xxx
 ```
 
 4. 测试
 ``` bash
-curl google.com
+proxychains4 curl google.com
 ```
 
 返回如下内容 即表示成功:
 ``` html
-|DNS-request| google.com 
-|S-chain|-<>-127.0.0.1:1081-<><>-4.2.2.2:53-<><>-OK
-|DNS-response| google.com is 172.217.11.78
-|S-chain|-<>-127.0.0.1:1081-<><>-172.217.11.78:80-<><>-OK
+[proxychains] config file found: /etc/proxychains4.conf
+[proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+[proxychains] DLL init: proxychains-ng 4.12
+[proxychains] Strict chain  ...  127.0.0.1:1081  ...  google.com:80  ...  OK
 <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
 <TITLE>301 Moved</TITLE></HEAD><BODY>
 <H1>301 Moved</H1>
