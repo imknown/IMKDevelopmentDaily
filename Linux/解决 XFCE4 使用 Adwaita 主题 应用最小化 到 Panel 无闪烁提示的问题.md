@@ -11,10 +11,10 @@ style "button" {
   xthickness = 3
   ythickness = 3
 
-  bg[NORMAL]        = @bg_color
-  bg[PRELIGHT]      = "#ffffff"
-  bg[ACTIVE]        = "#c2d1e1"
-  bg[SELECTED]      = "#ffbd8d"
+# bg[NORMAL]        = @bg_color
+  bg[PRELIGHT]      = shade (1.4, @selected_bg_color)
+  bg[ACTIVE]        = shade (0.8, @bg_color)
+  bg[SELECTED]      = shade (1.2, @selected_bg_color)
 # bg[INSENSITIVE]   = @insensitive_bg_color
 
   # copied from '/usr/share/themes/Greybird/gtk-2.0/gtkrc'
