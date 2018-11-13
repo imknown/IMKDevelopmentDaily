@@ -9,14 +9,14 @@ java -jar gerrit*.war init --batch --dev -d ~/gerrit_testsite
 ```
 
 ``` sh
-# 真实项目 (项目名 AB)
-java -jar gerrit*.war init -d /home/imknown/Desktop/Gerrit/AB/
+# 真实项目 (项目名 MyGerritWebsite)
+java -jar gerrit*.war init -d /home/imknown/Desktop/Gerrit/MyGerritWebsite/
 ```
 
 # 配置环境 (数据库部分 待完善)
 - 方法一: 使用 `git config` 语法
 ``` sh
-# gerrit.config 位于 /home/imknown/Desktop/Gerrit/AB/etc/
+# gerrit.config 位于 /home/imknown/Desktop/Gerrit/MyGerritWebsite/etc/
 git config -f gerrit.config auth.type HTTP
 git config -f gerrit.config auth.logoutUrl 'http://goodbye@review.imknown.net/'
 git config -f gerrit.config httpd.listenUrl 'proxy-http://*:8081/'
@@ -32,7 +32,7 @@ git config -f gerrit.config httpd.listenUrl 'proxy-http://*:8081/'
 	enableGwtUi = true
 [database]
 	type = h2
-	database = /home/imknown/Desktop/Gerrit/AB/db/ReviewDB
+	database = /home/imknown/Desktop/Gerrit/MyGerritWebsite/db/ReviewDB
 [noteDb "changes"]
 	disableReviewDb = true
 	primaryStorage = note db
@@ -81,7 +81,7 @@ http {
 
         location ^~ / {
             auth_basic "Gerrit Code Review";
-            auth_basic_user_file /home/imknown/Desktop/Gerrit/AB/etc/account.txt;
+            auth_basic_user_file /home/imknown/Desktop/Gerrit/MyGerritWebsite/etc/account.txt;
             proxy_pass        http://127.0.0.1:8081;
             proxy_set_header  X-Forwarded-For $remote_addr;
             proxy_set_header  Host $host;
@@ -98,10 +98,10 @@ sudo nginx -s reload
 
 # 启动
 ``` sh
-# /gerrit.sh 位于 /home/imknown/Desktop/Gerrit/AB/bin/
+# /gerrit.sh 位于 /home/imknown/Desktop/Gerrit/MyGerritWebsite/bin/
 sudo ./gerrit.sh restart
 sudo sh gerrit.sh start
-sudo /home/imknown/Desktop/Gerrit/AB/bin/gerrit.sh stop
+sudo /home/imknown/Desktop/Gerrit/MyGerritWebsite/bin/gerrit.sh stop
 ```
 
 # 访问
@@ -131,7 +131,7 @@ sudo apt install apache2-utils
 ```
 
 ``` sh
-# account.txt 位于 /home/imknown/Desktop/Gerrit/AB/etc/
+# account.txt 位于 /home/imknown/Desktop/Gerrit/MyGerritWebsite/etc/
 
 # 方法一: 自动创建文件 + 用户名 + 手动输入密码
 htpasswd -c account.txt admin
@@ -219,5 +219,5 @@ ssh -p 29418 admin@review.imknown.net \
 
 - 方法二: 必须关闭服务
 ``` sh
-java -jar gerrit-2.15.6.war gsql -d AB
+java -jar gerrit-2.15.6.war gsql -d MyGerritWebsite
 ```
