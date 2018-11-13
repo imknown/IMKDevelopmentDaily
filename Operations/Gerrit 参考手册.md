@@ -167,15 +167,6 @@ ssh -p 29418 review.imknown.net -l jinhe
 ssh -p 29418 review.imknown.net -l notExist
 ```
 
-# 用户 Git 操作 (待完善)
-``` sh
-git commit -m '提交的信息'
-git push origin HEAD:refs/for/develop
-
-# 或者 替换一下 (待验证)
-git config remote.origin.push refs/heads/*:refs/for/*
-```
-
 # Project 配置
 > https://gerrit-review.googlesource.com/Documentation/config-project-config.html#file-project_config
 
@@ -220,4 +211,13 @@ ssh -p 29418 admin@review.imknown.net \
 - 方法二: 必须关闭服务
 ``` sh
 java -jar gerrit-2.15.6.war gsql -d MyGerritWebsite
+```
+
+# 用户 Git 操作 (待完善)
+``` sh
+git commit -m '提交的信息'
+git push origin HEAD:refs/for/develop
+
+# 或者 替换一下 (待验证)
+git config remote.origin.push refs/heads/*:refs/for/*
 ```
