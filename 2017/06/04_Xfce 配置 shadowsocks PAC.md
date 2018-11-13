@@ -13,19 +13,27 @@
 
 [genpac]: https://github.com/JinnLynn/GenPAC
 
-   ``` bash
-   pip install genpac
-   ```
+``` bash
+pip install -U genpac
+```
 
 2. 生成 PAC 文件 ~~(官网文档已过时, 自行 `--help`)~~
   - SOCKS5 协议
 ``` bash
-genpac --gfwlist-proxy "SOCKS5 127.0.0.1:1080" --pac-proxy "SOCKS5 127.0.0.1:1080" --output "gfwlist-socks5.pac"
+genpac \
+--gfwlist-proxy "SOCKS5 127.0.0.1:1080" \
+--pac-proxy "SOCKS5 127.0.0.1:1080" \
+--user-rule-from "user-rules.txt" \
+--output "gfwlist-http.pac"
 ```
 
   - HTTP(S) 协议
 ``` bash
-genpac --gfwlist-proxy "PROXY 127.0.0.1:1081" --pac-proxy "PROXY 127.0.0.1:1081" --output "gfwlist-http.pac"
+genpac \
+--gfwlist-proxy "PROXY 127.0.0.1:1081" \
+--pac-proxy "PROXY 127.0.0.1:1081" \
+--user-rule-from "user-rules.txt" \
+--output "gfwlist-http.pac"
 ```
 
 ### Update 2017-06-08
