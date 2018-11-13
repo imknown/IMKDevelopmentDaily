@@ -176,15 +176,42 @@ git push origin HEAD:refs/for/develop
 git config remote.origin.push refs/heads/*:refs/for/*
 ```
 
-# Project 配置 (待完善)
+# Project 配置
 > https://gerrit-review.googlesource.com/Documentation/config-project-config.html#file-project_config
 
+## 检出
 ``` sh
-git config -f project.config project.description "Rights inherited by all other projects"
+git clone ssh://admin@review.imknown.net:29418/All-Projects && scp -p -P 29418 admin@review.imknown.net:hooks/commit-msg All-Projects/.git/hooks/
+git fetch origin refs/meta/config:refs/remotes/origin/meta/config
+git checkout meta/config
+```
+
+## 提权
+``` sh
+# project.config 位于 All-Projects 的 refs/meta/config 分支
+git config -f project.config --add capability.accessDatabase 'group Administrators'
+
+git commit -a -m "Add database access"
+
+# directly
+git push origin meta/config:meta/config
+# or via review
+git push origin meta/config:refs/for/refs/meta/config
+```
+
+## 刷新
+``` sh
+ssh -p 29418 admin@review.imknown.net \
+    gerrit flush-caches \
+        --cache project_list
+
+ssh -p 29418 admin@review.imknown.net \
+    gerrit flush-caches \
+        --cache projects
 ```
 
 # gsql
-- 方法一: 必须启动服务
+- 方法一: 必须启动服务 (参看 `Project 配置`)
 ``` sh
 ssh -p 29418 admin@review.imknown.net \
     gerrit gsql
