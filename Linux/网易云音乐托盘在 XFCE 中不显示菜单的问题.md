@@ -1,3 +1,4 @@
+
 修改 `/usr/share/applications/netease-cloud-music.desktop`
 
 把:
@@ -5,9 +6,16 @@
 Exec=netease-cloud-music %U
 ```
 
-改为:
+- 无 Root (不稳定, 需要 Kill 之前的进程) 改为:
 ``` desktop
 Exec=env XDG_CURRENT_DESKTOP=Unity netease-cloud-music %U
 ```
 
-参考: http://forum.ubuntu.com.cn/viewtopic.php?t=484624#p3199400
+- 有 Root 改为 (Ubuntu 18.04 移除了 `gksudo`):
+``` desktop
+Exec=pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY netease-cloud-music %U
+```
+
+参考: 
+- http://forum.ubuntu.com.cn/viewtopic.php?t=484624#p3199400
+- https://askubuntu.com/a/1067364/626522
