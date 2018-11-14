@@ -23,6 +23,7 @@ Exec=env XDG_CURRENT_DESKTOP=Unity netease-cloud-music %U
 
 Run-netease-cloud-music.sh
 ``` sh
+#!/bin/bash
 pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY netease-cloud-music %U
 ```
 
