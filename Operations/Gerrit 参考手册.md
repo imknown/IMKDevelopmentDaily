@@ -14,53 +14,16 @@ java -jar gerrit*.war init -d /home/imknown/Desktop/Gerrit/MyGerritWebsite/
 ```
 
 # 配置环境 (数据库部分 待完善)
-- 方法一: 使用 `git config` 语法
 ``` sh
 # gerrit.config 位于 /home/imknown/Desktop/Gerrit/MyGerritWebsite/etc/
+git config -f gerrit.config download.scheme ssh
+git config -f gerrit.config --add download.scheme repo_download
+
 git config -f gerrit.config auth.type HTTP
 git config -f gerrit.config auth.logoutUrl 'http://goodbye@review.imknown.net/'
 git config -f gerrit.config httpd.listenUrl 'proxy-http://*:8081/'
-```
 
-- 方法二: 直接撸文件
-``` conf
-[gerrit]
-	basePath = git
-	serverId = 5432298e-e73e-43e4-bf78-f50d7657109f
-	canonicalWebUrl = http://review.imknown.net/
-	ui = polygerrit
-	enableGwtUi = true
-[database]
-	type = h2
-	database = /home/imknown/Desktop/Gerrit/MyGerritWebsite/db/ReviewDB
-[noteDb "changes"]
-	disableReviewDb = true
-	primaryStorage = note db
-	read = true
-	sequence = true
-	write = true
-[index]
-	type = LUCENE
-[auth]
-	type = http
-	logoutUrl = http://goodbye@review.imknown.net/
-[receive]
-	enableSignedPush = true
-[sendemail]
-	smtpServer = smtp.imknown.net
-	smtpUser = gerrit@imknown.net
-	smtpPass = 此处填写密码
-	from = Gerrit<gerrit@imknown.net>
-	connectTimeout = 60000
-[container]
-	user = imknown
-	javaHome = /usr/lib/jvm/java-8-openjdk-amd64/jre
-[sshd]
-	listenAddress = *:29418
-[httpd]
-	listenUrl = proxy-http://*:8081/
-[cache]
-	directory = cache
+git config -f gerrit.config plugins.allowRemoteAdmin true
 ```
 
 # 反向代理
@@ -103,6 +66,12 @@ sudo ./gerrit.sh restart
 sudo sh gerrit.sh start
 sudo /home/imknown/Desktop/Gerrit/MyGerritWebsite/bin/gerrit.sh stop
 ```
+
+# 插件
+> https://gerrit-review.googlesource.com/Documentation/cmd-plugin-install.html  
+> https://gerrit-review.googlesource.com/Documentation/config-plugins.html  
+> https://www.gerritcodereview.com/config-plugins.html  
+> https://gerrit-ci.gerritforge.com/
 
 # 访问
 > http://review.imknown.net/
@@ -167,6 +136,16 @@ ssh -p 29418 review.imknown.net -l jinhe
 ssh -p 29418 review.imknown.net -l notExist
 ```
 
+# Project 迁移
+> https://stackoverflow.com/questions/14789666/import-repository-from-git-to-gerrit
+
+``` sh
+git clone --mirror ssh://git@10.20.0.19:1022/android/AndroidBase.git
+cd AndroidBase
+git remote set-url origin ssh://jinhe@review.imknown.net:29418/AndroidBase
+git push -f origin
+```
+
 # Project 配置
 > https://gerrit-review.googlesource.com/Documentation/config-project-config.html#file-project_config
 
@@ -193,13 +172,28 @@ git push origin meta/config:refs/for/refs/meta/config
 ## 刷新
 ``` sh
 ssh -p 29418 admin@review.imknown.net \
-    gerrit flush-caches \
-        --cache project_list
+    gerrit flush-caches --all
 
-ssh -p 29418 admin@review.imknown.net \
-    gerrit flush-caches \
-        --cache projects
+# ssh -p 29418 admin@review.imknown.net \
+#     gerrit flush-caches \
+#         --cache project_list
+
+# ssh -p 29418 admin@review.imknown.net \
+#     gerrit flush-caches \
+#         --cache projects
 ```
+
+# Project 删除
+> https://gerrit.googlesource.com/plugins/delete-project/+/master/src/main/resources/Documentation/config.md
+
+``` sh
+ssh -p 29418 admin@review.imknown.net \
+    deleteproject delete \
+      --force
+      --yes-really-delete <project>
+```
+
+或者 在 `Old UI` 最下面 点击 <kbk>Delete Project</kbk>
 
 # gsql
 - 方法一: 必须启动服务 (参看 `Project 配置`)
@@ -210,14 +204,60 @@ ssh -p 29418 admin@review.imknown.net \
 
 - 方法二: 必须关闭服务
 ``` sh
-java -jar gerrit-2.15.6.war gsql -d MyGerritWebsite
+java -jar gerrit*.war gsql -d MyGerritWebsite
 ```
 
-# 用户 Git 操作 (待完善)
+# 用户 Git 操作
 ``` sh
 git commit -m '提交的信息'
 git push origin HEAD:refs/for/develop
 
-# 或者 替换一下 (待验证)
+# 或者 替换一下
 git config remote.origin.push refs/heads/*:refs/for/*
+```
+
+# 完整 gerrit.config 参考
+``` conf
+[gerrit]
+	basePath = git
+	serverId = 5432298e-e73e-43e4-bf78-f50d7657109f
+	canonicalWebUrl = http://review.imknown.net/
+	ui = polygerrit
+	enableGwtUi = true
+[database]
+	type = h2
+	database = /home/imknown/Desktop/Gerrit/MyGerritWebsite/db/ReviewDB
+[noteDb "changes"]
+	disableReviewDb = true
+	primaryStorage = note db
+	read = true
+	sequence = true
+	write = true
+[index]
+	type = LUCENE
+[auth]
+	type = http
+	logoutUrl = http://goodbye@review.imknown.net/
+[receive]
+	enableSignedPush = true
+[sendemail]
+	smtpServer = smtp.imknown.net
+	smtpUser = gerrit@imknown.net
+	smtpPass = 此处填写密码
+	from = Gerrit<gerrit@imknown.net>
+	connectTimeout = 60000
+[container]
+	user = imknown
+	javaHome = /usr/lib/jvm/java-8-openjdk-amd64/jre
+[sshd]
+	listenAddress = *:29418
+[httpd]
+	listenUrl = proxy-http://*:8081/
+[cache]
+	directory = cache
+[plugins]
+	allowRemoteAdmin = true
+[download]
+	scheme = ssh
+	scheme = repo_download
 ```
