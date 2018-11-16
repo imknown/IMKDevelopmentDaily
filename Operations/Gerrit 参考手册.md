@@ -250,8 +250,6 @@ git config remote.origin.push refs/heads/*:refs/for/*
 	basePath = git
 	serverId = 0f6aa719-239f-4a0d-9462-a11952a80f55
 	canonicalWebUrl = http://review.imknown.net/
-	ui = polygerrit
-	enableGwtUi = true
 [database]
 	type = h2
 	database = /home/imknown/Desktop/Gerrit/MyGerritWebsite/db/ReviewDB
@@ -267,7 +265,7 @@ git config remote.origin.push refs/heads/*:refs/for/*
 	type = http
 	logoutUrl = http://goodbye@review.imknown.net/
 [receive]
-	enableSignedPush = true
+	enableSignedPush = false
 [sendemail]
 	smtpServer = smtp.imknown.net
 	smtpUser = gerrit@imknown.net
@@ -285,7 +283,4 @@ git config remote.origin.push refs/heads/*:refs/for/*
 	directory = cache
 [plugins]
 	allowRemoteAdmin = true
-[download]
-	scheme = ssh
-	scheme = repo_download
 ```
