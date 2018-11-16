@@ -254,6 +254,8 @@ git config remote.origin.push refs/heads/*:refs/for/*
 	basePath = git
 	serverId = 0f6aa719-239f-4a0d-9462-a11952a80f55
 	canonicalWebUrl = http://review.imknown.net/
+	enableGwtUi = false
+	enablePolyGerrit = true
 [database]
 	type = h2
 	database = /home/imknown/Desktop/Gerrit/MyGerritWebsite/db/ReviewDB
