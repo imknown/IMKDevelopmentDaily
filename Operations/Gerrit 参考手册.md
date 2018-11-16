@@ -1,23 +1,25 @@
 # 下载
-- https://gerrit-review.googlesource.com/Documentation/linux-quickstart.html
+- https://gerrit-review.googlesource.com/Documentation/
+- https://gerrit-documentation.storage.googleapis.com/Documentation/2.16/index.html
+- https://www.gerritcodereview.com/releases-readme.html
 - https://gerrit-releases.storage.googleapis.com/index.html
-
 # 初始化网站
+- DEMO (慎用 --dev, 会创建 auth.type = development_become_any_account, 不受权限控制)
 ``` sh
-# DEMO (慎用 --dev, 会创建 auth.type = development_become_any_account, 不受权限控制)
-java -jar gerrit*.war init --batch --dev -d ~/gerrit_testsite
+java -jar gerrit*.war init --batch --dev -d gerrit_testsite
 ```
 
+- 真实项目 (项目名 MyGerritWebsite), 亦可用于 Gerrit 升级
 ``` sh
-# 真实项目 (项目名 MyGerritWebsite)
 java -jar gerrit*.war init -d /home/imknown/Desktop/Gerrit/MyGerritWebsite/
 ```
 
 # 配置环境 (数据库部分 待完善)
 ``` sh
 # gerrit.config 位于 /home/imknown/Desktop/Gerrit/MyGerritWebsite/etc/
-git config -f gerrit.config download.scheme ssh
-git config -f gerrit.config --add download.scheme repo_download
+
+# git config -f gerrit.config download.scheme ssh
+# git config -f gerrit.config --add download.scheme repo_download
 
 git config -f gerrit.config auth.type HTTP
 git config -f gerrit.config auth.logoutUrl 'http://goodbye@review.imknown.net/'
@@ -144,6 +146,7 @@ git clone --mirror ssh://git@10.20.0.19:1022/android/AndroidBase.git
 cd AndroidBase
 git remote set-url origin ssh://jinhe@review.imknown.net:29418/AndroidBase
 git push -f origin
+# git push -f --tags origin # 存在 forge committer 的时候 会被拒绝
 ```
 
 # Project 配置
@@ -152,6 +155,7 @@ git push -f origin
 ## 检出
 ``` sh
 git clone ssh://admin@review.imknown.net:29418/All-Projects && scp -p -P 29418 admin@review.imknown.net:hooks/commit-msg All-Projects/.git/hooks/
+cd All-Projects
 git fetch origin refs/meta/config:refs/remotes/origin/meta/config
 git checkout meta/config
 ```
@@ -161,13 +165,19 @@ git checkout meta/config
 # project.config 位于 All-Projects 的 refs/meta/config 分支
 git config -f project.config --add capability.accessDatabase 'group Administrators'
 
-git commit -a -m "Add database access"
+git commit -a -m "Add access"
 
 # directly
 git push origin meta/config:meta/config
 # or via review
 git push origin meta/config:refs/for/refs/meta/config
 ```
+
+> 请在 网页端 http://review.imknown.net/admin/projects/All-Projects,access 的 `refs/heads/*`  
+> `Add Permission ...` 中 `Add Group` 若干次, 如:
+> - Administrators
+> - Project Owners
+> - Registered Users
 
 ## 刷新
 ``` sh
@@ -207,7 +217,25 @@ ssh -p 29418 admin@review.imknown.net \
 java -jar gerrit*.war gsql -d MyGerritWebsite
 ```
 
-# 用户 Git 操作
+# 用户 修改头像
+https://gravatar.com/
+
+# 用户 修改 SSH 证书
+> https://gitlab.com/help/ssh/README  
+> https://help.github.com/articles/connecting-to-github-with-ssh/
+
+- 查看
+``` sh
+cat ~/.ssh/id_rsa.pub
+```
+
+- 新建
+``` sh
+# 不指定位置的话, 默认在 ~/.ssh/
+ssh-keygen -t rsa -C "jinhe@imknown.net" -b 4096
+```
+
+# 用户 Git 操作 (安装 `gerrit 插件`)
 ``` sh
 git commit -m '提交的信息'
 git push origin HEAD:refs/for/develop
@@ -220,7 +248,7 @@ git config remote.origin.push refs/heads/*:refs/for/*
 ``` conf
 [gerrit]
 	basePath = git
-	serverId = 5432298e-e73e-43e4-bf78-f50d7657109f
+	serverId = 0f6aa719-239f-4a0d-9462-a11952a80f55
 	canonicalWebUrl = http://review.imknown.net/
 	ui = polygerrit
 	enableGwtUi = true
