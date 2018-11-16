@@ -3,6 +3,7 @@
 - https://gerrit-documentation.storage.googleapis.com/Documentation/2.16/index.html
 - https://www.gerritcodereview.com/releases-readme.html
 - https://gerrit-releases.storage.googleapis.com/index.html
+
 # 初始化网站
 - DEMO (慎用 --dev, 会创建 auth.type = development_become_any_account, 不受权限控制)
 ``` sh
