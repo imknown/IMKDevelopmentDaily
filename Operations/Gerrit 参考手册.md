@@ -274,7 +274,11 @@ git config remote.origin.push refs/heads/*:refs/for/*
 	smtpServer = smtp.imknown.net
 	smtpUser = gerrit@imknown.net
 	from = Gerrit<gerrit@imknown.net>
-	connectTimeout = 60000
+	connectTimeout = 15000
+	smtpEncryption = tls
+	smtpServerPort = 587
+	sslVerify = false
+	includeDiff = true
 [container]
 	user = imknown
 	javaHome = /usr/lib/jvm/java-8-openjdk-amd64/jre
