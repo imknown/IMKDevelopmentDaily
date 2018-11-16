@@ -273,7 +273,6 @@ git config remote.origin.push refs/heads/*:refs/for/*
 [sendemail]
 	smtpServer = smtp.imknown.net
 	smtpUser = gerrit@imknown.net
-	smtpPass = 此处填写密码
 	from = Gerrit<gerrit@imknown.net>
 	connectTimeout = 60000
 [container]
