@@ -247,7 +247,8 @@ git push origin HEAD:refs/for/develop
 git config remote.origin.push refs/heads/*:refs/for/*
 ```
 
-# 完整 gerrit.config 参考
+# 完整 配置文件 参考
+- gerrit.config 
 ``` conf
 [gerrit]
 	basePath = git
@@ -286,4 +287,12 @@ git config remote.origin.push refs/heads/*:refs/for/*
 	directory = cache
 [plugins]
 	allowRemoteAdmin = true
+```
+
+- secure.config
+``` conf
+[auth]
+	registerEmailPrivateKey = 此处为自动生成的私钥, 请无视
+[sendemail]
+	smtpPass = <此处填写邮箱密码>
 ```
