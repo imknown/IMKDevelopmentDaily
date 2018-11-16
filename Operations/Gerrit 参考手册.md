@@ -4,13 +4,15 @@
 - https://www.gerritcodereview.com/releases-readme.html
 - https://gerrit-releases.storage.googleapis.com/index.html
 
-# 初始化网站
-- DEMO (慎用 --dev, 会创建 auth.type = development_become_any_account, 不受权限控制)
+# 初始化网站 (亦可 用于升级 `Gerrit`)
+- DEMO
+  - `--dev` 会创建 `auth.type = development_become_any_account`, 不受权限控制
+  - `--batch` 会使用 `默认配置`
 ``` sh
 java -jar gerrit*.war init --batch --dev -d gerrit_testsite
 ```
 
-- 真实项目 (项目名 MyGerritWebsite), 亦可用于 Gerrit 升级
+- 真实项目: `MyGerritWebsite`
 ``` sh
 java -jar gerrit*.war init -d /home/imknown/Desktop/Gerrit/MyGerritWebsite/
 ```
