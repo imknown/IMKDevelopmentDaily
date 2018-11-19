@@ -240,7 +240,8 @@ ssh-keygen -t rsa -C "jinhe@imknown.net" -b 4096
 
 # 用户 Git 命令行操作 (或者 安装 `gerrit 插件` 等)
 > https://www.gerritcodereview.com/concept-refs-for-namespace.html  
-> https://stackoverflow.com/questions/7423893/git-alias-for-headrefs-for-master
+> https://stackoverflow.com/questions/7423893/git-alias-for-headrefs-for-master  
+> https://stackoverflow.com/questions/9917645/push-to-gerrit-using-sourcetree
 
 - 每次单独操作
 ``` sh
