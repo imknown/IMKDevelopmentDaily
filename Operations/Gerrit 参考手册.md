@@ -238,12 +238,22 @@ cat ~/.ssh/id_rsa.pub
 ssh-keygen -t rsa -C "jinhe@imknown.net" -b 4096
 ```
 
-# 用户 Git 操作 (安装 `gerrit 插件`)
+# 用户 Git 命令行操作 (或者 安装 `gerrit 插件` 等)
+> https://www.gerritcodereview.com/concept-refs-for-namespace.html  
+> https://stackoverflow.com/questions/7423893/git-alias-for-headrefs-for-master
+
+- 每次单独操作
 ``` sh
 git commit -m '提交的信息'
 git push origin HEAD:refs/for/develop
+# 或者
+git push origin HEAD:refs/for/refs/heads/develop
+```
 
-# 或者 替换一下
+- 或者 替换一下, **一劳永逸**
+``` sh
+git config --unset-all remote.origin.fetch
+git config remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
 git config remote.origin.push refs/heads/*:refs/for/*
 ```
 
