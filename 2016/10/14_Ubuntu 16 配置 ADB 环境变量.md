@@ -26,8 +26,8 @@ sudo gedit /etc/bash.bashrc
 
 最下面加入
 ``` bash
-export ANDROID_HOME="/your_android_sdk_location"
-export PATH=$ANDROID_HOME/platform-tools:$PATH
+export ANDROID_SDK_ROOT="/your_android_sdk_location"
+export PATH=$ANDROID_SDK_ROOT/platform-tools:$PATH
 ```
 
 ## 刷新生效
