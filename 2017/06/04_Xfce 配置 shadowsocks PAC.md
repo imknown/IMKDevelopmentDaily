@@ -24,7 +24,7 @@ genpac \
 --gfwlist-proxy "SOCKS5 127.0.0.1:1080" \
 --pac-proxy "SOCKS5 127.0.0.1:1080" \
 --user-rule-from "user-rules.txt" \
---output "gfwlist-http.pac"
+--output "gfwlist-socks5.pac"
 ```
 
   - HTTP(S) 协议
