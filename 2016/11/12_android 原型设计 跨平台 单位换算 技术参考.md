@@ -3,131 +3,137 @@
 **本文 若干处 是 imknown 个人见解, 如有错误, 欢迎指正~**
 
 # 术语
-**<硬件规格>** 表示 `不能够` 轻易改变.  
+**<硬件规格>** 表示 `不能够` 轻易改变, 也称 `物理层面`.  
 **<硬件规格>** 通常 只影响 用户的 `直观视觉感受`.  
-**并不会** 直接影响到 开发者 进行 `UI的适配`.
+**<硬件规格>** 并不会 直接影响到 开发者 进行 `UI的适配`.
 
-#### 基本单位术语
-- pt(point): 磅 **<硬件规格>**
-- px(pixel): 像素
-- in(inch, 符号`″`): 英寸 **<硬件规格>**
-- dip/dp(device-independent pixel): 设备独立像素
-- sp(scale-independent pixel): 比例独立像素
-- density: 密度
+## 基本单位术语
+### **<硬件规格>**
+| 缩写 | 全称 | 中文 |
+| ---- | ---- | ---- |
+| pt | point | 磅 |
+| in 或者 `″` | inch | 英寸 |
 
-#### 分辨率术语
-- pr(physical resolution): (特指硬件层面的)物理分辨率 **<硬件规格>**
-- prW(physical resolution width): 物理分辨率的 宽(特指单位 px) **<硬件规格>**
-- prH(physical resolution height): 物理分辨率的 高(特指单位 px) **<硬件规格>**
-- prWdp(physical resolution width in dp): 物理分辨率的 宽(单位 dp) **<硬件规格>**
-- prHdp(physical resolution height in dp): 物理分辨率的 高(单位 dp) **<硬件规格>**
+### 非 **<硬件规格>**
+| 缩写 | 全称 | 中文 |
+| ---- | ---- | ---- |
+| px | pixel | 像素 |
+| d(i)p | device-independent pixel | 设备独立像素 |
+| sp | scale-independent pixel | 比例独立像素 |
+|  | density | 密度 |
 
-------
+## 分辨率术语
+### **<硬件规格>**: 硬件层面的
+| 缩写 | 全称 | 中文 | 单位 |
+| ---- | ---- | ---- | ---- |
+| pr | physical resolution | 物理分辨率 | px² |
+| prW | physical resolution width | 物理分辨率的 宽 | px |
+| prH | physical resolution height | 物理分辨率的 高 | px |
+| prdp | physical resolution in dp | 物理分辨率 | dp² |
+| prWdp | physical resolution width in dp | 物理分辨率的 宽 | dp |
+| prHdp | physical resolution height in dp | 物理分辨率的 高 | dp |
 
-- sr(system resolution): (特指软件层面的)系统分辨率 (由 ROM和用户 共同决定, 可变)
-- srW(system resolution width): 系统分辨率的 宽 (特指单位 px, 可变)
-- srH(system resolution height): 系统分辨率的 高 (特指单位 px, 可变)
-- srWdp(physical resolution width in dp): 物理分辨率的 宽 (单位 dp, 可变)
-- srHdp(physical resolution height in dp): 物理分辨率的 高 (单位 dp, 可变)
+### 非 **<硬件规格>**: 软件层面的, 由 `系统`和`用户` 共同决定
+| 缩写 | 全称 | 中文 | 单位 |
+| ---- | ---- | ---- | ---- |
+| sr | system resolution | 系统分辨率 | px² |
+| srW | system resolution width | 系统分辨率的 宽 | px |
+| srH | system resolution height | 系统分辨率的 高 | px |
+| srdp | system resolution in dp | 系统分辨率 | dp² |
+| srWdp | system resolution width in dp | 系统分辨率的 宽 | dp |
+| srHdp | system resolution height in dp | 系统分辨率的 高 | dp |
 
-#### 缩写
-- PPI(pixels per inch): 每英寸像素数 **<硬件规格>**
-- DPI(dots per inch): 每英寸点数 (由 ROM/用户 决定, 可变)
-- BIR(base inch ratio): 基本英寸比例 **<硬件规格>**
-- DPS(device physical size (unit in inch)): 设备物理尺寸(单位: 英寸) **<硬件规格>**
-- TSS(text size scale): 文本字号比例 (由用户决定)
+## 缩写
+### **<硬件规格>**: 硬件层面的
+| 缩写 | 全称 | 中文 |
+| ---- | ---- | ---- |
+| PPI | pixels per inch | 每英寸像素数 |
+| BIR | base inch ratio | 基本英寸比例 |
+| DPS | device physical size (unit in inch) | 设备物理尺寸(单位: 英寸) |
+
+### 非 **<硬件规格>**: 软件层面的. 由 `系统`和`用户` 共同决定
+| 缩写 | 全称 | 中文 |
+| ---- | ---- | ---- |
+| DPI | dots per inch | 每英寸点数 (由 ROM/用户 决定, 可变) |
+| TSS | text size scale | 文本字号比例 (由用户决定) |
 
 # 各平台 默认 1:1 DPI
-| 平台             | 值   |
-| ---------------- | :--: |
-| MacOS / iOS      | 72   |
-| Windows / Ubuntu | 96   |
-| Android          | 160  |
+> - https://blogs.msdn.microsoft.com/fontblog/2005/11/08/where-does-96-dpi-come-from-in-windows/
+> - http://askubuntu.com/questions/197828/how-to-find-and-change-the-screen-dpi
 
-参考:
-- https://blogs.msdn.microsoft.com/fontblog/2005/11/08/where-does-96-dpi-come-from-in-windows/
-- http://askubuntu.com/questions/197828/how-to-find-and-change-the-screen-dpi
+| 平台 | 值 |
+| :--: | ---: |
+| Android | 160 |
+| Windows | 96 |
+| Ubuntu | 96 |
+| MacOS | 72 |
+| iOS | 72 |
 
-# Android 常用 DPI 常量
-| 缩写    | 值   | 值 / mdpi |
-| ------: | :--: | :--:     |
-| ldpi    | ~120 | ~¾       |
-| mdpi    | ~160 | ~1       |
-| tvdpi   | 213  | 1⅓       |
-| hdpi    | ~240 | ~1½      |
-| xhdpi   | ~320 | ~2       |
-| 420dpi  | 420  | 2⅝       |
-| xxhdpi  | ~480 | ~3       |
-| 560dpi  | 560  | 3½       |
-| xxxhdpi | ~640 | ~4       |
+# Android DPI 常量
+> https://developer.android.google.cn/reference/kotlin/android/util/DisplayMetrics#constants
 
-P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
+> P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
 
-# 分辨率
-参考
-- https://zh.wikipedia.org/wiki/%E6%98%BE%E7%A4%BA%E5%88%86%E8%BE%A8%E7%8E%87%E5%88%97%E8%A1%A8
-- https://zh.wikipedia.org/wiki/%E5%AE%BD%E5%B1%8F%E6%89%A9%E5%B1%95%E5%9B%BE%E5%BD%A2%E9%98%B5%E5%88%97#/media/File:Vector_Video_Standards2.svg
-- http://www.reinmedical.com/en/knowledge-technology/monitor-resolutions-overview.html
-- http://superuser.com/questions/977654/what-is-the-difference-between-4k-uhd-and-qhd-do-we-agree-on-one-official-reso
+| 缩写 | 值 | 密度 |
+| ---: | ---: | ---- |
+| ldpi | 120 | ¾ |
+| mdpi | 160 | 1 |
+| tvdpi | 213 | 1⅓ |
+| hdpi | 240 | 1½ |
+| xhdpi | 320 | 2 |
+| xxhdpi | 480 | 3 |
+| xxxhdpi | 640 | 4 |
 
-#### 常用
-| 缩写  | pr                                        | ratio |
-| ----- | :---------------------------------------: | :---: |
-| 240P  | 320x240(QVGA)                             | 4:3   |
-| 320P  | 480x320(HVGA)                             | 3:2   |
-| 480P  | 800x480(WVGA)                             | 5:3   |
-| 720P  | 1280x720(HD, **手机主流**)                 | 16:9  |
-| 720P  | 1280x768(WXGA)                            | 15:9  |
-| 720P  | 1280x800(WXGA, **平板多用**)               | 16:10 |
-| 1080P | 1920x1080(FHD)                            | 16:9  |
-| 2K    | 2560x1440(QHD / Quad HD / WQHD, **主流**)  | 16:9 |
+# Android 手机 常用分辨率
+> - https://zh.wikipedia.org/wiki/%E6%98%BE%E7%A4%BA%E5%88%86%E8%BE%A8%E7%8E%87%E5%88%97%E8%A1%A8
+> - https://zh.wikipedia.org/wiki/%E5%AE%BD%E5%B1%8F%E6%89%A9%E5%B1%95%E5%9B%BE%E5%BD%A2%E9%98%B5%E5%88%97#/media/File:Vector_Video_Standards2.svg
+> - http://www.reinmedical.com/en/knowledge-technology/monitor-resolutions-overview.html
+> - http://superuser.com/questions/977654/what-is-the-difference-between-4k-uhd-and-qhd-do-we-agree-on-one-official-reso
 
-#### 不常用
-| 缩写 | pr                     | ratio  |
-| --- | :---------------------: | :---: |
-| 2K  | 2048×1536(QXGA)         | 4:3   |
-| 2K  | 2560×1600(WQXGA)        | 16:10 |
-| 2K  | 2560x2048(QSXGA)        | 5:4   |
-| 3K  | 3200x2048(QUXGA)        | ~17:9 |
-| 3K  | 3840x2160(QFHD / UHD)   | 16:9  |
-| 3K  | 3840x2400(QUXGA)        | 4:3   |
-| 4K  | 4096x2160(4K Ultra HD)  | ~17:9 |
-| 5K  | 5120x4096(HSXGA)        | 5:4   |
-| 6K  | 6400×4096(WHSXGA)       | 25:16 |
-| 6K  | 6400x4800(HUXGA)        | 4:3   |
-| 7K  | 7680x4800(WHUXGA)       | 16:10 |
+| 缩写  | pr | 缩写 | ratio |
+| ---: | ---- | ---: | :--: |
+| 240P  | 320x240 | QVGA | 4:3 |
+| 320P  | 480x320 | HVGA | 3:2 |
+| 480P  | 800x480 | WVGA | 5:3 |
+| 720P  | 1280x720 | HD | 16:9 |
+| 720P | 1280x768 | WXGA | 15:9 |
+| 720P | 1280x800 | WXGA | 16:10 |
+| 1080P | 1920x1080 | FHD | 16:9 |
+| 2K | 2560x1440 | QHD/QuadHD/WQHD | 16:9 |
+| 4K | 3840x2160 | QFHD/UHD | 16:9 |
 
 # DPI 与 sr 关系 (注意不是 pr)
-#### 常规手机 (通常 DPS < 6.0″)
+## 常规手机 (通常 DPS < 6.0″)
 | DPI     | sr    |
-| ------: | :---: |
-| mdpi    | 320P  |
-| hdpi    | 480P  |
-| xhdpi   | 720P  |
-| xxhdpi  | 1080P |
-| xxxhdpi | 2K    |
+| ---: | ---: |
+| mdpi | 320P |
+| hdpi | 480P |
+| xhdpi | 720P |
+| xxhdpi | 1080P |
+| xxxhdpi | 2K |
 
-#### 常规平板 (通常 DPS ≥ 6.0″)
-| DPI    | sr    |
-| -----: | :---: |
-| ldpi   | 480P  |
-| mdpi   | 720P  |
-| tvdpi  | 720P  |
-| hdpi   | 1080P |
+## 常规平板 (通常 DPS ≥ 6.0″)
+| DPI | sr |
+| ---: | ---: |
+| ldpi | 480P |
+| mdpi | 720P |
+| tvdpi | 720P |
+| hdpi | 1080P |
 
-#### 常规电视 (通常 DPS 很大, 比如说 55″)
-| DPI    | sr      |
-| -----: | :-----: |
-| tvdpi  | 720P    |
-| xhdpi  | 1080P   |
+## 常规电视 (通常 DPS 很大, 比如说 55″)
+| DPI | sr |
+| ---: | ---: |
+| tvdpi | 720P |
+| xhdpi | 1080P |
 
-#### 常规可穿戴设备 (通常 DPS 很小, 比如说 2″)
-| DPI    | sr       |
-| -----: | :------: |
-| tvdpi  | 280x280  |
-| hdpi   | 360x360  |
+## 常规可穿戴设备 (通常 DPS 很小, 比如说 2″)
+| DPI | sr |
+| ---: | ---: |
+| tvdpi | 280x280 |
+| hdpi | 360x360 |
 
-# 运算定义
+# 运算
+## 定义
 ```
 - BIR = 1/72
 - PPI = diagonal px / DPS = (√‾S) / DPS, 其中 S = prW^2 + prH^2
@@ -137,7 +143,7 @@ P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
 - sr == pr 的时候(其他任何参数均相同), 显示效果最佳, 否则模糊
 ```
 
-# 单位换算
+## 单位换算
 ```
 - 1 pt = BIR in
 - 1 px = 1 pt * DPI
@@ -145,8 +151,9 @@ P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
 - 1 sp = 1 dp * TSS
 ```
 
-# 小例子: 手机 显示 100dp
-> 可参考 https://material.io/devices/
+## 小例子: 手机 显示 100dp
+> - https://material.io/devices/
+> - https://en.wikipedia.org/wiki/Comparison_of_high-definition_smartphone_displays
 
 设 `C = 100dp`  
 
@@ -172,7 +179,7 @@ P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
 | Nexus S       | 4.0″  | 223.24 | hdpi   | 2       | 480x800   | 240    | 2.4       | 400    | 4         |
 | Nexus One     | 3.7″  | 252.15 | hdpi   | 2       | 480x800   | 240    | 2.4       | 400    | 4         |
 
-# 小例子: 平板 显示 100dp
+## 小例子: 平板 显示 100dp
 设 `C = 100dp`  
 
 | pr        | S       | √‾S        |
@@ -192,12 +199,12 @@ P.S.: `Google` 把 `mdpi` 也称作 `Baseline`.
 | Pixel 7       | 7.02″  | 215.02 | tvhdpi | 1.333   | 800x1280  | 600    | 6         | 640    | 6.4       |
 
 # 常用命令
-### 获取 显示的一些参数
+## 获取 显示的一些参数
 ``` bash
 adb shell dumpsys display | grep mBaseDisplayInfo
 ```
 
-### 修改 sr
+## 修改 sr
 设置到 1024x768:
 ``` bash
 am display-size 1024x768
@@ -211,7 +218,7 @@ am display-size reset
 参考:
 - http://stackoverflow.com/a/28618961/2782426
 
-### 修改 DPI
+## 修改 DPI
 ``` bash
 adb shell wm density 420
 adb reboot
@@ -222,7 +229,7 @@ adb reboot
 ro.sf.lcd_density=420
 ```
 
-### Android 7.x 启用 Freeform
+## Android 7/8 启用 Freeform
 启用:
 ``` bash
 adb shell settings put global enable_freeform_support 1
@@ -239,7 +246,7 @@ adb reboot
 - http://www.codeceo.com/article/android-multi-window.html
 
 # 跋
-### 原型工具
+## 原型工具
 - Mobile app prototyping with Justinmind wireframing tool  
 https://www.justinmind.com/mobile-prototyping
 
