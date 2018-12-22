@@ -42,11 +42,15 @@ genpac \
 - https://github.com/R0uter/gfw_domain_whitelist
 
 # 第三步: 导入系统
-### Ubuntu: 自动
+### Gnome3: 自动
 选择 `设置` 中的 `网络代理`, 选择 "自动",  
 填入 `file:///Path/to/your/gfwlist.pac`, 应用即可.
 
-### Xubuntu: 手动
+### XFCE4: 手动
+** 不要和 Gnome3 同时使用, 会导致 `网易云音乐` 必须使用 代理 才能听歌!!**
+> https://superuser.com/questions/357688/how-to-configure-proxy-settings-on-linux-xfce
+> https://askubuntu.com/questions/150210/how-do-i-set-system-wide-proxy-servers-in-xubuntu-lubuntu-or-ubuntu-studio
+
 ``` bash
 sudo mousepad /etc/environment
 ```
@@ -96,11 +100,11 @@ export https_proxy='socks5://127.0.0.1:1080'
 ----
 
 # 全局代理
-### 浏览器的话, 可以装 `SwitchyOmega` 等插件
+### 1. 浏览器的话, 可以装 `SwitchyOmega` 等插件 或者 参数等...
 
-### ~~Proxifier~~
+### 2. Proxifier
 
-### [Privoxy](https://www.privoxy.org/)
+### 3. [Privoxy](https://www.privoxy.org/)
 1. 安装
 ``` bash
 sudo apt install privoxy
@@ -151,9 +155,9 @@ The document has moved
 </BODY></HTML>
 ```
 
-### polipo
+### 4. polipo
 
-### [proxychains4](https://github.com/haad/proxychains)
+### 5. [proxychains4](https://github.com/haad/proxychains)
 1. 安装
 ``` bash
 sudo apt install proxychains4
@@ -197,4 +201,4 @@ The document has moved
 </BODY></HTML>
 ```
 
-### https://github.com/shadowsocks/shadowsocks/wiki
+### 6. https://github.com/shadowsocks/shadowsocks/wiki
