@@ -58,20 +58,8 @@ sudo mousepad /etc/environment
 
 在 文件最后面 加入:
 ``` properties
-SOCKS_VERSION=5
-socks_version=5
-auto_server=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-AUTO_SERVER=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-socks_server=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-SOCKS_SERVER=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-http_proxy=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-HTTP_PROXY=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-https_proxy=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-HTTPS_PROXY=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-ftp_proxy=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-FTP_PROXY=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
-no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
-NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com"
+auto_proxy=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+AUTO_PROXY=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
 ```
 
 执行:
