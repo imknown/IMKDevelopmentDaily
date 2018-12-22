@@ -50,6 +50,7 @@ genpac \
 ** 不要和 Gnome3 同时使用, 会导致 `网易云音乐` 必须使用 代理 才能听歌!!**
 > https://superuser.com/questions/357688/how-to-configure-proxy-settings-on-linux-xfce
 > https://askubuntu.com/questions/150210/how-do-i-set-system-wide-proxy-servers-in-xubuntu-lubuntu-or-ubuntu-studio
+> http://manpages.ubuntu.com/manpages/bionic/man1/chromium-browser.1.html#environment
 
 ``` bash
 sudo mousepad /etc/environment
@@ -57,8 +58,20 @@ sudo mousepad /etc/environment
 
 在 文件最后面 加入:
 ``` properties
-auto_proxy="file:///Path/to/your/gfwlist.pac"
-AUTO_PROXY="file:///Path/to/your/gfwlist.pac"
+SOCKS_VERSION=5
+socks_version=5
+auto_server=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+AUTO_SERVER=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+socks_server=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+SOCKS_SERVER=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+http_proxy=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+HTTP_PROXY=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+https_proxy=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+HTTPS_PROXY=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+ftp_proxy=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+FTP_PROXY=file:///home/imknown/Me/OS/GFW/black/gfwlist-socks5.pac
+no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
+NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com"
 ```
 
 执行:
@@ -100,7 +113,9 @@ export https_proxy='socks5://127.0.0.1:1080'
 ----
 
 # 全局代理
-### 1. 浏览器的话, 可以装 `SwitchyOmega` 等插件 或者 参数等...
+### 1. 浏览器的话, 可以装 `SwitchyOmega` 等插件 或者 [参数][参数]等...
+
+[参数]: http://manpages.ubuntu.com/manpages/bionic/man1/chromium-browser.1.html#environment
 
 ### 2. Proxifier
 
