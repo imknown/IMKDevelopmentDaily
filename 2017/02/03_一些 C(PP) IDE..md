@@ -9,3 +9,6 @@
 
 # Windows
 - https://sourceforge.net/projects/orwelldevcpp/
+
+# VS (Windows/macOS)
+- https://visualstudio.microsoft.com/
