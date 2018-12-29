@@ -1,10 +1,10 @@
-# Android N+
+# Android 7.1.x+
 ``` cmd
 adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204
 adb shell settings put global captive_portal_http_url http://www.google.cn/generate_204
 ```
 
-# Android M-
+# Android 5.x~7.0.x
 ``` cmd
 adb shell settings put global captive_portal_server www.google.cn
 ```
