@@ -87,7 +87,7 @@ fastboot boot xxx 命令 是临时通过 xxx 启动系统,
 执行如下命令 永久刷入, 不然 重启之后 会失效:
 ``` bash
 adb reboot bootloader
-fastboot flash boot patchboot.img
+fastboot flash boot patch-boot.img
 fastboot reboot
 ```
 
