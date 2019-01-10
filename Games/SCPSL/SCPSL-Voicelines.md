@@ -1,23 +1,23 @@
-# SCP: Secret Laboratory Voicelines
-Sorting by imknown. (3.0.0)
+# SCP: Secret Laboratory C.A.S.S.I.E. Announcement
+Sorting by imknown. (8.0.0)
 
 ## Decontamination
 - http://scp-secret-laboratory-official.wikia.com/wiki/Decontamination_Process
 
 ### At 15 Minutes
 ``` txt
-Attention, all personnel, the Light Containment Zone decontamination process will occur in t-minus 15 minutes.
+Attention, all personnel, the Light Containment Zone decontamination process will occur in T-minus 15 minutes.
 All biological substances must be removed in order to avoid destruction.
 ```
 
 ### At 10, 5, and 1 minute(s)
 ``` txt
-Danger, Light Containment Zone overall decontamination in t-minus [TIME].
+Danger, Light Containment Zone overall decontamination in T-minus [TIME].
 ```
 
 ### At 30 Seconds
 ``` txt
-Danger, Light Containment Zone overall decontamination in t-minus 30 seconds.
+Danger, Light Containment Zone overall decontamination in T-minus 30 seconds.
 All checkpoint doors have been permanently opened. Please evacuate immediately. [COUNTS DOWN FROM 20 SECONDS].
 ```
 
@@ -26,6 +26,17 @@ All checkpoint doors have been permanently opened. Please evacuate immediately. 
 Light Containment Zone is locked down and ready for decontamination.
 The removal of organic substances has now begun.
 ```
+
+## Detonation
+
+### Begin
+Alpha warhead emergency detonation sequence engaged the underground section of the facility will be detonated in T-minus 90 seconds.
+
+### When cancelled
+Detonation cancelled. Restarting system.
+
+### Resumed
+Detonation sequence resumed T-minus [TIME] seconds.
 
 ## MTF
 - http://scp-secret-laboratory-official.wikia.com/wiki/Mobile_Task_Force
