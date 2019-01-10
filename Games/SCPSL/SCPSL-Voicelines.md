@@ -35,7 +35,7 @@ Alpha Warhead emergency detonation sequence engaged.
 The underground section of the facility will be detonated in T-minus 90 seconds.
 ```
 
-### When cancelled
+### Cancelled
 ``` txt
 Detonation cancelled. Restarting system.
 ```
