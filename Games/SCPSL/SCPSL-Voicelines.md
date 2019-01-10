@@ -30,13 +30,20 @@ The removal of organic substances has now begun.
 ## Detonation
 
 ### Begin
-Alpha warhead emergency detonation sequence engaged the underground section of the facility will be detonated in T-minus 90 seconds.
+``` txt
+Alpha Warhead emergency detonation sequence engaged.
+The underground section of the facility will be detonated in T-minus 90 seconds.
+```
 
 ### When cancelled
+``` txt
 Detonation cancelled. Restarting system.
+```
 
 ### Resumed
+``` txt
 Detonation sequence resumed T-minus [TIME] seconds.
+```
 
 ## MTF
 - http://scp-secret-laboratory-official.wikia.com/wiki/Mobile_Task_Force
