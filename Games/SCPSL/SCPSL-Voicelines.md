@@ -1,5 +1,5 @@
 # SCP: Secret Laboratory C.A.S.S.I.E. Announcement
-Sorting by imknown. (8.0.0)
+Sorting by imknown. (Game ver. 8.0.1)
 
 ## Decontamination
 - http://scp-secret-laboratory-official.wikia.com/wiki/Decontamination_Process
