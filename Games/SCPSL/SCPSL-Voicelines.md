@@ -86,7 +86,7 @@ SCP-XXX lost in decontamination sequence.
 
 ### When electrocuted
 ``` txt
-SCP-XXX successfully terminated by automatic system.
+SCP-XXX successfully terminated by automatic security system.
 ```
 
 ### When killed in the explosion
