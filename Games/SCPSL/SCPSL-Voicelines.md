@@ -4,7 +4,7 @@ Sorting by imknown. (Game ver. 8.0.1)
 ## Decontamination
 > http://scp-secret-laboratory-official.wikia.com/wiki/Decontamination_Process
 
-### At 15 Minutes
+### At 15 minutes
 ``` txt
 Attention, all personnel, the Light Containment Zone decontamination process will occur in T-minus 15 minutes.
 All biological substances must be removed in order to avoid destruction.
@@ -15,7 +15,7 @@ All biological substances must be removed in order to avoid destruction.
 Danger, Light Containment Zone overall decontamination in T-minus 10/5/1 minute(s).
 ```
 
-### At 30 Seconds
+### At 30 seconds
 ``` txt
 Danger, Light Containment Zone overall decontamination in T-minus 30 seconds.
 All checkpoint doors have been permanently opened. Please evacuate immediately.
