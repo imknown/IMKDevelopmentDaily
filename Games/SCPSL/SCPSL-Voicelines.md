@@ -6,7 +6,8 @@ Sorting by imknown. (Game ver. 8.0.1)
 
 ### At 15 minutes
 ``` txt
-Attention, all personnel, the Light Containment Zone decontamination process will occur in T-minus 15 minutes.
+Attention, all personnel,
+the Light Containment Zone decontamination process will occur in T-minus 15 minutes.
 All biological substances must be removed in order to avoid destruction.
 ```
 
@@ -53,14 +54,16 @@ Detonation sequence resumed T-minus [TIME] seconds.
 ### When MTF respawns with SCP(s)
 ``` txt
 Mobile Task Force Unit, Epsilon-11, designated, "[NATO Phonetic Alphabet]-[#], has entered the facility.
-All remaining personnel are advised to proceed with standard evacuation protocols until an MTF squad reaches your destination.
+All remaining personnel are advised to proceed with standard evacuation protocols,
+until an MTF squad reaches your destination.
 Awaiting recontainment of: [1 - 6] SCP subject(s).
 ```
 
 ### When MTF respawns without SCP(s)
 ``` txt
 Mobile Task Force Unit, Epsilon-11, designated, "[NATO Phonetic Alphabet]-[#], has entered the facility.
-All remaining personnel are advised to proceed with standard evacuation protocols, until MTF squad has reached your destination,
+All remaining personnel are advised to proceed with standard evacuation protocols,
+until MTF squad has reached your destination,
 substantial threat to safety is within the facility -- exercise caution.
 ```
 
@@ -75,7 +78,7 @@ Whiskey, X-ray, Yankee, Zulu
 ```
 
 ## SCPs' recontainment
-### When been slain or fall-to-death
+### When been slain or fall-to-death or been killed by anti-cheat when flying
 ``` txt
 SCP-XXX contained successfully. Containment unit: [NATO Phonetic Alphabet]-[#]/Unknown.
 ```
