@@ -2,7 +2,7 @@
 Sorting by imknown. (Game ver. 8.0.1)
 
 ## Decontamination
-- http://scp-secret-laboratory-official.wikia.com/wiki/Decontamination_Process
+> http://scp-secret-laboratory-official.wikia.com/wiki/Decontamination_Process
 
 ### At 15 Minutes
 ``` txt
@@ -47,8 +47,8 @@ Detonation sequence resumed T-minus [TIME] seconds.
 ```
 
 ## MTF
-- http://scp-secret-laboratory-official.wikia.com/wiki/Mobile_Task_Force
-- http://containmentbreach.wikia.com/wiki/MTF_Epsilon-11_(%22Nine-Tailed_Fox%22)#Replicas
+> http://scp-secret-laboratory-official.wikia.com/wiki/Mobile_Task_Force  
+> http://containmentbreach.wikia.com/wiki/MTF_Epsilon-11_(%22Nine-Tailed_Fox%22)#Replicas
 
 ### When MTF respawns with SCP(s)
 ``` txt
@@ -65,7 +65,7 @@ substantial threat to safety is within the facility -- exercise caution.
 ```
 
 ### NATO phonetic alphabet
-- https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
+> https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
 
 ``` txt
 Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf,
@@ -96,7 +96,7 @@ SCP-XXX terminated. Terminated by Alpha Warhead.
 ```
 
 ## SCP-079
-- https://steamcommunity.com/app/700330/discussions/0/1743355067078526341/
+> https://steamcommunity.com/app/700330/discussions/0/1743355067078526341/
 
 ### When one generator activated
 ``` txt
