@@ -32,6 +32,8 @@ The removal of organic substances has now begun.
 ## Detonation
 
 ### When begin
+> https://www.reddit.com/r/SCP/comments/8lix45/nine_tailed_fox/dzgp4lt/
+
 ``` txt
 Alpha Warhead emergency detonation sequence engaged.
 The underground section of the facility will be detonated in T-minus 90 seconds.
