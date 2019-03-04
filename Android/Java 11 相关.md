@@ -17,3 +17,6 @@ https://www.azul.com/downloads/zulu/
 
 - Community builds using source code from OpenJDK project  
 https://github.com/ojdkbuild/ojdkbuild
+
+- Amazon Corretto Production-ready distribution of OpenJDK  
+https://aws.amazon.com/corretto/
