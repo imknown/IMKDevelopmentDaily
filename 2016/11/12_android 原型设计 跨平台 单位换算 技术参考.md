@@ -205,14 +205,16 @@ adb shell dumpsys display | grep mBaseDisplayInfo
 ```
 
 ## 修改 sr
-设置到 1024x768:
+设置:
 ``` bash
-am display-size 1024x768
+# adb shell am display-size 1080x1920
+adb shell wm size 1080x1920
 ```
 
 恢复:
-```
-am display-size reset
+``` bash
+# adb shell am display-size reset
+adb shell wm size reset
 ```
 
 参考:
