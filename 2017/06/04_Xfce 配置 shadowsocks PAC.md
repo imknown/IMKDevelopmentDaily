@@ -47,7 +47,7 @@ genpac \
 填入 `file:///Path/to/your/gfwlist.pac`, 应用即可.
 
 ### XFCE4: 手动
-** 不要和 Gnome3 同时使用, 会导致 `网易云音乐` 必须使用 代理 才能听歌!!**
+**尽量不要和 Gnome3 同时使用, 有可能会导致 `网易云音乐` 必须使用 代理 才能听歌!!**
 > https://superuser.com/questions/357688/how-to-configure-proxy-settings-on-linux-xfce
 > https://askubuntu.com/questions/150210/how-do-i-set-system-wide-proxy-servers-in-xubuntu-lubuntu-or-ubuntu-studio
 > http://manpages.ubuntu.com/manpages/bionic/man1/chromium-browser.1.html#environment
