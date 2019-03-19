@@ -160,7 +160,9 @@ The document has moved
 
 ### 4. polipo
 
-### 5. [proxychains4](https://github.com/haad/proxychains)
+### 5. [proxychains-ng](https://github.com/rofl0r/proxychains-ng)
+
+### 6. [proxychains4](https://github.com/haad/proxychains) 
 1. 安装
 ``` bash
 sudo apt install proxychains4
@@ -204,4 +206,4 @@ The document has moved
 </BODY></HTML>
 ```
 
-### 6. https://github.com/shadowsocks/shadowsocks/wiki
+### 7. https://github.com/shadowsocks/shadowsocks/wiki
