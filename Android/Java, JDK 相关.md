@@ -20,3 +20,9 @@ https://github.com/ojdkbuild/ojdkbuild
 
 - Amazon Corretto Production-ready distribution of OpenJDK  
 https://aws.amazon.com/corretto/
+
+- Alibaba Dragonwell JDK  
+https://github.com/alibaba/dragonwell8/
+
+- AdoptOpenJDK
+- https://adoptopenjdk.net/
