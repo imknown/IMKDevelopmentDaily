@@ -1,11 +1,61 @@
-# Android 7.1.x+
-``` cmd
-adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204
+# Android Q, Android 9, Android 8
+> https://android.googlesource.com/platform/frameworks/base/+/refs/tags/android-q-preview-2.5/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/refs/tags/android-q-preview-1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-9.0.0_r1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-8.1.0_r1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-8.0.0_r1/core/java/android/provider/Settings.java  
+
+``` shell
+adb shell settings put global captive_portal_mode 1
+adb shell settings put global captive_portal_use_https 1
 adb shell settings put global captive_portal_http_url http://www.google.cn/generate_204
+adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204
+adb shell settings put global captive_portal_fallback_url http://www.google.cn/generate_204
+adb shell settings put global captive_portal_other_fallback_urls http://www.google.cn/generate_204
 ```
 
-# Android 5.x~7.0.x
-``` cmd
+# Android 7.1.2
+> https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/core/java/android/provider/Settings.java
+
+``` shell
+adb shell settings put global captive_portal_mode 1
+adb shell settings put global captive_portal_use_https 1
+adb shell settings put global captive_portal_http_url http://www.google.cn/generate_204
+adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204
+adb shell settings put global captive_portal_fallback_url http://www.google.cn/generate_204
+```
+
+# Android 7.1.1
+> https://android.googlesource.com/platform/frameworks/base/+/android-7.1.1_r1/core/java/android/provider/Settings.java
+
+``` shell
+adb shell settings put global captive_portal_detection_enabled 1
+adb shell settings put global captive_portal_use_https 1
+adb shell settings put global captive_portal_http_url http://www.google.cn/generate_204
+adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204
+adb shell settings put global captive_portal_fallback_url http://www.google.cn/generate_204
+```
+
+# Android 7.1.0
+> https://android.googlesource.com/platform/frameworks/base/+/android-7.1.0_r1/core/java/android/provider/Settings.java
+
+``` shell
+adb shell settings put global captive_portal_detection_enabled 1
+adb shell settings put global captive_portal_use_https 1
+adb shell settings put global captive_portal_server www.google.cn
+```
+
+# Android 6, Android 5
+> https://android.googlesource.com/platform/frameworks/base/+/android-6.0.1_r1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-6.0.0_r1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-5.1.1_r1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-5.1.0_r1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-5.0.2_r1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-5.0.1_r1/core/java/android/provider/Settings.java  
+> https://android.googlesource.com/platform/frameworks/base/+/android-5.0.0_r1/core/java/android/provider/Settings.java  
+
+``` shell
+adb shell settings put global captive_portal_detection_enabled 1
 adb shell settings put global captive_portal_server www.google.cn
 ```
 
@@ -17,8 +67,4 @@ adb shell settings put global captive_portal_server www.google.cn
 - g.cn
 
 # 参考
-- https://www.v2ex.com/t/303889
-- https://kyonli.com/p/208
-- http://bbs.gfan.com/android-8418411-1-2.html
-- https://android.googlesource.com/platform/frameworks/base/+/android-7.0.0_r31/services/core/java/com/android/server/connectivity/NetworkMonitor.java#691
-- https://android.googlesource.com/platform/frameworks/base/+/android-7.1.1_r28/services/core/java/com/android/server/connectivity/NetworkMonitor.java#611
+https://android.stackexchange.com/questions/186993/captive-portal-parameters
