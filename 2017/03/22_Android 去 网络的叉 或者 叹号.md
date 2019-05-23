@@ -63,6 +63,7 @@ adb shell settings put global captive_portal_server www.google.cn
 - connect.rom.miui.com
 - captive.v2ex.co
 - noisyfox.cn
+- 204.io
 - google.cn
 - g.cn
 
