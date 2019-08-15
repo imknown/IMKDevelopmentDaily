@@ -24,5 +24,5 @@ https://aws.amazon.com/corretto/
 - Alibaba Dragonwell JDK  
 https://github.com/alibaba/dragonwell8/
 
-- AdoptOpenJDK
-- https://adoptopenjdk.net/
+- AdoptOpenJDK  
+https://adoptopenjdk.net/
