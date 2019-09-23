@@ -26,3 +26,7 @@ https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/openjd
 
 - Alibaba Dragonwell JDK (Linux only)  
 https://github.com/alibaba/dragonwell8/
+
+----
+
+参考: https://www.oschina.net/news/99836/time-to-look-beyond-oracles-jdk
