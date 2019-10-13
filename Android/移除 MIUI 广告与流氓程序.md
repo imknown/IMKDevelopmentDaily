@@ -41,5 +41,4 @@ pm uninstall --user 0 com.sohu.inputmethod.sogou.xiaomi
 
 # 参考
 - https://zhuanlan.zhihu.com/p/85032892
-- https://quan.ithome.com/0/281/888.htm
 - http://bbs.xiaomi.cn/t-34591028
