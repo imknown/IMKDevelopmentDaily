@@ -60,5 +60,5 @@ adb shell getprop ro.product.cpu.abilist64
 
 # 规则
 - 支持 A/B 无缝升级的 Android 9+ 设备, 一定 启用了 System-as-root
-- Android 10 设备, 一定 启用了 System-as-root
+- 非 A/B 无缝升级的 Android 9+ 设备, 如果支持 OTA, 则 一定 启用了 System-as-root
 - 预装 Android 8+ 设备, 一定 启用了 Treble
