@@ -5,7 +5,7 @@
 # 是否支持 A/B Slot Seamless Update (Android 7.0+)
 adb shell getprop ro.build.ab_update 输出 true
 adb shell getprop ro.boot.slot_suffix 输出 _a 或者 _b
-adb shell 'ls /dev/block/bootdevice/by-name | grep boot_' 输出 boot_a 或者 boot_b
+adb shell 'ls /dev/block/bootdevice/by-name | grep boot_' 输出 boot_a 和 boot_b
 
 # 是否支持 Project Treble (Android 8.0+)
 adb shell getprop ro.treble.enabled 输出 true
