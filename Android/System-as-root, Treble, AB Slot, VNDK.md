@@ -20,9 +20,16 @@ adb shell 'ls /dev/block/bootdevice/by-name | grep boot_'
 adb shell getprop ro.treble.enabled
 ```
 
-# 是否支持 System-as-root (SAR, Android 9+)
+# System-as-root (SAR, Android 9+)
 > https://source.android.com/devices/bootloader/system-as-root?hl=en  
 > https://source.android.google.cn/devices/bootloader/system-as-root?hl=zh-CN
+``` sh
+# TODO
+```
+
+# APEX (Android 10+)
+> https://source.android.com/devices/tech/ota/apex?hl=en  
+> https://source.android.google.cn/devices/tech/ota/apex?hl=zh-CN
 ``` sh
 # 输出 不为空的值, 表示 挂载了 /apex
 adb shell "cat /proc/mounts | grep 'tmpfs /apex tmpfs'"
@@ -31,7 +38,7 @@ adb shell "cat /proc/mounts | grep 'tmpfs /apex tmpfs'"
 adb shell "cat /proc/mounts | grep /apex/com.android.tzdata"
 ```
 
-# 是否支持 内建 Vendor NDK (Android 8.1+)
+# 内建 Vendor NDK (Android 8.1+)
 > https://source.android.com/devices/architecture/vndk?hl=en  
 > https://source.android.google.cn/devices/architecture/vndk?hl=zh-CN
 ``` sh
