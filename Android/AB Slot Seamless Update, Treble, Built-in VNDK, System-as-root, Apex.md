@@ -33,9 +33,12 @@ adb shell getprop ro.vndk.version
 
 # System-as-root (SAR, Android 9+)
 > https://source.android.com/devices/bootloader/system-as-root?hl=en  
-> https://source.android.google.cn/devices/bootloader/system-as-root?hl=zh-CN
+> https://source.android.google.cn/devices/bootloader/system-as-root?hl=zh-CN  
+> https://github.com/topjohnwu/magisk_files/blob/2d7ddefbe4946806de1875a18247b724f5e7d4a0/notes.md
 ``` sh
-# TODO
+# (Android 9+) 输出 不为空的值, 表示 **未**启用 System-as-root
+# adb shell "cat /proc/mounts | grep 'rootfs / rootfs'"
+adb shell "mount | grep 'rootfs on / type rootfs'"
 ```
 
 # APEX (Android 10+)
@@ -43,10 +46,12 @@ adb shell getprop ro.vndk.version
 > https://source.android.google.cn/devices/tech/ota/apex?hl=zh-CN
 ``` sh
 # 输出 不为空的值, 表示 挂载了 /apex
-adb shell "cat /proc/mounts | grep 'tmpfs /apex tmpfs'"
+# adb shell "cat /proc/mounts | grep 'tmpfs /apex tmpfs'"
+adb shell "mount | grep 'tmpfs on /apex type tmpfs'"
 
 # 输出 不为空的值, 表示 使用了 /apex
-adb shell "cat /proc/mounts | grep /apex/com.android.tzdata"
+# adb shell "cat /proc/mounts | grep /apex/com.android.tzdata"
+adb shell "mount | grep /apex/com.android.tzdata"
 ```
 
 # 查看架构
@@ -60,5 +65,5 @@ adb shell getprop ro.product.cpu.abilist64
 
 # 规则
 - 支持 A/B 无缝升级的 Android 9+ 设备, 一定 启用了 System-as-root
-- 非 A/B 无缝升级的 Android 9+ 设备, 如果支持 OTA, 则 一定 启用了 System-as-root
+- 非 A/B 无缝升级的 Android 9+ 设备, 如果支持了 OTA, 则 一定 启用了 System-as-root
 - 预装 Android 8+ 设备, 一定 启用了 Treble
