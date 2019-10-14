@@ -1,4 +1,4 @@
-# A/B Slot Seamless Update (Android 7.0+)
+# A/B Slot Seamless Update (Android 7+)
 > https://source.android.com/devices/tech/ota/ab?hl=en  
 > https://source.android.google.cn/devices/tech/ota/ab?hl=zh-CN
 ``` sh
@@ -12,12 +12,23 @@ adb shell getprop ro.boot.slot_suffix
 adb shell 'ls /dev/block/bootdevice/by-name | grep boot_'
 ```
 
-# Project Treble (Android 8.0+)
+# Project Treble (Android 8+)
 > https://source.android.com/devices/architecture/?hl=en#hidl  
 > https://source.android.google.cn/devices/architecture/?hl=zh-CN#hidl
 ``` sh
 # 输出 true, 表示 启用了 Project Treble
 adb shell getprop ro.treble.enabled
+```
+
+# 内建 Vendor NDK (Android 8+)
+> https://source.android.com/devices/architecture/vndk?hl=en  
+> https://source.android.google.cn/devices/architecture/vndk?hl=zh-CN
+``` sh
+# 输出 true, 表示 支持
+adb shell getprop ro.vndk.lite
+
+# 输出 API 等级, 表示 支持到对应版本
+adb shell getprop ro.vndk.version
 ```
 
 # System-as-root (SAR, Android 9+)
@@ -36,17 +47,6 @@ adb shell "cat /proc/mounts | grep 'tmpfs /apex tmpfs'"
 
 # 输出 不为空的值, 表示 使用了 /apex
 adb shell "cat /proc/mounts | grep /apex/com.android.tzdata"
-```
-
-# 内建 Vendor NDK (Android 8.1+)
-> https://source.android.com/devices/architecture/vndk?hl=en  
-> https://source.android.google.cn/devices/architecture/vndk?hl=zh-CN
-``` sh
-# 输出 true, 表示 支持
-adb shell getprop ro.vndk.lite
-
-# 输出 API 等级, 表示 支持到对应版本
-adb shell getprop ro.vndk.version
 ```
 
 # 查看架构
