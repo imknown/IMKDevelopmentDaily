@@ -52,5 +52,6 @@ adb shell getprop ro.product.cpu.abilist64
 ```
 
 # 规则
+- 预装 Android 9+ 的设备, 一定 启用了 System-as-root
 - Android 10 的设备, 一定 启用了 System-as-root
 - 预装 Android 8+ 的设备, 一定 启用了 Treble
