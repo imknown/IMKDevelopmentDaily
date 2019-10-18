@@ -46,8 +46,7 @@ adb shell getprop ro.build.system_root_image
 adb shell "ls /init && echo 'true' || echo 'false'"
 
 # (Android 9+) 输出 不为空的值, 表示 **未**启用 System-as-root
-# adb shell "cat /proc/mounts | grep 'rootfs / rootfs'"
-adb shell "mount | grep 'rootfs on / type rootfs'"
+adb shell mount | grep -v 'tmpfs' | grep -v 'none' | grep -E ' on /system type'\|' /system '
 ```
 
 # APEX (Android 10+)
