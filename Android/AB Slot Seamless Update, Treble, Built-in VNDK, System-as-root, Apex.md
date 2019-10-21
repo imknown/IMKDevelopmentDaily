@@ -35,7 +35,9 @@ adb shell getprop ro.vndk.version
 > https://source.android.com/devices/bootloader/system-as-root?hl=en  
 > https://source.android.google.cn/devices/bootloader/system-as-root?hl=zh-CN  
 > https://github.com/topjohnwu/magisk_files/blob/2d7ddefbe4946806de1875a18247b724f5e7d4a0/notes.md  
-> https://github.com/topjohnwu/Magisk/blob/master/scripts/util_functions.sh
+> https://github.com/topjohnwu/Magisk/blob/master/scripts/util_functions.sh#L193
+> https://github.com/opengapps/opengapps/blob/master/scripts/inc.installer.sh#L710
+
 ``` sh
 # 预装 Android 9 的设备, 此值为 true, 表示 启用了System-as-root
 adb shell getprop ro.build.system_root_image
