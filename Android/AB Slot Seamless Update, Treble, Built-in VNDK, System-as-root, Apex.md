@@ -43,9 +43,6 @@ adb shell getprop ro.build.system_root_image
 ```
 
 ``` sh
-# (Android 9+) 输出 true, 表示 启用了 System-as-root (需要 root)
-adb shell "ls /init && echo 'true' || echo 'false'"
-
 # (Android 9+) 输出 不为空的值, 表示 启用了 System-as-root
 adb shell "cat /proc/mounts | grep '/dev/root / '"
 
