@@ -37,18 +37,20 @@ adb shell getprop ro.vndk.version
 > https://github.com/topjohnwu/magisk_files/blob/2d7ddefbe4946806de1875a18247b724f5e7d4a0/notes.md  
 > https://github.com/topjohnwu/Magisk/blob/master/scripts/util_functions.sh#L193
 > https://github.com/opengapps/opengapps/blob/master/scripts/inc.installer.sh#L710
-
 ``` sh
 # 预装 Android 9 的设备, 此值为 true, 表示 启用了System-as-root
 adb shell getprop ro.build.system_root_image
 ```
 
 ``` sh
-# (Android 9+) 输出 true, 说明 启用了 System-as-root (需要 root)
+# (Android 9+) 输出 true, 表示 启用了 System-as-root (需要 root)
 adb shell "ls /init && echo 'true' || echo 'false'"
 
+# (Android 9+) 输出 不为空的值, 表示 启用了 System-as-root
+adb shell "cat /proc/mounts | grep '/dev/root / '"
+
 # (Android 9+) 输出 不为空的值, 表示 **未**启用 System-as-root
-adb shell mount | grep -v 'tmpfs' | grep -v 'none' | grep -E ' on /system type'\|' /system '
+adb shell "cat /proc/mounts | grep -v 'tmpfs' | grep -v 'none' | grep ' /system '"
 ```
 
 # APEX (Android 10+)
@@ -56,12 +58,10 @@ adb shell mount | grep -v 'tmpfs' | grep -v 'none' | grep -E ' on /system type'\
 > https://source.android.google.cn/devices/tech/ota/apex?hl=zh-CN
 ``` sh
 # 输出 不为空的值, 表示 挂载了 /apex
-# adb shell "cat /proc/mounts | grep 'tmpfs /apex tmpfs'"
-adb shell "mount | grep 'tmpfs on /apex type tmpfs'"
+adb shell "cat /proc/mounts | grep 'tmpfs /apex tmpfs'"
 
 # 输出 不为空的值, 表示 使用了 /apex
-# adb shell "cat /proc/mounts | grep /apex/com.android.tzdata"
-adb shell "mount | grep /apex/com.android.tzdata"
+adb shell "cat /proc/mounts | grep /apex/com.android.tzdata"
 ```
 
 # 查看架构
