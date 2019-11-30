@@ -28,4 +28,4 @@
 
 ## 本地服务器
 > %HOMEPATH%  
-%APPDATA%\SCP Secret Laboratory
+%APPDATA%\SCP Secret Laboratory\config\nondedicated\config_remoteadmin.txt
