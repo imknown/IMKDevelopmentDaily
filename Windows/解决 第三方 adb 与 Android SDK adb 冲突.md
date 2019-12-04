@@ -16,7 +16,15 @@
 3. 创建 nox_adb.exe **硬链接**
 ``` cmd
 cd /d %ANDROID_SDK_ROOT%\platform-tools
+```
 
-REM PowerShell 请用 cmd /c mklink
+**以下 二选一**
+- PowerShell
+``` cmd
 mklink /H nox_adb.exe adb.exe
+```
+
+- CMD/命令提示符
+``` cmd
+cmd /c mklink /H nox_adb.exe adb.exe
 ```
