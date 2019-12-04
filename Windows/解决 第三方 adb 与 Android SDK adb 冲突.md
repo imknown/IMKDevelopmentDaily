@@ -16,15 +16,15 @@
 3. 创建 nox_adb.exe **硬链接** (升级 `platform-tools` 之后, 需要重新执行此步骤)
 ``` cmd
 cd /d %ANDROID_SDK_ROOT%\platform-tools
-```
 
-**以下 二选一**
-- PowerShell
-``` cmd
+Rem 以下 三选一
+
+Rem 使用 PowerShell
 mklink /H nox_adb.exe adb.exe
-```
 
-- CMD/命令提示符
-``` cmd
+Rem 使用 CMD/命令提示符
 cmd /c mklink /H nox_adb.exe adb.exe
+
+Rem 手动复制
+Rem 复制 adb.exe, 并粘贴 为 nox_adb.exe
 ```
