@@ -5,7 +5,7 @@
    - **ANDROID_HOME** = <SDK 根目录>
    - **Path** = %Path%;%ANDROID_SDK_ROOT%\platform-tools;%ANDROID_SDK_ROOT%\build-tools\\&lt;Version&gt;;
 
-2. 找到安装目录下的 `...\Nox\bin\`, 删除一下文件 (建议先备份):
+2. 找到安装目录下的 `...\Nox\bin\`, 删除以下文件 (升级 `夜神` 之后, 需要重新执行此步骤)
    - aapt.exe
    - adb.exe
    - nox_adb.exe
@@ -13,7 +13,7 @@
    - AdbWinUsbApi.dll
    - libwinpthread-1.dll
 
-3. 创建 nox_adb.exe **硬链接**
+3. 创建 nox_adb.exe **硬链接** (升级 `platform-tools` 之后, 需要重新执行此步骤)
 ``` cmd
 cd /d %ANDROID_SDK_ROOT%\platform-tools
 ```
