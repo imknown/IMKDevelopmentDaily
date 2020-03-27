@@ -5,4 +5,4 @@
 - ANDROID_SDK_ROOT = /path/to/your/sdk/
 - ANDROID_SDK_HOME = /path/to/your/avd/
 - GRADLE_USER_HOME = /path/to/your/gradle/home
-- path = %path%;%ANDROID_SDK_ROOT%\platform-tools;%ANDROID_SDK_ROOT%\build-tools\<version>;
+- path = %path%;%ANDROID_SDK_ROOT%\platform-tools;%ANDROID_SDK_ROOT%\build-tools\\\<version>;
