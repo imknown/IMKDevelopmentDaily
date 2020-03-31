@@ -8,7 +8,13 @@
 - ~~https://www.qt.io~~
 
 # Windows
-- https://sourceforge.net/projects/orwelldevcpp/
+- ~~https://sourceforge.net/projects/orwelldevcpp/~~
 
 # VS (Windows/macOS)
 - https://visualstudio.microsoft.com/
+
+# 编译器
+- https://releases.llvm.org/download.html
+- https://jmeubank.github.io/tdm-gcc/download/
+- http://mingw-w64.org/doku.php/download
+- https://www.msys2.org/
