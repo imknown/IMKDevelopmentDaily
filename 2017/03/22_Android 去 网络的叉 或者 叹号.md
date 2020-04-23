@@ -36,8 +36,9 @@ adb shell settings put global captive_portal_https_url https://www.google.cn/gen
 adb shell settings put global captive_portal_fallback_url http://www.google.cn/generate_204
 ```
 
-# Android 7.1.0
-> [Android 7.1.0](https://android.googlesource.com/platform/frameworks/base/+/android-7.1.0_r1/core/java/android/provider/Settings.java)
+# Android 7.0.0, Android 7.1.0
+> [Android 7.1.0](https://android.googlesource.com/platform/frameworks/base/+/android-7.1.0_r1/core/java/android/provider/Settings.java)  
+> [Android 7.0.0](https://android.googlesource.com/platform/frameworks/base/+/android-7.0.0_r1/core/java/android/provider/Settings.java)
 
 ``` shell
 adb shell settings put global captive_portal_detection_enabled 1
