@@ -3,19 +3,19 @@
 ---
 
 ## 安装官方版 (QT4)
-### 方法一: 覆盖升级 (已验证, 可用)
+### 方法一: 覆盖升级
 
-先下载 Deepin 仓库里面的 搜狗 2.2 版 (QT4), 他大概会自动帮你安装 QT4 依赖:
+先下载 Deepin 仓库里面的 搜狗 2.2 版 (QT4), 他大概会自动帮你安装 `QT4` 相关的依赖:
 > https://uos-packages.deepin.com/uos/pool/non-free/s/sogoupinyin/  
 > https://packages.deepin.com/deepin/pool/non-free/s/sogoupinyin/  
 > https://community-packages.deepin.com/deepin/pool/non-free/s/sogoupinyin/  
 
-然后升级到 官方 2.3 版 (QT4), 使用 `sudo apt upgrade` 或者 直接用 2.3 的 deb 包安装.
+然后升级到 官方 2.3 版 (QT4)
 ``` sh
-# 方法一: 自动覆盖升级 (已验证, 可用)
+# 方法一: 自动覆盖升级
 sudo apt upgrade
 
-# 方法二: 手动覆盖升级 (待验证)
+# 方法二: 手动覆盖升级
 # sudo dpkg -i ./sogoupinyin_2.3.1.0112_amd64.deb
 sudo apt install ./sogoupinyin_2.3.1.0112_amd64.deb
 ```
@@ -23,13 +23,13 @@ sudo apt install ./sogoupinyin_2.3.1.0112_amd64.deb
 **之后, 请尽快 登出并重新登入, 或者重启系统.**
 
 
-### 方法二: 直接用 2.3 安装 (待验证)
+### 方法二: 直接用 2.3 安装
 ``` sh
 # sudo dpkg -i ./sogoupinyin_2.3.1.0112_amd64.deb
 sudo apt install ./sogoupinyin_2.3.1.0112_amd64.deb
 
-# 如果抽风, 尝试额外安装下面的模块
-# sudo apt install libqt4-declarative
+# 如果抽风, 尝试安装 下面的模块
+sudo apt install libqt4-declarative
 ```
 
 **之后, 请尽快 登出并重新登入, 或者重启系统.**
