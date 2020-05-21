@@ -20,7 +20,7 @@ sudo apt upgrade
 sudo apt install ./sogoupinyin_2.3.1.0112_amd64.deb
 ```
 
-之后, 建议登出并重新登入, 或者重启系统.
+**之后, 请尽快 登出并重新登入, 或者重启系统.**
 
 
 ### 方法二: 直接用 2.3 安装 (待验证)
@@ -32,7 +32,7 @@ sudo apt install ./sogoupinyin_2.3.1.0112_amd64.deb
 # sudo apt install libqt4-declarative
 ```
 
-之后, 建议登出并重新登入, 或者重启系统.
+**之后, 请尽快 登出并重新登入, 或者重启系统.**
 
 
 ## 配置 Fcitx
