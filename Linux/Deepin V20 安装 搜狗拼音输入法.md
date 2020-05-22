@@ -17,6 +17,9 @@ sudo apt upgrade
 # 方法二: 手动覆盖升级
 # sudo dpkg -i ./sogoupinyin_2.3.1.0112_amd64.deb
 sudo apt install ./sogoupinyin_2.3.1.0112_amd64.deb
+
+# 安装这个, 输入中文
+sudo apt install libqt4-declarative
 ```
 
 **之后, 请尽快 登出并重新登入, 或者重启系统.**
