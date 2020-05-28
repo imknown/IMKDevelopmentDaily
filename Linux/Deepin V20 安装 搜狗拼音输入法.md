@@ -11,8 +11,8 @@
 
 - 升级到 官方 2.3 版 (QT4)
 ``` sh
-# 自动覆盖升级
-sudo apt upgrade
+sudo apt update
+sudo apt upgrade -y
 ```
 
 **之后, 请尽快 登出并重新登入, 或者重启系统.**
