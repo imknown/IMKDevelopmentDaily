@@ -11,15 +11,8 @@
 
 - 升级到 官方 2.3 版 (QT4)
 ``` sh
-# 方法一: 自动覆盖升级
+# 自动覆盖升级
 sudo apt upgrade
-
-# 方法二: 手动覆盖升级
-# sudo dpkg -i ./sogoupinyin_2.3.1.0112_amd64.deb
-sudo apt install ./sogoupinyin_2.3.1.0112_amd64.deb
-
-# 安装这个, 输入中文
-sudo apt install libqt4-declarative
 ```
 
 **之后, 请尽快 登出并重新登入, 或者重启系统.**
@@ -36,6 +29,11 @@ sudo apt install libqt4-declarative
 可以将 第二项 `切换输入法的额外键子` 改为 `SHIFT Both`.  
 
 **之后, 请尽快 登出并重新登入, 或者重启系统.**
+
+如果依旧出现 无法输入中文 等抽风问题, 尝试安装 下面这个
+``` sh
+sudo apt install libqt4-declarative
+```
 
 ## 参考
 
