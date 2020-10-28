@@ -1,4 +1,0 @@
-- Function
-- Consumer
-- Predicate
-- Supplier

@@ -1,2 +1,0 @@
-- http://www.jianshu.com/p/eb30a388c5fc
-- http://wudashan.cn/2017/03/20/Singleton-Pattern/

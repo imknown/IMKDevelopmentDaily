@@ -1,4 +1,0 @@
-- https://github.com/search?utf8=✓
-- http://www.githubrank.com/
-- https://github-ranking.com/
-- http://githuber.cn/search
