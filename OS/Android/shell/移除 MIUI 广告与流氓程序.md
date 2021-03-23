@@ -1,13 +1,16 @@
 # 语法说明
 ``` sh
-# 启用 APP
+# 启用
 adb shell pm enable <包名>
 
-# 停用 APP
+# 停用
 adb shell pm disable-user <包名>
 
-# 卸载 APP
+# 卸载
 adb shell pm uninstall --user 0 <包名>
+
+# 重装
+adb shell cmd package install-existing <包名>
 
 # 启动 APP
 adb shell monkey -p <包名> -c android.intent.category.LAUNCHER 1
