@@ -217,7 +217,7 @@
 > https://google.github.io/comprehensive-rust/
 
 
-# GraalVM
+### GraalVM
 1. Gradle plugin for GraalVM Native Image building
 > https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html
 
