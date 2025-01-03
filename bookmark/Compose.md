@@ -23,6 +23,9 @@ https://www.likehide.com/tags/compose/
 1. Jetpack Compose 状态管理  
 https://juejin.cn/post/7382491990301491235
 
+1. Compose State Series  
+https://blog.zachklipp.com/tag/compose-state-series/
+
 ---
 
 ### Compose SideEffect
@@ -43,7 +46,7 @@ https://appcircle.io/blog/jetpack-compose-side-effects-with-examples
 
 ---
 
-### Compose 优化
+### Compose optimization
 1. 妈！Jetpack Compose太难学了，别怕，这里帮你理清几个概念  
 https://juejin.cn/post/7244420350753144891
 
@@ -80,12 +83,9 @@ https://medium.com/androiddevelopers/new-ways-of-optimizing-stability-in-jetpack
 1. layz4android posts  
 https://juejin.cn/user/3738809720645000/posts
 
-1. Compose State Series  
-https://blog.zachklipp.com/tag/compose-state-series/
-
 ---
 
-### Compose 编译器
+### Compose Compiler
 1. 深入浅出 Compose Compiler（1） Kotlin Compiler & KCP  
 https://juejin.cn/post/7153076275207208991
 
@@ -103,7 +103,7 @@ https://juejin.cn/post/7171623452267757605
 
 ---
 
-### Compose under the hood
+### Compose SlotTable/Snapshot
 1. Inside Jetpack Compose  
 https://medium.com/@takahirom/inside-jetpack-compose-2e971675e55e
 
