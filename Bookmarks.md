@@ -5,6 +5,7 @@ https://zhuanlan.zhihu.com/p/672880117
 1. 24考研 | 考研数学基础知识点梳理(高数篇)  
 https://zhuanlan.zhihu.com/p/644474058
 
+---
 
 ### DI
 1. Dependency injection in Android  
@@ -19,6 +20,7 @@ https://tomas-repcik.medium.com/introduction-to-dependency-injection-88dba0beb92
 1. Dependency injection with Hilt in Android development  
 https://tomas-repcik.medium.com/dependency-injection-with-hilt-in-android-development-e23fc636d65c
 
+---
 
 ### Harmony
 1. 开发-HarmonyOS NEXT鸿蒙应用开发平台-华为开发者联盟  
@@ -30,11 +32,7 @@ https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/application-dev
 1. 文档-仓颉编程语言官网  
 https://cangjie-lang.cn/docs
 
-
-### Kotlin DSL
-1. Kotlin DSL | Introduction  
-https://medium.com/kotlin-and-kotlin-for-android/kotlin-dsl-introduction-6123c43ae770
-
+---
 
 ### Swift
 1. Documentation  
@@ -46,6 +44,13 @@ https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 1. Swift Online Playground  
 https://swiftfiddle.com/
 
+---
+
+### Kotlin DSL
+1. Kotlin DSL | Introduction  
+https://medium.com/kotlin-and-kotlin-for-android/kotlin-dsl-introduction-6123c43ae770
+
+---
 
 ### Kotlin Coroutine
 1. Kotlin 协程 Select：看我如何多路复用  
@@ -54,6 +59,7 @@ https://juejin.cn/post/7142083646822809607
 1. 谈谈 Kotlin 协程的 Context 和 Scope  
 https://blog.yujinyan.me/posts/kotlin-coroutine-context-scope/
 
+---
 
 ### KMP
 1. PeopleInSpace  
@@ -71,6 +77,7 @@ https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html
 1. Introduction to Kotlin Multiplatform  
 https://kotlinlang.org/docs/multiplatform-intro.html
 
+---
 
 ### Compose
 1. Compose Multiplatform Tutorials  
@@ -97,7 +104,9 @@ https://www.likehide.com/tags/compose/
 1. Jetpack Compose 状态管理  
 https://juejin.cn/post/7382491990301491235
 
-#### Compose SideEffect
+---
+
+### Compose SideEffect
 1. Advanced State and Side Effects in Jetpack Compose  
 https://developer.android.com/codelabs/jetpack-compose-advanced-state-side-effects
 
@@ -113,7 +122,9 @@ https://medium.com/@mortitech/exploring-side-effects-in-compose-f2e8a8da946b
 1. Jetpack Compose Side Effects – With Examples  
 https://appcircle.io/blog/jetpack-compose-side-effects-with-examples
 
-#### Compose 优化
+---
+
+### Compose 优化
 1. 妈！Jetpack Compose太难学了，别怕，这里帮你理清几个概念  
 https://juejin.cn/post/7244420350753144891
 
@@ -153,7 +164,9 @@ https://juejin.cn/user/3738809720645000/posts
 1. Compose State Series  
 https://blog.zachklipp.com/tag/compose-state-series/
 
-#### Compose 编译器
+---
+
+### Compose 编译器
 1. 深入浅出 Compose Compiler（1） Kotlin Compiler & KCP  
 https://juejin.cn/post/7153076275207208991
 
@@ -169,7 +182,9 @@ https://juejin.cn/post/7171253940087390221
 1. 深入浅出 Compose Compiler（5） 类型稳定性 Stability  
 https://juejin.cn/post/7171623452267757605
 
-#### Compose under the hood
+---
+
+### Compose under the hood
 1. Inside Jetpack Compose  
 https://medium.com/@takahirom/inside-jetpack-compose-2e971675e55e
 
@@ -203,6 +218,8 @@ https://juejin.cn/post/7451227088571351059
 1. 为超越JVM而生？深入理解Kotlin Native的梦想与可能  
 https://juejin.cn/post/7410321051781234722
 
+---
+
 ### Rust
 1. Rust Playground  
 https://play.rust-lang.org/?version=stable&mode=debug&edition=2021
@@ -216,6 +233,7 @@ https://learning-rust.github.io/docs/overview/
 1. Comprehensive Rust 🦀  
 https://google.github.io/comprehensive-rust/
 
+---
 
 ### GraalVM
 1. Gradle plugin for GraalVM Native Image building  
