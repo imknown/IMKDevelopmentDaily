@@ -28,3 +28,18 @@ https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html
 
 1. Introduction to Kotlin Multiplatform  
 https://kotlinlang.org/docs/multiplatform-intro.html
+
+---
+
+### Actor
+1. actor  
+https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/actor.html
+
+1. 移动端线程安全之Actor  
+https://juejin.cn/post/7213636024111415351
+
+1. Kotlin Concurrency with Actors  
+https://medium.com/@jagsaund/kotlin-concurrency-with-actors-34bd12531182
+
+1. Kotlin Actors – No Drama Concurrency  
+https://handstandsam.com/2020/07/18/kotlin-actors-no-drama-concurrency/
