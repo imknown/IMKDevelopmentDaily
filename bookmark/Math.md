@@ -8,7 +8,7 @@ https://zhuanlan.zhihu.com/p/644474058
 1. 你也能懂的微积分  
 https://www.thepaper.cn/newsDetail_forward_17590258
 
-1.微分dx、dy表示什么含义？不定积分为什么含有dx？把一个量设为dx又是什么意思？  
+1. 微分dx、dy表示什么含义？不定积分为什么含有dx？把一个量设为dx又是什么意思？  
 https://zhuanlan.zhihu.com/p/564065107
 
 1. 偏导数、微分、以及导数到底有什么关系和区别？  
@@ -25,3 +25,4 @@ https://
 
 1. 偏导数 二重积分 曲线积分 关系  
 https://aistudy.baidu.com/site/wjzsorv8/8cd47d9a-7797-42f3-9306-b902ded71161?qaId=4468216&categoryLv1=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD&efs=1&ch=54&srcid=10014&source=natural&category=%E5%85%B6%E4%BB%96&eduFrom=136&botSourceType=46
+
