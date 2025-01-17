@@ -28,3 +28,12 @@ https://aistudy.baidu.com/site/wjzsorv8/8cd47d9a-7797-42f3-9306-b902ded71161?qaI
 
 1. 优秀的程序员需要懂那些数学知识？  
 https://www.zhihu.com/question/21425201
+
+1. 瞎扯数学分析——微积分（大白话版）  
+https://cloud.tencent.com/developer/article/1786092
+
+1. 简明微积分  
+https://www.bilibili.com/video/BV1mp4y1i7X4/
+
+1. 一口气看完微积分的本质（上）  
+https://www.bilibili.com/video/BV1kQ4y1t7cg
