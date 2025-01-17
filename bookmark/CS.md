@@ -26,3 +26,7 @@ https://github.com/gmkzwwg/cs-learning-map
 
 1. 计算机历史  
 https://www.peterjxl.com/ComputerHistory/
+
+1. https://www.zhihu.com/search?q=自制编译器
+1. https://www.zhihu.com/search?q=自制编程语言
+1. https://www.zhihu.com/search?q=自制操作系统
