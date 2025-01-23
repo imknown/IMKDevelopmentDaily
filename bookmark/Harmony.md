@@ -7,3 +7,6 @@ https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/application-dev
 
 1. 文档-仓颉编程语言官网  
 https://cangjie-lang.cn/docs
+
+1. The TypeScript Handbook  
+https://www.typescriptlang.org/docs/handbook/intro.html
