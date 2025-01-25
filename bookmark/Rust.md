@@ -10,3 +10,6 @@ https://learning-rust.github.io/docs/overview/
 
 1. Comprehensive Rust 🦀  
 https://google.github.io/comprehensive-rust/
+
+1. Zig  
+https://ziglang.org/learn/
