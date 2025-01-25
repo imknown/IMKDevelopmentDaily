@@ -37,3 +37,6 @@ https://www.bilibili.com/video/BV1mp4y1i7X4/
 
 1. 一口气看完微积分的本质（上）  
 https://www.bilibili.com/video/BV1kQ4y1t7cg
+
+1. 线性代数, 数据分析, 抽象代数, 离散数学
+https://
