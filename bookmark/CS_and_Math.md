@@ -31,6 +31,9 @@ https://www.zhihu.com/question/263812517
 1. 图灵高等数学书单（附阅读路线图）  
 https://zhuanlan.zhihu.com/p/343699693
 
+1. 数学学习路线图  
+https://github.com/AlexiaChen/AlexiaChen.github.io/issues/105
+
 1. 微积分、线性代数、概率论，这里有份超详细的ML数学路线图  
 https://www.jiqizhixin.com/articles/2020-11-10-10
 
