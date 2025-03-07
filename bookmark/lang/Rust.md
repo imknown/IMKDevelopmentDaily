@@ -19,6 +19,3 @@ https://google.github.io/comprehensive-rust/
 
 1. 🦀 Small exercises to get you used to reading and writing Rust code!  
 https://rustlings.cool/
-
-1. Zig  
-https://ziglang.org/learn/
