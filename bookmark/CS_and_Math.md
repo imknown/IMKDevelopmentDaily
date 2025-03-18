@@ -1,11 +1,5 @@
 
 ### 微积分概论
-1. 你也能懂的微积分  
-https://www.thepaper.cn/newsDetail_forward_17590258
-
-1. 瞎扯数学分析——微积分（大白话版）  
-https://cloud.tencent.com/developer/article/1786092
-
 1. 简明微积分  
 https://www.bilibili.com/video/BV1mp4y1i7X4/
 
