@@ -6,8 +6,6 @@ https://www.bilibili.com/video/BV1mp4y1i7X4/
 1. 一口气看完微积分的本质（上）  
 https://www.bilibili.com/video/BV1kQ4y1t7cg
 
-1. 优秀的程序员需要懂那些数学知识？  
-https://www.zhihu.com/question/21425201
 
 ### 数学路线图
 1. 数学学习路线图  
@@ -41,12 +39,14 @@ http://www.drhuang.com/chinese/science/mathematics/handbook/
 1. 高等数学全册知识点分享-概念、定理及公式  
 https://zhuanlan.zhihu.com/p/672880117
 
+
 ### 计算机路线图
 1. (尝试成为)计算机科学自学地图  
 https://github.com/gmkzwwg/cs-learning-map
 
 1. 计算机历史  
 https://www.peterjxl.com/ComputerHistory/
+
 
 ### 学科
 1. 算法, 数据结构
@@ -57,7 +57,7 @@ https://www.peterjxl.com/ComputerHistory/
 ---
 1. 数据库
 ---
-1. 离散数学
+1. 离散数学 (图论，代数结构（群，环，域，格），组合学，数理逻辑...)
 1. 模糊数学
 1. 自动机
 1. 可计算理论
