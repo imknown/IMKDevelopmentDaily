@@ -1,12 +1,3 @@
-
-### 微积分概论
-1. 简明微积分  
-https://www.bilibili.com/video/BV1mp4y1i7X4/
-
-1. 一口气看完微积分的本质（上）  
-https://www.bilibili.com/video/BV1kQ4y1t7cg
-
-
 ### 数学路线图
 1. 数学学习路线图  
 https://zhuanlan.zhihu.com/p/637907081
