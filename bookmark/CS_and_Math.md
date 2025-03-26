@@ -31,12 +31,20 @@ http://www.drhuang.com/chinese/science/mathematics/handbook/
 https://zhuanlan.zhihu.com/p/672880117
 
 
+### 线性代数
+1. 线性代数的艺术中文版  
+https://github.com/kf-liu/The-Art-of-Linear-Algebra-zh-CN/blob/main/The-Art-of-Linear-Algebra-zh-CN.pdf
+
+
 ### 计算机路线图
 1. (尝试成为)计算机科学自学地图  
 https://github.com/gmkzwwg/cs-learning-map
 
 1. 计算机历史  
 https://www.peterjxl.com/ComputerHistory/
+
+1. 快速上手AI理论及应用实战：基础知识、Transformer、NLP、ML、DL、竞赛  
+https://github.com/ben1234560/AiLearning-Theory-Applying
 
 
 ### 学科
