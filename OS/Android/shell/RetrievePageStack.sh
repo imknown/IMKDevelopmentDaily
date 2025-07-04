@@ -1,4 +1,3 @@
-``` sh
 #!/bin/sh
 
 readonly ANDROID_VERSION_CODE_11="30"
@@ -70,15 +69,14 @@ echo
 printAll > TempCurrentStack.log
 cat TempCurrentStack.log
 
-while echo && read -r -p "[q 退出] [e 清屏] [c 对比] [其他任意键 输出常规栈] ➡️  " -n1 && [ "$REPLY" != q ] ; do
+while echo && read -r -p "Press: [e] empty, [c] compare, [f] full ➡️  " -n1 ; do
   echo
   echo
-  case $REPLY in
+  case "$REPLY" in
     e) empty;;
     c) compare;;
-    *) printAll;;
+    f) printAll;;
   esac
 done
 
 echo
-```
