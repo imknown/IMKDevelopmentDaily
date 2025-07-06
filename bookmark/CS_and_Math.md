@@ -34,6 +34,10 @@ https://github.com/kf-liu/The-Art-of-Linear-Algebra-zh-CN/blob/main/The-Art-of-L
 
 
 ### 计算机路线图
+1. 理论计算机科学  
+https://zh.wikipedia.org/wiki/理论计算机科学  
+https://en.wikipedia.org/wiki/Theoretical_computer_science
+
 1. (尝试成为)计算机科学自学地图  
 https://github.com/gmkzwwg/cs-learning-map
 
