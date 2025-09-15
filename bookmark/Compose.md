@@ -49,6 +49,21 @@ https://blog.zachklipp.com/tag/compose-state-series/
 
 ---
 
+### Debug
+- Debug tests  
+https://developer.android.com/develop/ui/compose/testing/debug
+
+- Debugging recomposition in Compose  
+https://developer.android.com/develop/ui/compose/quick-guides/content/video/debugging-recomposition
+
+- Jetpack Compose 优化之调试重组和性能监控  
+https://juejin.cn/post/7308901392469655603
+
+- 如何在 Jetpack Compose 中调试重组  
+https://juejin.cn/post/7110208846051672095
+
+---
+
 ### Compose SideEffect
 1. Advanced State and Side Effects in Jetpack Compose  
 https://developer.android.com/codelabs/jetpack-compose-advanced-state-side-effects
