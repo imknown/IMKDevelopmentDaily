@@ -119,6 +119,12 @@ https://medium.com/androiddevelopers/new-ways-of-optimizing-stability-in-jetpack
 1. layz4android posts  
 https://juejin.cn/user/3738809720645000/posts
 
+1. Jetpack Compose 稳定性优化实战  
+https://mp.weixin.qq.com/s/E7aSn-pXCy9U1b3xEqw1-A
+
+1. Jetpack Compose重组稳定性分析器  
+https://mp.weixin.qq.com/s/tKs2OG_ruk8t3FZciy0OHw
+
 ---
 
 ### Compose Compiler
