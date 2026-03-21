@@ -33,40 +33,21 @@ https://zhuanlan.zhihu.com/p/672880117
 https://github.com/kf-liu/The-Art-of-Linear-Algebra-zh-CN/blob/main/The-Art-of-Linear-Algebra-zh-CN.pdf
 
 
-### 计算机路线图
-1. 理论计算机科学  
-https://zh.wikipedia.org/wiki/理论计算机科学  
-https://en.wikipedia.org/wiki/Theoretical_computer_science
-
-1. (尝试成为)计算机科学自学地图  
-https://github.com/gmkzwwg/cs-learning-map
-
-1. 计算机历史  
-https://www.peterjxl.com/ComputerHistory/
-
-1. 快速上手AI理论及应用实战：基础知识、Transformer、NLP、ML、DL、竞赛  
-https://github.com/ben1234560/AiLearning-Theory-Applying
-
-
 ### 学科
-1. 算法, 数据结构
-1. 操作系统 (自制), 计算机组成, 计算机体系结构
-1. 编译原理, 编译器 (自制), 编程语言 (自制)
-1. 计算机网络, 分布式
-1. 密码学, 信息安全
----
-1. 数据库
----
-1. 自动机
-1. 可计算理论
----
-1. 统计学(概率论, 系统论, 信息论, 控制论, 统计决策论)
----
-1. 微积分, 线性代数
-1. 概率论
-1. 抽象代数
+1. 微积分
+1. 线性代数
+1. 抽象代数: 群, 环, 域
 1. 范畴论
+1. 分析学: 变分法, 泛函, 实变, 复变, 微分方程, 测度论
+1. 统计学: 概率论, 系统论, 信息论, 控制论, 统计决策论
+1. 离散数学: 图论, 组合, 博弈论, 序理论, 
+1. 微分几何/拓扑学: 流形
+1. 分形
+1. 概率论
+1. 拓扑学
+1. 集合论
 ---
 1. 一口气学完微积分、线性代数、统计学、概率论、相关分析、方差分析、聚类分析和贝叶斯分析等八大人工智能必备数学基础！
+---
 1. 心理学
 1. 社会学
