@@ -32,35 +32,14 @@ https://medium.com/androiddevelopers/consuming-flows-safely-in-jetpack-compose-c
 1. Jetpack Compose Awesome  
 https://github.com/jetpack-compose/jetpack-compose-awesome
 
-1. Compose 游戏  
-https://juejin.cn/search?query=compose%20游戏
-
 1. Compose-driven architecture  
 https://github.com/slackhq/circuit
 
 1. Compose | 隐云小屋  
 https://www.likehide.com/tags/compose/
 
-1. Jetpack Compose 状态管理  
-https://juejin.cn/post/7382491990301491235
-
 1. Compose State Series  
 https://blog.zachklipp.com/tag/compose-state-series/
-
----
-
-### Debug
-- Debug tests  
-https://developer.android.com/develop/ui/compose/testing/debug
-
-- Debugging recomposition in Compose  
-https://developer.android.com/develop/ui/compose/quick-guides/content/video/debugging-recomposition
-
-- Jetpack Compose 优化之调试重组和性能监控  
-https://juejin.cn/post/7308901392469655603
-
-- 如何在 Jetpack Compose 中调试重组  
-https://juejin.cn/post/7110208846051672095
 
 ---
 
@@ -83,17 +62,11 @@ https://appcircle.io/blog/jetpack-compose-side-effects-with-examples
 ---
 
 ### Compose optimization
-1. 妈！Jetpack Compose太难学了，别怕，这里帮你理清几个概念  
-https://juejin.cn/post/7244420350753144891
-
 1. 掌握 Android Compose：从基础到性能优化全面指南  
 https://juejin.cn/post/7412821327001206811
 
 1. [译] Compose之稳定性(Stability)的解释  
 https://juejin.cn/post/7245118640411754533
-
-1. Compose：长期副作用 + 智能重组 = 若智？聊聊rememberUpdateState  
-https://juejin.cn/post/7262537799289831481
 
 1. Compose：从重组谈谈页面性能优化思路，狠狠优化一笔  
 https://juejin.cn/post/7263341982407868472
@@ -103,12 +76,6 @@ https://juejin.cn/post/7348320601997672487
 
 1. Jetpack Compose 性能优化  
 https://juejin.cn/post/7306802651010105344
-
-1. Jetpack Compose 重组 🔄 与甜甜圈洞跳过 🍩  
-https://juejin.cn/post/7386302393612238882
-
-1. 一文看懂 Compose 强制跳过模式（Strong Skipping Mode）  
-https://juejin.cn/post/7422548463235514378
 
 1. Jetpack Compose: Strong Skipping Mode Explained  
 https://medium.com/androiddevelopers/jetpack-compose-strong-skipping-mode-explained-cbdb2aa4b900
