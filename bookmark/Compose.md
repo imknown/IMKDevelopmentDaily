@@ -62,9 +62,6 @@ https://appcircle.io/blog/jetpack-compose-side-effects-with-examples
 ---
 
 ### Compose optimization
-1. 掌握 Android Compose：从基础到性能优化全面指南  
-https://juejin.cn/post/7412821327001206811
-
 1. [译] Compose之稳定性(Stability)的解释  
 https://juejin.cn/post/7245118640411754533
 
