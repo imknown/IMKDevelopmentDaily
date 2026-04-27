@@ -65,9 +65,6 @@ https://appcircle.io/blog/jetpack-compose-side-effects-with-examples
 1. [译] Compose之稳定性(Stability)的解释  
 https://juejin.cn/post/7245118640411754533
 
-1. Compose：从重组谈谈页面性能优化思路，狠狠优化一笔  
-https://juejin.cn/post/7263341982407868472
-
 1. Compose编程思想 -- Compose中重组风险和优化  
 https://juejin.cn/post/7348320601997672487
 
