@@ -47,9 +47,6 @@ https://blog.zachklipp.com/tag/compose-state-series/
 1. Advanced State and Side Effects in Jetpack Compose  
 https://developer.android.com/codelabs/jetpack-compose-advanced-state-side-effects
 
-1. Jetpack Compose Side Effects Made Easy  
-https://elye-project.medium.com/jetpack-compose-side-effects-made-easy-a4867f876928
-
 1. Mastering Side Effects in Jetpack Compose  
 https://proandroiddev.com/mastering-side-effects-in-jetpack-compose-b7ee46162c01
 
@@ -62,29 +59,8 @@ https://appcircle.io/blog/jetpack-compose-side-effects-with-examples
 ---
 
 ### Compose optimization
-1. [译] Compose之稳定性(Stability)的解释  
-https://juejin.cn/post/7245118640411754533
-
-1. Compose编程思想 -- Compose中重组风险和优化  
-https://juejin.cn/post/7348320601997672487
-
-1. Jetpack Compose 性能优化  
-https://juejin.cn/post/7306802651010105344
-
-1. Jetpack Compose: Strong Skipping Mode Explained  
-https://medium.com/androiddevelopers/jetpack-compose-strong-skipping-mode-explained-cbdb2aa4b900
-
-1. New ways of optimizing stability in Jetpack Compose  
-https://medium.com/androiddevelopers/new-ways-of-optimizing-stability-in-jetpack-compose-038106c283cc
-
 1. layz4android posts  
 https://juejin.cn/user/3738809720645000/posts
-
-1. Jetpack Compose 稳定性优化实战  
-https://mp.weixin.qq.com/s/E7aSn-pXCy9U1b3xEqw1-A
-
-1. Jetpack Compose重组稳定性分析器  
-https://mp.weixin.qq.com/s/tKs2OG_ruk8t3FZciy0OHw
 
 ---
 
