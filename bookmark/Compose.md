@@ -11,12 +11,6 @@ https://kotlinlang.org/api/compose-multiplatform/stories/material3
 ---
 
 ### Compose
-1. Compose Multiplatform Tutorials  
-https://github.com/JetBrains/compose-multiplatform/blob/master/tutorials/README.md
-
-1. Compose Multiplatform Examples  
-https://github.com/JetBrains/compose-multiplatform/tree/master/examples
-
 1. Consuming flows safely in Jetpack Compose  
 https://medium.com/androiddevelopers/consuming-flows-safely-in-jetpack-compose-cde014d0d5a3
 
