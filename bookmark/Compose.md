@@ -28,21 +28,6 @@ https://blog.zachklipp.com/tag/compose-state-series/
 
 ---
 
-### Compose SideEffect
-1. Advanced State and Side Effects in Jetpack Compose  
-https://developer.android.com/codelabs/jetpack-compose-advanced-state-side-effects
-
-1. Mastering Side Effects in Jetpack Compose  
-https://proandroiddev.com/mastering-side-effects-in-jetpack-compose-b7ee46162c01
-
-1. Jetpack Compose Side Effects in Details  
-https://medium.com/@mortitech/exploring-side-effects-in-compose-f2e8a8da946b
-
-1. Jetpack Compose Side Effects – With Examples  
-https://appcircle.io/blog/jetpack-compose-side-effects-with-examples
-
----
-
 ### Compose optimization
 1. layz4android posts  
 https://juejin.cn/user/3738809720645000/posts
