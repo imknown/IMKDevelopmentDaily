@@ -1,18 +1,9 @@
 ### Official
-- Build better apps faster with Jetpack Compose  
-https://developer.android.com/compose
-
-- Jetpack Compose for Android Developers  
-https://developer.android.com/develop/ui/compose/tutorial
-
-- Android Basics with Compose  
-https://developer.android.com/courses/android-basics-compose/course
-
-- Jetpack Compose for Android Developers  
-https://developer.android.com/courses/jetpack-compose/course
-
-- Get started with Jetpack Compose  
+- Get started with Jetpack Compose   
 https://developer.android.com/develop/ui/compose/documentation
+
+- App architecture  
+https://developer.android.com/topic/architecture/intro
 
 - Stories  
 https://kotlinlang.org/api/compose-multiplatform/stories/material3
