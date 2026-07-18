@@ -7,6 +7,7 @@
 | Zcode        | 智谱 | 可白嫖 | GLM 4 Flash | ✅ | ❌ | ❌ |
 | OpenCode     | Anomaly | 可白嫖 | 国内<br>国外 | ✅ | ❌ | ✅ |
 | CodeBuddy CN | 腾讯 | 每月免费<br>(可白嫖 Hy3) | 国内 | ✅ | ✅ | ✅ |
+| WorkBuddy CN | 腾讯 | 每月免费<br>(可白嫖 Hy3) | 国内 | ✅ | ❌ | ❌ |
 | Qoder        | 阿里 | 每月免费 | 国内<br>国外 | ✅ | ✅ | ✅ |
 | Qoder CN     | 阿里 | 每月免费 | 国内 | ✅ | ✅ | ✅ |
 | Copilot      | 微软 | 每月免费 | 自动 | ✅ | ✅ | ❌ |
