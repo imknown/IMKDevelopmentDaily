@@ -6,7 +6,7 @@
 | Trae         | 字节 | 可白嫖 | 国外    | ✅ | ✅ | ❌ |
 | Trae CN      | 字节 | 可白嫖 | 国内    | ✅ | ✅ | ✅ |
 | CodeGeeX     | 智谱 | 可白嫖 | GLM 5.1 | ❌ | ✅ | ❌ |
-| Zcode        | 智谱 | 可白嫖 | GLM 4 Flash | ✅ | ❌ | ❌ |
+| Zcode        | 智谱 | 可白嫖 | GLM 5.2 | ✅ | ❌ | ❌ |
 | OpenCode     | Anomaly | 可白嫖 | 国内 / 国外 | ✅ | ❌ | ✅ |
 | CodeBuddy CN | 腾讯 | 每月免费<br>(可白嫖 Hy3) | 国内 | ✅ | ✅ | ✅ |
 | Qoder        | 阿里 | 每月免费 | 国内 | ✅ | ✅ | ✅ |
