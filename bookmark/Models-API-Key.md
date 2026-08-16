@@ -1,5 +1,10 @@
-> https://github.com/12britz/awesome-free-models#-free-api-providers
+## Providers List
+- https://github.com/decolua/9router
+- https://github.com/tashfeenahmed/freellmapi
+- https://github.com/mnfst/awesome-free-llm-apis
+- https://github.com/12britz/awesome-free-models#-free-api-providers
 
+## Base URL
 ### OpenCode Zen
 > https://opencode.ai/docs/zen#pricing
 - https://opencode.ai/zen/v1
