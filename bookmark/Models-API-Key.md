@@ -26,4 +26,17 @@
 
 ### 智谱
 - https://bigmodel.cn
-- https://open.bigmodel.cn/api/paas/v4 (Coding Plan)
+- https://open.bigmodel.cn/api/paas/v4
+- https://open.bigmodel.cn/api/paas/v4/models
+- https://api.z.ai/api/anthropic/v1/models
+
+### 月之暗面
+- https://api.moonshot.ai/v1
+- https://api.moonshot.ai/v1/models
+- https://api.moonshot.cn/v1
+- https://api.moonshot.cn/v1/models
+
+### 阿里
+- https://dashscope.aliyuncs.com/compatible-mode/v1/models
+- https://coding.dashscope.aliyuncs.com/v1/models
+- https://token-plan.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/models
