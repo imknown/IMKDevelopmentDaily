@@ -1,5 +1,6 @@
 ## Providers List
 - https://freellmapi.co/models
+- https://models.dev
 
 ## Base URL
 后面拼上 `/models` 可以在线看模型列表
