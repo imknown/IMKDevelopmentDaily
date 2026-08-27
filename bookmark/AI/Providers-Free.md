@@ -9,7 +9,7 @@
 - https://opencode.ai/zen/v1
 
 ### OpenRouter
-> https://openrouter.ai/models?variant=free
+> https://openrouter.ai/models?variant=free&order=coding-high-to-low
 - https://openrouter.ai/api/v1
 
 ### NVidia
