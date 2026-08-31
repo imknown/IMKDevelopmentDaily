@@ -36,6 +36,7 @@ https://openeuler.csdn.net/6a3b764510ee7a33f281a102.html
 - 飞天闪客  
   - https://space.bilibili.com/325864133/upload/video  
   - 一小时从函数到Transformer！
+  - 一小时从Transformer 到大模型！
 
 - 小林面试笔记  
 https://xiaolinnote.com/
