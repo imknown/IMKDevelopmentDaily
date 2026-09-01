@@ -31,9 +31,6 @@ https://juejin.cn/post/7667495083470471177
 - 红杉对话 LangChain 创始人：2026 年 AI 告别对话框，步入 Long-Horizon Agents 元年  
 https://36kr.com/p/3658280070390407
 
-- AI 应用开发、Agent开发、RAG开发、FDE开发岗位面试宝典 - 二狗子整理  
-https://github.com/guocong-bincai/ai-interview-guide
-
 ---
 
 - 2026 最全 AI 应用学习路线图：工具、心法、资源、趋势、博主推荐一文打包，这一篇够了（万字长文，建议收藏！）  
