@@ -24,3 +24,7 @@
 ### AnyApi
 > https://anyapi.ai/ai-models
 - https://api.anyapi.ai/v1
+
+### Requesty
+> https://www.requesty.ai/models?free=1
+- https://router.requesty.ai/v1
