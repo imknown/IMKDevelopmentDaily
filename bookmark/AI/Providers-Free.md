@@ -1,5 +1,6 @@
 ## Providers List
 - https://freellmapi.co/models
+- https://lmspeed.net/free
 - https://models.dev
 
 ## Base URL
