@@ -19,6 +19,7 @@
 - https://integrate.api.nvidia.com/v1
 
 ### Kilo
+> https://kilo.ai/leaderboard  
 > https://kilo.ai/landing/free-models#latest-free-models
 - https://api.kilo.ai/api/gateway
 
