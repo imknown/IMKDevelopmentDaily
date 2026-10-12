@@ -1,6 +1,7 @@
 ## Providers List
 - https://freellmapi.co/models
 - https://lmspeed.net/free
+- https://aihubmix.com/models?tag=free
 - https://models.dev
 
 ## Base URL
